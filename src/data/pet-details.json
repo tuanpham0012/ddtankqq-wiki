@@ -1,0 +1,586 @@
+{
+  "_note": "Chi tiết từng pet (chỉ số + kỹ năng), key = id trong pets.json. Pet nào chưa có ở đây thì thẻ không hiện nút 'Kỹ năng'. Chỉ số lấy ở mốc Lv.max trong game. Hiệu ứng có thể lồng nhiều cấp qua trường 'sub'.",
+  "dao-dao": {
+    "quoteZh": "抢了淘淘的零食它可是会生气的!",
+    "quoteVi": "Cướp đồ ăn vặt của Đào Đào là nó giận đấy!",
+    "sourceVi": "Sự kiện",
+    "sourceZh": "活动",
+    "stats": [
+      { "key": "atk", "icon": "⚔️", "labelVi": "Công kích", "labelZh": "攻击", "value": 684 },
+      { "key": "hp", "icon": "❤️", "labelVi": "Sinh lực", "labelZh": "生命", "value": 1900 },
+      { "key": "spd", "icon": "💨", "labelVi": "Tốc độ", "labelZh": "速度", "value": 228 },
+      { "key": "def", "icon": "🛡️", "labelVi": "Giáp", "labelZh": "护甲", "value": 190 }
+    ],
+    "skills": [
+      {
+        "nameVi": "Súc Thế",
+        "nameZh": "蓄势",
+        "level": "Lv.max",
+        "type": "active",
+        "typeVi": "Chủ động",
+        "typeZh": "主动",
+        "meta": [
+          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 30 },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 5 },
+          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 },
+          { "labelVi": "Trị chờ", "labelZh": "等待值", "value": 880 }
+        ],
+        "effects": [
+          {
+            "vi": "Vào trạng thái tàng hình mạnh (trúng đòn cũng không bị lộ), kéo dài 2 lượt. Bắn xong ở lượt hiện tại vẫn chưa kết thúc lượt, được thêm 5 giây chỉ để di chuyển.",
+            "zh": "进入强力隐身状态（受击不会解除），持续2回合。当前开炮结束后不结束回合，有额外5秒只可以移动的时间。"
+          },
+          {
+            "vi": "Khi kết thúc lượt của mình, nhận khiên bằng 25% sinh lực (nhận được tối đa 3 lần khiên, mỗi khiên kéo dài 2 lượt).",
+            "zh": "自身回合结束时，获得25%生命护盾(可获得3次护盾，每个护盾持续2回合)。"
+          },
+          {
+            "vi": "Nếu trong suốt thời gian tàng hình không hứng phát đạn nào, lượt kế tiếp được cộng thêm 50% sát thương, kéo dài 1 lượt.",
+            "zh": "如果在隐身期间内都未受到任何炮弹攻击，下回合额外获得50%伤害提升，持续1回合。"
+          },
+          {
+            "vi": "Bản thân nhận hiệu ứng “Thủ Hằng” trong 2 lượt: trong thời gian đó, mỗi khi có kẻ địch bất kỳ dùng tuyệt kỹ thì bản thân được +25 điểm nộ khí và trị chờ của bản thân giảm 20%.",
+            "zh": "自身获得“守恒”效果，持续2回合。在“守恒”效果持续时间内任意敌方使用必杀技，增加自身25点怒气值，自身等待值降低20%。"
+          },
+          {
+            "vi": "Đòn đánh bỏ qua 25% giáp của mục tiêu, kéo dài 2 lượt.",
+            "zh": "攻击忽视目标25%护甲，持续2回合。"
+          }
+        ]
+      },
+      {
+        "nameVi": "Cường Nhẫn",
+        "nameZh": "强韧",
+        "level": "Lv.max",
+        "type": "passive",
+        "typeVi": "Bị động",
+        "typeZh": "被动",
+        "meta": [
+          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
+          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+        ],
+        "effects": [
+          {
+            "vi": "Mỗi lần bị tấn công có 50% xác suất kích hoạt “Thiết Bích”: không bị hố đạn ảnh hưởng và miễn nhiễm hất văng, kéo dài 1 lượt. Khi bắt đầu lượt của mình, nếu đang có “Thiết Bích” (loại do chính bản thân bị tấn công kích hoạt, không tính thiết bích thông thường) thì sát thương +30%, kéo dài 2 lượt.",
+            "zh": "每次受到攻击时有50%的概率触发“铁壁”效果，不受弹坑影响且免疫击飞。持续1回合。自身回合开始时，如果有“铁壁”效果(通过自身被攻击触发的、非通用铁壁)，伤害增加30%，持续2回合。"
+          },
+          {
+            "vi": "Giảm sát thương do ngã tăng 15%. Khi bị đánh rơi xuống, chịu sát thương rơi mà không chết thì được +50 điểm nộ khí.",
+            "zh": "摔伤减免增加15%。当被击落受到坠落伤害且未死亡时，增加50点怒气值。"
+          },
+          {
+            "vi": "Mỗi trận đấu bắt đầu với giảm sát thương +50%, mỗi khi kết thúc lượt bất kỳ thì trừ đi 1%, thấp nhất còn 30% giảm sát thương.",
+            "zh": "每场战斗开始时减伤增加50%，任意回合结束时减少1%，最低减少至30%减伤。"
+          },
+          {
+            "vi": "Kháng hiệu ứng +100%. Đòn đánh gán thêm 20% dễ tổn thương lên mục tiêu (tính ngay lúc đạn trúng, trước khi gây sát thương), kéo dài 2 lượt.",
+            "zh": "效果抵抗+100%，攻击对目标附加20%易伤(在炮弹命中时、受到伤害前)，持续2回合。"
+          }
+        ]
+      }
+    ]
+  },
+  "bao-luy": {
+    "quoteZh": "好似金刚耸立云端，宛如堡垒坚不可摧。",
+    "quoteVi": "Tựa Kim Cương sừng sững giữa tầng mây, như pháo đài kiên cố không thể phá.",
+    "sourceVi": "Sự kiện",
+    "sourceZh": "活动",
+    "stats": [
+      { "key": "atk", "icon": "⚔️", "labelVi": "Công kích", "labelZh": "攻击", "value": 380 },
+      { "key": "hp", "icon": "❤️", "labelVi": "Sinh lực", "labelZh": "生命", "value": 2280 },
+      { "key": "spd", "icon": "💨", "labelVi": "Tốc độ", "labelZh": "速度", "value": 190 },
+      { "key": "def", "icon": "🛡️", "labelVi": "Giáp", "labelZh": "护甲", "value": 266 }
+    ],
+    "skills": [
+      {
+        "nameVi": "Tuyệt Đối Lĩnh Vực",
+        "nameZh": "绝对领域",
+        "level": "Lv.max",
+        "type": "active",
+        "typeVi": "Chủ động",
+        "typeZh": "主动",
+        "meta": [
+          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 30 },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 5 },
+          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 },
+          { "labelVi": "Trị chờ", "labelZh": "等待值", "value": 750 }
+        ],
+        "effects": [
+          {
+            "vi": "Nhận lượng miễn thương bằng 5% sinh lực tối đa của bản thân, kéo dài 2 lượt. Hồi 20% sinh lực, bỏ qua cấm trị liệu.",
+            "zh": "增加自身最大生命值5%的免伤，持续2回合。恢复20%生命，无视禁疗。"
+          },
+          {
+            "vi": "Đòn đánh gán thêm hiệu ứng trừ 100 điểm nộ khí khi bắt đầu lượt, duy trì 2 lượt; kèm hiệu ứng khiến kỹ năng thú cưng sau khi dùng bị cộng thêm 1 lượt hồi chiêu, kéo dài 2 lượt.",
+            "zh": "攻击附加回合开始时减少怒气100点的效果，自身持续2回合。使用宠物技能后冷却回合＋1的效果，持续2回合。"
+          },
+          {
+            "vi": "Khiến 2 kẻ địch ngẫu nhiên trong phạm vi 1600 phải chịu sát thương nguyên tố tăng 20% và sát thương vật lý giảm 20%, kéo dài 3 lượt.",
+            "zh": "令1600范围内的随机2个敌人受到元素伤害提升20%，物理伤害下降20%，持续3回合。"
+          }
+        ]
+      },
+      {
+        "nameVi": "Kim Cương",
+        "nameZh": "金刚",
+        "level": "Lv.max",
+        "type": "passive",
+        "typeVi": "Bị động",
+        "typeZh": "被动",
+        "meta": [
+          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
+          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+        ],
+        "effects": [
+          {
+            "vi": "Giảm sát thương +20%, kiên cường (韧性) +60%, giáp +5%.",
+            "zh": "减伤+20%，韧性＋60%，护甲＋5%。"
+          },
+          {
+            "vi": "Khi sinh lực dưới 75%: giảm sát thương vật lý +30%, nhận khiên bằng 30% sinh lực tối đa.",
+            "zh": "生命低于75%时，+30%物理减伤，30%最大生命值护盾。"
+          },
+          {
+            "vi": "Hiệu ứng nhóm “dễ tổn thương” và nhóm “giảm sát thương” bị hạ 50%.",
+            "zh": "“易伤类”与“降伤类”效果降低50%。"
+          },
+          {
+            "vi": "Sát thương nguyên tố +15%.",
+            "zh": "元素伤害+15%。"
+          }
+        ]
+      }
+    ]
+  },
+  "chien-hung": {
+    "quoteZh": "星核冲击 横扫千军 风驰电掣 力敌千钧",
+    "quoteVi": "Tinh Hạch Xung Kích · Hoành Tảo Thiên Quân · Phong Trì Điện Xiết · Lực Địch Thiên Quân",
+    "sourceVi": "Sự kiện",
+    "sourceZh": "活动",
+    "stats": [
+      { "key": "atk", "icon": "⚔️", "labelVi": "Công kích", "labelZh": "攻击", "value": 760 },
+      { "key": "hp", "icon": "❤️", "labelVi": "Sinh lực", "labelZh": "生命", "value": 2432 },
+      { "key": "spd", "icon": "💨", "labelVi": "Tốc độ", "labelZh": "速度", "value": 190 },
+      { "key": "def", "icon": "🛡️", "labelVi": "Giáp", "labelZh": "护甲", "value": 266 }
+    ],
+    "skills": [
+      {
+        "nameVi": "Tinh Hạch Xung Kích",
+        "nameZh": "星核冲击",
+        "level": "Lv.max",
+        "type": "active",
+        "typeVi": "Chủ động",
+        "typeZh": "主动",
+        "meta": [
+          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 30 },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 5 },
+          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 },
+          { "labelVi": "Trị chờ", "labelZh": "等待值", "value": 500 }
+        ],
+        "effects": [
+          {
+            "vi": "Khi bật kỹ năng, hất văng kẻ địch trong phạm vi 600 quanh mình; lượt hiện tại bỏ qua hiệu ứng giảm sát thương theo sinh lực tối đa.",
+            "zh": "开启技能时击飞附近600范围内的敌人；当前回合无视最大生命减伤。"
+          },
+          {
+            "vi": "Gán cho kẻ địch trong phạm vi 1500 hiệu ứng “Uy Hiếp” (dễ tổn thương +15%, lượng khiên tạo ra -40%, hiệu quả trị liệu -50%), kéo dài 3 lượt.",
+            "zh": "赋予1500范围内的敌人“威慑”效果（易伤+15%，护盾生成量-40%，治疗效果-50%），持续3回合。"
+          },
+          {
+            "vi": "Nhận hiệu ứng “Nộ Hào” trong 2 lượt: khi đánh kẻ địch có công kích hiện tại thấp hơn mình, cứ chênh 1% thì gây thêm 2% sát thương, tối đa 10%.",
+            "zh": "获得“怒嚎”效果（攻击当前攻击力比自身低的敌人，每高1%，额外造成2%的伤害，上限10%），持续2回合。"
+          },
+          {
+            "vi": "Nhận hiệu ứng “Cường Tráng” trong 2 lượt: phản 20% sát thương phải chịu thành sát thương chuẩn lên kẻ tấn công (bỏ qua giảm sát thương, không bỏ qua khiên); mỗi lần đánh trúng địch thì thể lực +15, tối đa 2 lần mỗi lượt.",
+            "zh": "获得“壮硕”效果（受到伤害的20%作为真实伤害反弹给攻击者，无视减伤，不无视护盾，每次攻击命中敌人时体力+15，1回合最多2次），持续2回合。"
+          }
+        ]
+      },
+      {
+        "nameVi": "Phong Trì Điện Xiết",
+        "nameZh": "风驰电掣",
+        "level": "Lv.max",
+        "type": "passive",
+        "typeVi": "Bị động",
+        "typeZh": "被动",
+        "meta": [
+          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
+          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+        ],
+        "effects": [
+          {
+            "vi": "Công kích +10%; cứ mất 1% sinh lực thì công kích tăng thêm 0.15%.",
+            "zh": "攻击+10%；每减少1%生命值，提升0.15%攻击。"
+          },
+          {
+            "vi": "Sát thương +10%; mỗi 1 điểm thể lực tiêu hao cộng thêm 0.2% sát thương cho lượt hiện tại, tối đa +10%.",
+            "zh": "伤害+10%，每消耗1点体力，则当前回合获得0.2%伤害加成，最多提高10%伤害。"
+          },
+          {
+            "vi": "Tốc độ và quãng đường di chuyển +25%. Khi bắt đầu lượt của mình và khi bắn, cứ mỗi 50 khoảng cách thì nhận giảm sát thương +1% và sát thương +1%, tối đa 10 tầng, kéo dài 3 lượt.",
+            "zh": "移动速度与距离+25%，自身回合开始与开炮时每有50距离，获得减伤+1%，伤害+1%，上限10层，持续3回合。"
+          }
+        ]
+      },
+      {
+        "nameVi": "Siêu Phàm Thể Phách",
+        "nameZh": "超凡体魄",
+        "level": "Lv.max",
+        "type": "passive",
+        "typeVi": "Bị động",
+        "typeZh": "被动",
+        "meta": [
+          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
+          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+        ],
+        "effects": [
+          {
+            "vi": "Giảm sát thương +10%. Mỗi lần dùng tuyệt kỹ, bản thân nhận “Phách Lực” (giảm sát thương +10%, kháng nguyên tố +10%), kéo dài 2 lượt.",
+            "zh": "减伤+10%；每次使用必杀时，自身获得“魄力”效果（减伤+10%，元素抗性+10%），持续2回合。"
+          },
+          {
+            "vi": "Hiệu ứng dễ tổn thương và giảm sát thương bị áp lên mình giảm 40%. Khi bản thân dùng cánh tinh linh thì nhận “Miễn Thương” 1 lần, kéo dài 3 lượt.",
+            "zh": "易伤及降伤效果下降40%；自身使用翼精灵时获得“免伤”1次，持续3回合。"
+          },
+          {
+            "vi": "Số lượt của hiệu ứng “Cấm Túc” và “Thiêu Đốt” giảm 1 (tối thiểu còn 1). Khi bắt đầu lượt, nếu bản thân đang dính “Cấm Túc” hoặc “Thiêu Đốt” thì hồi thêm 8% sinh lực tối đa và nhận khiên bằng 10% sinh lực tối đa, kéo dài 2 lượt.",
+            "zh": "“禁足”、“灼烧”效果回合减1（最少1），回合开始时，若自身处于“禁足”或“灼烧”状态，额外最大生命值恢复+8%，最大生命值护盾+10%，持续2回合。"
+          },
+          {
+            "vi": "Lần đầu sinh lực bản thân xuống dưới 60% và dưới 30%, nhận khiên bằng 30% sinh lực tối đa, kéo dài 4 lượt. (Mỗi trận chỉ kích hoạt 1 lần)",
+            "zh": "自身生命值首次低于60%与低于30%时，会获得最大生命值30%护盾，持续4回合。（每场战斗只能触发1次）"
+          }
+        ]
+      }
+    ]
+  },
+  "ngao-liet": {
+    "quoteZh": "西行驮经修正果，灵山证道登仙位！",
+    "quoteVi": "Tây du cõng kinh tu thành chính quả, Linh Sơn chứng đạo bước lên ngôi tiên!",
+    "sourceVi": "Sự kiện",
+    "sourceZh": "活动",
+    "stats": [
+      { "key": "atk", "icon": "⚔️", "labelVi": "Công kích", "labelZh": "攻击", "value": 1672 },
+      { "key": "hp", "icon": "❤️", "labelVi": "Sinh lực", "labelZh": "生命", "value": 4484 },
+      { "key": "spd", "icon": "💨", "labelVi": "Tốc độ", "labelZh": "速度", "value": 319 },
+      { "key": "def", "icon": "🛡️", "labelVi": "Giáp", "labelZh": "护甲", "value": 608 }
+    ],
+    "skills": [
+      {
+        "nameVi": "Ngọc Long Thần Câu",
+        "nameZh": "玉龙神驹",
+        "level": "Lv.max",
+        "type": "active",
+        "typeVi": "Chủ động",
+        "typeZh": "主动",
+        "meta": [
+          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 30 },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 5 },
+          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 },
+          { "labelVi": "Trị chờ", "labelZh": "等待值", "value": 600 }
+        ],
+        "effects": [
+          {
+            "vi": "Ngọc Long: sau khi tấn công ở lượt hiện tại, triệu thêm Bạch Long đánh một đòn đường thẳng bỏ qua địa hình lên kẻ địch gần nhất. Địch trúng đòn lập tức bị nộ khí -50% và không cảm nhận được độ lệch gió; khi bắt đầu lượt của bản thân, sinh lực tối đa bị giảm vĩnh viễn 5%, kéo dài 2 lượt. (Hiệu ứng giảm sinh lực tối đa cộng dồn tối đa 6 tầng)",
+            "zh": "玉龙：当前回合攻击后额外召唤白龙对最近的一个敌人造成无视地形直线型攻击，被命中的敌人立即怒气-50%，且无法感知风力偏移，自身回合开始时最大生命永久-5%，持续2回合。(最大生命减少效果最多叠加6层)"
+          },
+          {
+            "vi": "Thần Câu: ở bất kỳ lượt nào, khi phải chịu sát thương > 20% thì miễn nhiễm phần sát thương phát sinh thêm, kéo dài thêm 2 lượt.",
+            "zh": "神驹：任意回合受到伤害＞20%时，免疫额外伤害，额外持续2回合。"
+          },
+          {
+            "vi": "Sát thương +15%, kéo dài 2 lượt.",
+            "zh": "伤害+15%，持续2回合。"
+          }
+        ]
+      },
+      {
+        "nameVi": "Linh Kiếm Vân Trì",
+        "nameZh": "灵剑云驰",
+        "level": "Lv.max",
+        "type": "passive",
+        "typeVi": "Bị động",
+        "typeZh": "被动",
+        "meta": [
+          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
+          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+        ],
+        "effects": [
+          {
+            "vi": "Mỗi lần mất 25% sinh lực tối đa, nhận hiệu ứng “Long Chi Phục Tô” trong 2 lượt (dùng đạo cụ tốn thể lực -30%, trị chờ sinh ra -10%, kẻ địch tấn công phe ta bị công kích nguyên tố -25%, kéo dài 2 lượt); mỗi lần nhận hiệu ứng này thì sinh lực tối đa của bản thân +5% vĩnh viễn, tối đa +25%.",
+            "zh": "每次失去25%最大生命值时，获得“龙之复苏”效果2回合（使用道具消耗体力-30%，产生等待值-10%，使攻击我方的敌人元素攻击-25%，持续2回合），且每次获得该效果时自身最大生命永久+5%，上限25%。"
+          },
+          {
+            "vi": "Thần Hựu Tịnh Uế: sát thương +20%. Trước khi bản thân trúng sát thương từ đạn pháo, nếu bản thân đang chịu hiệu ứng giảm giáp / kháng nguyên tố theo phần trăm ≥20% thì tổng sát thương phải chịu sau đó giảm 20%.",
+            "zh": "神佑净秽：伤害+20%，自身被炮弹造成伤害前，若自身对护甲、元素抗性百分比下降效果≥20%，则接下来受到的总伤害下降20%。"
+          },
+          {
+            "vi": "Công kích +15%, giáp +5%, đòn đánh bỏ qua 10% giáp của địch.",
+            "zh": "攻击+15%，护甲+5%，攻击忽略敌方10%护甲。"
+          },
+          {
+            "vi": "Khi dùng tuyệt kỹ, bản thân nhận hiệu ứng “Bạch Mã Che Chở”: 100% sát thương của phát đạn kế tiếp được chuyển thành lượng hồi sinh lực chia đều cho phe ta trong phạm vi 1500, bỏ qua cấm trị liệu; mất tác dụng sau khi hứng 1 phát đạn, có thể bị giải trừ, tồn tại vĩnh viễn, hồi chiêu nội tại 5 lượt.",
+            "zh": "使用必杀技时，自身获得“白马庇佑”效果（接下来第一次炮弹伤害的100%转化为1500范围我方均摊的生命恢复，无视禁疗，受到1次炮弹攻击后失效，可以驱散，永久存在，内置冷却5回合）"
+          }
+        ]
+      },
+      {
+        "nameVi": "Tiêu Long Linh Khu",
+        "nameZh": "霄龙灵躯",
+        "level": "Lv.max",
+        "type": "passive",
+        "typeVi": "Bị động",
+        "typeZh": "被动",
+        "meta": [
+          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
+          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+        ],
+        "effects": [
+          {
+            "vi": "Giảm sát thương +30%. Mỗi lần bản thân dùng kỹ năng thú cưng, nhận cộng dồn trạng thái vĩnh viễn: sát thương +10%, giảm sát thương +10%, xuyên nguyên tố +4%, tối đa 2 tầng.",
+            "zh": "减伤+30%，自身每次使用宠物技能时，永久状态加成：伤害+10%，减伤+10%，元素穿透+4%，上限2层。"
+          },
+          {
+            "vi": "Lần đầu sinh lực bản thân xuống dưới 15%, vào trạng thái “Hoá Long” (hút toàn bộ đạn của địch trong phạm vi 600 quanh mình, bản thân miễn nhiễm sát thương đạn, bỏ qua đột kích), kéo dài 1 lượt.",
+            "zh": "自身生命值首次低于15%时，进入“化龙”状态（吸引自身600范围的所有敌方炮弹，自身免疫炮弹伤害，无视突袭），持续1回合。"
+          },
+          {
+            "vi": "Miễn nhiễm hiệu ứng vô hiệu hoá tăng sát thương. Mỗi lượt, 30% sát thương bản thân gây ra được chuyển thành khiên cho bản thân, sẽ reset khi bắt đầu lượt kế tiếp của mình.",
+            "zh": "免疫增伤失效；每回合自身造成伤害的30%转化为自身的护盾值，下个自身回合开始时重置。"
+          },
+          {
+            "vi": "Kháng hiệu ứng +50%. Khi kết thúc lượt của mình, cưỡng chế hồi 10 điểm thể lực. (3 lượt hồi 1 lần)",
+            "zh": "效果抵抗+50%；自身回合结束时，强制恢复10点体力。（3回合恢复1次）"
+          }
+        ]
+      }
+    ]
+  },
+  "hajimi": {
+    "quoteZh": "动用神秘力量轰飞你~喵!",
+    "quoteVi": "Dùng sức mạnh thần bí thổi bay ngươi ~ meo!",
+    "sourceVi": "Sự kiện",
+    "sourceZh": "活动",
+    "stats": [
+      { "key": "atk", "icon": "⚔️", "labelVi": "Công kích", "labelZh": "攻击", "value": 1064 },
+      { "key": "hp", "icon": "❤️", "labelVi": "Sinh lực", "labelZh": "生命", "value": 3192 },
+      { "key": "spd", "icon": "💨", "labelVi": "Tốc độ", "labelZh": "速度", "value": 243 },
+      { "key": "def", "icon": "🛡️", "labelVi": "Giáp", "labelZh": "护甲", "value": 387 }
+    ],
+    "skills": [
+      {
+        "nameVi": "Tuyệt Kỹ Bí Thuật",
+        "nameZh": "奥术绝技",
+        "level": "Lv.max",
+        "type": "active",
+        "typeVi": "Chủ động",
+        "typeZh": "主动",
+        "meta": [
+          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 30 },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 5 },
+          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 },
+          { "labelVi": "Trị chờ", "labelZh": "等待值", "value": 600 }
+        ],
+        "effects": [
+          {
+            "vi": "Nhận hiệu ứng “Bí Thuật Sung Mãn” trong 3 lượt: sát thương +15%, kháng hiệu ứng +80%, hồi phục thể lực +30%, và mỗi khi bắt đầu lượt bất kỳ thì nhận khiên bằng 10% sinh lực tối đa.",
+            "zh": "获得“奥术充盈”效果（伤害+15%，效果抵抗+80%，体力恢复+30%，任意回合开始时，最大生命值护盾+10%），持续3回合；"
+          },
+          {
+            "vi": "Khi kết thúc lượt, nhận “Tàng Hình Mạnh” (trúng đòn cũng không bị lộ) kéo dài 2 lượt; đồng thời dịch chuyển ngẫu nhiên 1 lần trong phạm vi 600.",
+            "zh": "回合结束时获得“强力隐身”（受击不会解除），隐身持续2回合；在随机600范围内传送1次。"
+          },
+          {
+            "vi": "Mục tiêu bị đánh trúng nhận hiệu ứng “Nguy Cấp Bí Thuật”, kéo dài 3 lượt.",
+            "zh": "被攻击的目标赋予“奥术濒危”效果，持续3回合。",
+            "sub": [
+              {
+                "vi": "◆ “Nguy Cấp Bí Thuật” gồm các hiệu ứng sau:",
+                "zh": "◆奥术濒危有以下效果：",
+                "sub": [
+                  {
+                    "vi": "① Lần đầu bị dính: khi bắt đầu lượt của mình, mục tiêu bị dịch chuyển ngẫu nhiên 1 lần trong phạm vi 1000.",
+                    "zh": "①首次添加时，自身回合开始在随机1000范围内瞬移1次"
+                  },
+                  {
+                    "vi": "② Mỗi khi bắt đầu lượt của mình, ngẫu nhiên nhận 1 trạng thái kéo dài 1 lượt:",
+                    "zh": "②自身回合开始时随机获得以下1回合效果：",
+                    "sub": [
+                      {
+                        "vi": "10% — Ngủ: không thể hành động (giống choáng).",
+                        "zh": "10%/睡眠状态，无法行动(同眩晕)"
+                      },
+                      {
+                        "vi": "30% — Nói mơ: lập tức dùng ngẫu nhiên một đạo cụ chiến đấu, kỹ năng thú cưng, kỹ năng thú cưỡi hoặc cánh tinh linh đang khả dụng.",
+                        "zh": "30%/梦话状态，立即随机使用一个可用的战斗道具、宠物技能、坐骑技能、翼精灵"
+                      },
+                      {
+                        "vi": "60% — Á khẩu: cả lượt chỉ dùng được một đạo cụ chiến đấu.",
+                        "zh": "60%/无语状态，单个回合只能使用一个战斗道具"
+                      }
+                    ]
+                  },
+                  {
+                    "vi": "③ Ở chế độ PVE: hiệu ứng ① và ② vô hiệu, bù lại khiến địch trúng đòn bị -16% giáp và -16% kháng nguyên tố.",
+                    "zh": "③PVE模式下：效果①②无效，额外使命中敌人护甲-16%，元素抗性-16%"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nameVi": "Miêu Miêu Quyền",
+        "nameZh": "喵喵拳",
+        "level": "Lv.max",
+        "type": "passive",
+        "typeVi": "Bị động",
+        "typeZh": "被动",
+        "meta": [
+          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
+          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+        ],
+        "effects": [
+          {
+            "vi": "Sát thương +20%; công kích +10%. Khi sinh lực bản thân ≤60%: sát thương +10%, trị chờ -5%, lượng khiên tạo ra +15%.",
+            "zh": "伤害+20%；攻击+10%；自身生命值≤60%时，伤害+10%，等待值-5%，护盾生成量+15%；"
+          },
+          {
+            "vi": "Khi gây sát thương lên khiên của địch, gây thêm sát thương chuẩn bằng 20% giá trị khiên đó.",
+            "zh": "对敌人造成护盾伤害时，额外对敌人造成该护盾值伤害的20%真实伤害；"
+          },
+          {
+            "vi": "Khi tấn công địch, gán hiệu ứng dễ tổn thương +10% trong 2 lượt. Nếu địch đang mang “Nguy Cấp Bí Thuật”, gây thêm sát thương chuẩn bằng 4% sinh lực tối đa hiện tại của bản thân (1 lượt 1 lần) và dễ tổn thương +10%, kéo dài 3 lượt.",
+            "zh": "攻击敌方时，赋予易伤+10%，持续2回合，敌方处于“奥术濒危”状态下时，额外造成自身当前最大生命值4%真实伤害（1回合1次），易伤+10%，持续3回合。"
+          }
+        ]
+      },
+      {
+        "nameVi": "Bí Thuật Chí Tôn",
+        "nameZh": "奥术至尊",
+        "level": "Lv.max",
+        "type": "passive",
+        "typeVi": "Bị động",
+        "typeZh": "被动",
+        "meta": [
+          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
+          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+        ],
+        "effects": [
+          {
+            "vi": "Sinh lực tối đa +8%; giảm sát thương +25%. Mỗi khi có kẻ địch bất kỳ dùng đạo cụ chiến đấu, kỹ năng thú cưng, kỹ năng thú cưỡi hoặc cánh tinh linh thì bản thân được giảm sát thương +5%, tối đa 2 tầng, kéo dài 3 lượt.",
+            "zh": "最大生命值+8%；减伤+25%，任意敌人使用战斗道具、宠物技能、坐骑技能、翼精灵时，自身减伤+5%，上限2层，持续3回合；"
+          },
+          {
+            "vi": "Lần đầu sinh lực bản thân xuống dưới 15%: nộ khí +50, thể lực +100, số lượt duy trì của buff đến từ phía địch bị -10 (thấp nhất còn 1).",
+            "zh": "自身生命值首次低于15%时，怒气+50，体力+100，敌方来源的buff持续回合数-10（最少为1）；"
+          },
+          {
+            "vi": "Hiệu ứng dễ tổn thương và giảm sát thương bị áp lên mình giảm 50%. Khi kết thúc lượt của mình, gán cho kẻ địch trong phạm vi 1000: lượng khiên tạo ra -30%, hiệu quả trị liệu -50%, kéo dài 2 lượt.",
+            "zh": "易伤及降伤效果下降50%；自身回合结束时赋予1000范围内的敌人，护盾生成量-30%，治疗效果-50%，持续2回合。"
+          }
+        ]
+      }
+    ]
+  },
+  "tieu-thanh": {
+    "quoteZh": "师父，只要一片赤城，灵山就在脚下。",
+    "quoteVi": "Sư phụ, chỉ cần một tấm lòng thành, Linh Sơn ắt ở ngay dưới chân.",
+    "sourceVi": "Sự kiện",
+    "sourceZh": "活动",
+    "stats": [
+      { "key": "atk", "icon": "⚔️", "labelVi": "Công kích", "labelZh": "攻击", "value": 532 },
+      { "key": "hp", "icon": "❤️", "labelVi": "Sinh lực", "labelZh": "生命", "value": 1596 },
+      { "key": "spd", "icon": "💨", "labelVi": "Tốc độ", "labelZh": "速度", "value": 190 },
+      { "key": "def", "icon": "🛡️", "labelVi": "Giáp", "labelZh": "护甲", "value": 266 }
+    ],
+    "skills": [
+      {
+        "nameVi": "Nguyên Thần Xuất Khiếu",
+        "nameZh": "元神出窍",
+        "level": "Lv.max",
+        "type": "active",
+        "typeVi": "Chủ động",
+        "typeZh": "主动",
+        "meta": [
+          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 30 },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 5 },
+          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 },
+          { "labelVi": "Trị chờ", "labelZh": "等待值", "value": 500 }
+        ],
+        "effects": [
+          {
+            "vi": "Sau khi đạn trúng mục tiêu, triệu hồi Tiểu Thánh đánh địch gây 50% sát thương, hất văng mạnh và khiến địch tốn gấp đôi lực di chuyển trong 2 lượt; kết thúc lượt, bản thân dịch chuyển tới vị trí viên đạn cuối cùng. (Dịch chuyển chỉ có tác dụng ở PVP)",
+            "zh": "炮弹命中后召唤孙小圣对敌人进行打击，造成50%伤害，并强力击飞敌人且移动力消耗双倍2回合，回合结束时自身传送至最后一发炮弹的位置。（传送仅PVP有效）"
+          },
+          {
+            "vi": "Giảm sát thương nguyên tố +21%; trong 3 lượt kế tiếp, mỗi lượt kết thúc bị trừ 7%.",
+            "zh": "元素减伤+21%，后续3回合内，每回合结束-7%。"
+          },
+          {
+            "vi": "Nhận trạng thái “Pháp Thiên Tượng Địa” 2 lượt. Trong trạng thái này, khi đánh kẻ địch có sinh lực hiện tại cao hơn mình thì sát thương +10%, đồng thời khiến hiệu quả giảm sát thương của mục tiêu giảm 10% trong 2 lượt.",
+            "zh": "获得“法天象地”状态2回合，“法天象地”状态下，攻击当前生命值比自身高的敌人时，则伤害+10%，且赋予目标减伤效果下降10%，2回合。"
+          }
+        ]
+      },
+      {
+        "nameVi": "Như Ý Kim Cô",
+        "nameZh": "如意金箍",
+        "level": "Lv.max",
+        "type": "passive",
+        "typeVi": "Bị động",
+        "typeZh": "被动",
+        "meta": [
+          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
+          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+        ],
+        "effects": [
+          {
+            "vi": "Mỗi lần đánh trúng địch, bản thân cộng 1 tầng đếm Như Ý Bổng Pháp (tối đa 4 tầng), nhận hiệu ứng theo số tầng:",
+            "zh": "每次命中敌人时自身获得如意棒法计数，上限为4层，并根据层数获得以下效果：",
+            "sub": [
+              {
+                "vi": "Đếm 1 tầng: viên đạn kế tiếp khi đánh trúng sẽ hút 25 điểm thể lực của mục tiêu (1 lượt 1 lần).",
+                "zh": "棒法计数为1时，下一发炮弹攻击命中时，偷取目标25点体力（1回合1次）。"
+              },
+              {
+                "vi": "Đếm 2 tầng: viên đạn kế tiếp bỏ qua khiên chắn, hút máu +40%.",
+                "zh": "棒法计数为2时，下一发炮弹无视护盾，吸血+40%。"
+              },
+              {
+                "vi": "Đếm 3 tầng: viên đạn kế tiếp khiến địch trúng đòn bị -10% kháng toàn nguyên tố trong 2 lượt; sau khi đánh trúng thì nhận hiệu ứng “Như Ý Chiến Pháp” và xoá số tầng đếm.",
+                "zh": "棒法计数为3时，下一发炮弹使命中敌人全元素抗性-10%，持续2回合，攻击命中后获得“如意战法”效果，并移除计数。"
+              }
+            ]
+          },
+          {
+            "vi": "Khi nhận hiệu ứng “Như Ý Chiến Pháp”: khiên chắn +20%, sát thương +25% trong 3 lượt, đồng thời sinh lực +6% (1 lượt 1 lần).",
+            "zh": "自身获得“如意战法”效果时，护盾+20%，伤害+25%，持续3回合，且生命+6%（1回合1次）。"
+          },
+          {
+            "vi": "Công kích +10%, giảm sát thương +25%. Đầu mỗi lượt, cộng thêm sát thương vật lý bằng 1.2 lần phần trăm sinh lực đã mất từ lượt trước tới lượt này, hiệu ứng kéo dài 1 lượt.",
+            "zh": "攻击+10%，减伤+25%，每个回合开始时，提升上一回合至本回合损失的生命值百分比1.2倍物理伤害，效果持续1回合。"
+          },
+          {
+            "vi": "Hiệu ứng dễ tổn thương giảm 50%. Đầu lượt của mình, nếu đang bị đóng băng thì tự giải băng và nhận 30 điểm nộ khí, 20 điểm thể lực. (3 lượt kích hoạt tối đa 1 lần)",
+            "zh": "易伤效果下降50%，自身回合开始时，如果自身被冰冻，则解除冰冻，并获得30点怒气，20点体力。（每3回合最多触发1次）"
+          },
+          {
+            "vi": "Hoả Nhãn Kim Tinh: khi đánh đơn vị tàng hình, sát thương tăng thêm 15%.",
+            "zh": "火眼金睛：攻击隐身单位时，伤害额外增加15%。"
+          }
+        ]
+      }
+    ]
+  }
+}

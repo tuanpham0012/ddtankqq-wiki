@@ -1,0 +1,161 @@
+{
+  "_note": "Cửa hàng Thị Trấn (小镇商店). Giá tính bằng Kim Tệ (金币). Trường 'ingredient' phải trùng tên nguyên liệu trong recipes.json để trang tự nối hạt giống ↔ món ăn.",
+  "shops": [
+    {
+      "key": "magic",
+      "nameVi": "Cửa hàng Ma Pháp",
+      "nameZh": "魔法商店",
+      "note": "Nơi bán toàn bộ hạt giống dùng cho Bếp Ma Pháp.",
+      "items": [
+        {
+          "id": "hat-co-mac-ngoc",
+          "nameVi": "Hạt Cỏ Mặc Ngọc",
+          "nameZh": "墨玉草种子",
+          "type": "seed",
+          "price": 480,
+          "limitVi": "Giới hạn mỗi ngày",
+          "limitZh": "每日限购",
+          "dailyStock": 5,
+          "ingredient": "Cỏ Mặc Ngọc"
+        },
+        {
+          "id": "hat-la-suong-tinh",
+          "nameVi": "Hạt Lá Sương Tinh",
+          "nameZh": "霜星叶种子",
+          "type": "seed",
+          "price": 480,
+          "limitVi": "Giới hạn mỗi ngày",
+          "limitZh": "每日限购",
+          "dailyStock": 5,
+          "ingredient": "Lá Sương Tinh"
+        },
+        {
+          "id": "hat-hoa-me-ao",
+          "nameVi": "Hạt Hoa Mê Ảo",
+          "nameZh": "迷幻花种子",
+          "type": "seed",
+          "price": 360,
+          "limitVi": "Giới hạn mỗi ngày",
+          "limitZh": "每日限购",
+          "dailyStock": 5,
+          "ingredient": "Hoa Mê Ảo"
+        },
+        {
+          "id": "hat-nam-dom-dom",
+          "nameVi": "Hạt Nấm Đom Đóm",
+          "nameZh": "萤火菇种子",
+          "type": "seed",
+          "price": 360,
+          "limitVi": "Giới hạn mỗi ngày",
+          "limitZh": "每日限购",
+          "dailyStock": 5,
+          "ingredient": "Nấm Đom Đóm"
+        },
+        {
+          "id": "hat-khoai-tinh-van",
+          "nameVi": "Hạt Khoai Tinh Vân",
+          "nameZh": "星云薯种子",
+          "type": "seed",
+          "price": 360,
+          "limitVi": "Giới hạn mỗi ngày",
+          "limitZh": "每日限购",
+          "dailyStock": 5,
+          "ingredient": "Khoai Tinh Vân"
+        },
+        {
+          "id": "hat-duong-xi-thanh-phong",
+          "nameVi": "Hạt Dương xỉ Thanh Phong",
+          "nameZh": "清风蕨种子",
+          "type": "seed",
+          "price": 360,
+          "limitVi": "Giới hạn mỗi ngày",
+          "limitZh": "每日限购",
+          "dailyStock": 5,
+          "ingredient": "Dương xỉ Thanh Phong"
+        },
+        {
+          "id": "hat-de-vo-dong",
+          "nameVi": "Hạt dẻ Vỏ Đồng",
+          "nameZh": "铜皮栗种子",
+          "type": "seed",
+          "price": 360,
+          "limitVi": "Giới hạn mỗi ngày",
+          "limitZh": "每日限购",
+          "dailyStock": 5,
+          "ingredient": "Hạt dẻ Vỏ Đồng"
+        },
+        {
+          "id": "hat-toi-chuong",
+          "nameVi": "Hạt Tỏi Chuông",
+          "nameZh": "铃铛蒜种子",
+          "type": "seed",
+          "price": 360,
+          "limitVi": "Giới hạn mỗi ngày",
+          "limitZh": "每日限购",
+          "dailyStock": 5,
+          "ingredient": "Tỏi Chuông"
+        },
+        {
+          "id": "hat-ot-dung-nham",
+          "nameVi": "Hạt Ớt Dung Nham",
+          "nameZh": "熔岩椒种子",
+          "type": "seed",
+          "price": 360,
+          "limitVi": "Giới hạn mỗi ngày",
+          "limitZh": "每日限购",
+          "dailyStock": 5,
+          "ingredient": "Ớt Dung Nham"
+        },
+        {
+          "id": "hat-ngo-sen-tran-chau",
+          "nameVi": "Hạt Ngó sen Trân Châu",
+          "nameZh": "珍珠藕种子",
+          "type": "seed",
+          "price": 240,
+          "limitVi": "Giới hạn mỗi ngày",
+          "limitZh": "每日限购",
+          "dailyStock": 5,
+          "ingredient": "Ngó sen Trân Châu"
+        },
+        {
+          "id": "hat-qua-mat-lo",
+          "nameVi": "Hạt Quả Mật Lộ",
+          "nameZh": "蜜露果种子",
+          "type": "seed",
+          "price": 240,
+          "limitVi": "Giới hạn mỗi ngày",
+          "limitZh": "每日限购",
+          "dailyStock": 5,
+          "ingredient": "Quả Mật Lộ"
+        },
+        {
+          "id": "khau-luong-10",
+          "nameVi": "Tiếp tế lương thực",
+          "nameZh": "口粮补给",
+          "type": "item",
+          "price": 10,
+          "limitVi": "Giới hạn mỗi ngày",
+          "limitZh": "每日限购"
+        },
+        {
+          "id": "khau-luong-50",
+          "nameVi": "Tiếp tế lương thực",
+          "nameZh": "口粮补给",
+          "type": "item",
+          "price": 50,
+          "limitVi": "Giới hạn mỗi ngày",
+          "limitZh": "每日限购"
+        },
+        {
+          "id": "kinh-thu-cung",
+          "nameVi": "Kính hệ thú cưng (vĩnh viễn)",
+          "nameZh": "宠物系列眼镜（永久）",
+          "type": "item",
+          "price": 10000,
+          "limitVi": "Giới hạn mỗi tuần",
+          "limitZh": "每周限购"
+        }
+      ]
+    }
+  ]
+}

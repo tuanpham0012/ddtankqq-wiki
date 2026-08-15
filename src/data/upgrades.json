@@ -1,0 +1,2017 @@
+{
+  "_note": "Mô-đun Siêu cải tiến (超级改造), gom theo cost值 1-5. Ảnh ở src/assets/upgrades/<id>.png. Trường 'detail' bổ sung dần: phẩm chất, loại mô-đun + số thứ tự (moduleNo), đợt ra mắt (phase = 期), chỉ số và sở trường.",
+  "costs": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "items": [
+    {
+      "id": "chip-kich-hoa",
+      "nameVi": "Chip Kích Hoá",
+      "nameZh": "激化芯片",
+      "cost": 1,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại α",
+        "moduleZh": "α型模组",
+        "moduleNo": 1,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Kháng bạo thương",
+            "labelZh": "暴伤抵抗",
+            "value": "0.26%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "18"
+          }
+        ],
+        "skill": {
+          "nameVi": "Sở trường Thần Thánh",
+          "nameZh": "神圣专长",
+          "descVi": "Sát thương thần thánh +200",
+          "descZh": "神圣伤害+200"
+        }
+      }
+    },
+    {
+      "id": "giam-sat-sinh-hoc",
+      "nameVi": "Giám Sát Sinh Học",
+      "nameZh": "生物监测",
+      "cost": 1,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại α",
+        "moduleZh": "α型模组",
+        "moduleNo": 2,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Sát thương chặn",
+            "labelZh": "抵挡伤害",
+            "value": "0.2%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "18"
+          }
+        ],
+        "skill": {
+          "nameVi": "Sở trường Kháng Bạo Thương",
+          "nameZh": "爆伤抵抗专长",
+          "descVi": "Kháng bạo thương +50%",
+          "descZh": "暴伤抵抗+50%"
+        }
+      }
+    },
+    {
+      "id": "loi-co-dien",
+      "nameVi": "Lõi Cơ Điện",
+      "nameZh": "机电核心",
+      "cost": 1,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại α",
+        "moduleZh": "α型模组",
+        "moduleNo": 3,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Xuyên phá",
+            "labelZh": "击穿",
+            "value": "0.16%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "18"
+          }
+        ],
+        "skill": {
+          "nameVi": "Sở trường Khiên",
+          "nameZh": "护盾专长",
+          "descVi": "Lượng khiên nhận được +12%",
+          "descZh": "护盾获得量+12%"
+        }
+      }
+    },
+    {
+      "id": "do-than-kinh",
+      "nameVi": "Dò Thần Kinh",
+      "nameZh": "神经检测",
+      "cost": 1,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại α",
+        "moduleZh": "α型模组",
+        "moduleNo": 4,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Tỉ lệ bạo kích",
+            "labelZh": "暴击率",
+            "value": "0.16%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "18"
+          }
+        ],
+        "skill": {
+          "nameVi": "Sở trường Xuyên Phá",
+          "nameZh": "穿透专长",
+          "descVi": "Xuyên giáp +200",
+          "descZh": "护甲穿透+200"
+        }
+      }
+    },
+    {
+      "id": "cam-ung-nguoc",
+      "nameVi": "Cảm Ứng Ngược",
+      "nameZh": "反向电感",
+      "cost": 1,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại α",
+        "moduleZh": "α型模组",
+        "moduleNo": 5,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Kiên cường",
+            "labelZh": "韧性",
+            "value": "0.16%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "18"
+          }
+        ],
+        "skill": {
+          "nameVi": "Sở trường Kháng Tính",
+          "nameZh": "抗性专长",
+          "descVi": "Kháng nguyên tố +170",
+          "descZh": "元素抗性+170"
+        }
+      }
+    },
+    {
+      "id": "bo-khoi-dong",
+      "nameVi": "Bộ Khởi Động",
+      "nameZh": "启动器",
+      "cost": 1,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại α",
+        "moduleZh": "α型模组",
+        "moduleNo": 6,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Hiệu ứng chính xác",
+            "labelZh": "效果命中",
+            "value": "0.13%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "18"
+          }
+        ],
+        "skill": {
+          "nameVi": "Sở trường Kháng Hiệu Ứng",
+          "nameZh": "抵抗专长",
+          "descVi": "Kháng hiệu ứng +40%",
+          "descZh": "效果抵抗+40%"
+        }
+      }
+    },
+    {
+      "id": "vat-chua-du-lieu",
+      "nameVi": "Vật Chứa Dữ Liệu",
+      "nameZh": "储存介质",
+      "cost": 1,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại α",
+        "moduleZh": "α型模组",
+        "moduleNo": 7,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Kháng hiệu ứng",
+            "labelZh": "效果抵抗",
+            "value": "0.13%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "18"
+          }
+        ],
+        "skill": {
+          "nameVi": "Sở trường Giáp",
+          "nameZh": "护甲专长",
+          "descVi": "Giáp +200",
+          "descZh": "护甲+200"
+        }
+      }
+    },
+    {
+      "id": "tinh-hach-y-thuc",
+      "nameVi": "Tinh Hạch Ý Thức",
+      "nameZh": "意识晶核",
+      "cost": 1,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại α",
+        "moduleZh": "α型模组",
+        "moduleNo": 8,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Xuyên giảm sát thương",
+            "labelZh": "抵伤穿透",
+            "value": "0.2%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "18"
+          }
+        ],
+        "skill": {
+          "nameVi": "Sở trường Tốc Độ",
+          "nameZh": "速度专长",
+          "descVi": "Tốc độ +50",
+          "descZh": "速度+50"
+        }
+      }
+    },
+    {
+      "id": "chuoi-gen",
+      "nameVi": "Chuỗi Gen",
+      "nameZh": "基因序列",
+      "cost": 1,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại α",
+        "moduleZh": "α型模组",
+        "moduleNo": 9,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Sát thương bạo kích",
+            "labelZh": "暴击伤害",
+            "value": "0.26%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "18"
+          }
+        ],
+        "skill": {
+          "nameVi": "Sở trường Xuyên Giảm Sát Thương",
+          "nameZh": "抵伤穿透专长",
+          "descVi": "Xuyên giảm sát thương +50%",
+          "descZh": "抵伤穿透+50%"
+        }
+      }
+    },
+    {
+      "id": "cuc-loi-cuong-hoa",
+      "nameVi": "Cực Lõi Cường Hoá",
+      "nameZh": "强化极芯",
+      "cost": 1,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại α",
+        "moduleZh": "α型模组",
+        "moduleNo": 10,
+        "phase": 3,
+        "stats": [
+          {
+            "labelVi": "Tỉ lệ bạo kích",
+            "labelZh": "暴击率",
+            "value": "0.23%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "26"
+          }
+        ],
+        "skill": {
+          "nameVi": "Sở trường Công Kích",
+          "nameZh": "攻击专长",
+          "descVi": "Lực công kích +250",
+          "descZh": "攻击力+250"
+        }
+      }
+    },
+    {
+      "id": "truyen-dan-dong-bo",
+      "nameVi": "Truyền Dẫn Đồng Bộ",
+      "nameZh": "同步传导",
+      "cost": 1,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại α",
+        "moduleZh": "α型模组",
+        "moduleNo": 11,
+        "phase": 3,
+        "stats": [
+          {
+            "labelVi": "Kiên cường",
+            "labelZh": "韧性",
+            "value": "0.23%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "26"
+          }
+        ],
+        "skill": {
+          "nameVi": "Sở trường Thú Cưỡi",
+          "nameZh": "坐骑专长",
+          "descVi": "Sinh lực thú cưỡi +1700",
+          "descZh": "坐骑生命+1700"
+        }
+      }
+    },
+    {
+      "id": "loi-vuong",
+      "nameVi": "Lõi Vuông",
+      "nameZh": "方形核心",
+      "cost": 1,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại α",
+        "moduleZh": "α型模组",
+        "moduleNo": 12,
+        "phase": 3,
+        "stats": [
+          {
+            "labelVi": "Hiệu ứng chính xác",
+            "labelZh": "效果命中",
+            "value": "0.19%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "26"
+          }
+        ],
+        "skill": {
+          "nameVi": "Sở trường Tỉ Lệ Bạo Kích",
+          "nameZh": "暴率专长",
+          "descVi": "Tỉ lệ bạo kích +26%",
+          "descZh": "暴击率+26%"
+        }
+      }
+    },
+    {
+      "id": "loi-tron",
+      "nameVi": "Lõi Tròn",
+      "nameZh": "圆形核心",
+      "cost": 1,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại α",
+        "moduleZh": "α型模组",
+        "moduleNo": 13,
+        "phase": 3,
+        "stats": [
+          {
+            "labelVi": "Kháng hiệu ứng",
+            "labelZh": "效果抵抗",
+            "value": "0.19%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "26"
+          }
+        ],
+        "skill": {
+          "nameVi": "Sở trường Bạo Thương",
+          "nameZh": "暴伤专长",
+          "descVi": "Sát thương bạo kích +33%",
+          "descZh": "暴击伤害+33%"
+        }
+      }
+    },
+    {
+      "id": "co-tu-nang",
+      "nameVi": "Cò Tụ Năng",
+      "nameZh": "聚能扳机",
+      "cost": 1,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại α",
+        "moduleZh": "α型模组",
+        "moduleNo": 15,
+        "phase": 4,
+        "stats": [
+          {
+            "labelVi": "Kháng bạo thương",
+            "labelZh": "暴伤抵抗",
+            "value": "0.45%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "31"
+          }
+        ],
+        "skill": {
+          "nameVi": "Sở trường Vật Công",
+          "nameZh": "物攻专长",
+          "descVi": "Công kích vật lý +600",
+          "descZh": "物理攻击+600"
+        }
+      }
+    },
+    {
+      "id": "ong-tiem-nano",
+      "nameVi": "Ống Tiêm Nano",
+      "nameZh": "纳米注射器",
+      "cost": 2,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại β",
+        "moduleZh": "β型模组",
+        "moduleNo": 1,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Xuyên phá",
+            "labelZh": "击穿",
+            "value": "0.33%"
+          },
+          {
+            "labelVi": "Tốc độ",
+            "labelZh": "速度",
+            "value": "10"
+          }
+        ],
+        "skill": {
+          "nameVi": "Nhìn Thấu",
+          "nameZh": "看穿",
+          "descVi": "Khi kẻ địch vào trạng thái tàng hình, có 22% xác suất 【Nhìn Thấu】 (Nhìn Thấu cho phép thấy thẳng vị trí của địch).",
+          "descZh": "敌方进入隐身状态时，有22%的概率【看穿】（看穿可直接看到敌方的位置）"
+        }
+      }
+    },
+    {
+      "id": "pin-co-khi",
+      "nameVi": "Pin Cơ Khí",
+      "nameZh": "机械电池",
+      "cost": 2,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại β",
+        "moduleZh": "β型模组",
+        "moduleNo": 2,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Sát thương chặn",
+            "labelZh": "抵挡伤害",
+            "value": "0.4%"
+          },
+          {
+            "labelVi": "Tốc độ",
+            "labelZh": "速度",
+            "value": "10"
+          }
+        ],
+        "skill": {
+          "nameVi": "Sở trường Giảm Sát Thương Ngã",
+          "nameZh": "摔伤减免专长",
+          "descVi": "Giảm sát thương do ngã +9%",
+          "descZh": "摔伤减免+9%"
+        }
+      }
+    },
+    {
+      "id": "pin-cai-tien",
+      "nameVi": "Pin Cải Tiến",
+      "nameZh": "改造电池",
+      "cost": 2,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại β",
+        "moduleZh": "β型模组",
+        "moduleNo": 3,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Kiên cường",
+            "labelZh": "韧性",
+            "value": "0.33%"
+          },
+          {
+            "labelVi": "Tốc độ",
+            "labelZh": "速度",
+            "value": "10"
+          }
+        ],
+        "skill": {
+          "nameVi": "Đặc Tính Nguyên Tố",
+          "nameZh": "元素特性",
+          "descVi": "Khi trận đấu bắt đầu, cứ mỗi 1 loại nguyên tố khác nhau mà toàn bộ đơn vị trên sân sở hữu thì nhận kháng toàn nguyên tố 4.5%, kéo dài 3 lượt.",
+          "descZh": "战斗开始时，全场单位每拥有1种不同的元素种类，则获得全元素抗性4.5%，持续3回合"
+        }
+      }
+    },
+    {
+      "id": "vong-proton",
+      "nameVi": "Vòng Proton",
+      "nameZh": "质子圆环",
+      "cost": 2,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại β",
+        "moduleZh": "β型模组",
+        "moduleNo": 4,
+        "phase": 3,
+        "stats": [
+          {
+            "labelVi": "Xuyên phá",
+            "labelZh": "击穿",
+            "value": "0.48%"
+          },
+          {
+            "labelVi": "Tốc độ",
+            "labelZh": "速度",
+            "value": "14"
+          }
+        ],
+        "skill": {
+          "nameVi": "Đặc Công Đối Thú",
+          "nameZh": "对兽特攻",
+          "descVi": "Trong phó bản PVE, sát thương bản thân +10%.",
+          "descZh": "在PVE副本中，自身伤害+10%"
+        }
+      }
+    },
+    {
+      "id": "phong-ngu-luong-tu",
+      "nameVi": "Phòng Ngự Lượng Tử",
+      "nameZh": "量子防御",
+      "cost": 2,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại β",
+        "moduleZh": "β型模组",
+        "moduleNo": 5,
+        "phase": 3,
+        "stats": [
+          {
+            "labelVi": "Sát thương chặn",
+            "labelZh": "抵挡伤害",
+            "value": "0.58%"
+          },
+          {
+            "labelVi": "Tốc độ",
+            "labelZh": "速度",
+            "value": "14"
+          }
+        ],
+        "skill": {
+          "nameVi": "Đặc Phòng Đối Thú",
+          "nameZh": "对兽特防",
+          "descVi": "Trong phó bản PVE, bản thân giảm sát thương +6%.",
+          "descZh": "在PVE副本中，自身减伤+6%"
+        }
+      }
+    },
+    {
+      "id": "khuech-dai-bien-do",
+      "nameVi": "Khuếch Đại Biên Độ",
+      "nameZh": "波幅放大器",
+      "cost": 2,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại β",
+        "moduleZh": "β型模组",
+        "moduleNo": 6,
+        "phase": 3,
+        "stats": [
+          {
+            "labelVi": "Kiên cường",
+            "labelZh": "韧性",
+            "value": "0.48%"
+          },
+          {
+            "labelVi": "Tốc độ",
+            "labelZh": "速度",
+            "value": "14"
+          }
+        ],
+        "skill": {
+          "nameVi": "Nổ Lan",
+          "nameZh": "爆炸扩散",
+          "descVi": "Độ suy giảm sát thương theo phạm vi nổ của đạn giảm 50%.",
+          "descZh": "炮弹爆炸范围伤害衰减减少50%"
+        }
+      }
+    },
+    {
+      "id": "loi-bao-kich",
+      "nameVi": "Lõi Bạo Kích",
+      "nameZh": "暴击核心",
+      "cost": 2,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại β",
+        "moduleZh": "β型模组",
+        "moduleNo": 7,
+        "phase": 3,
+        "stats": [
+          {
+            "labelVi": "Sát thương chặn",
+            "labelZh": "抵挡伤害",
+            "value": "0.58%"
+          },
+          {
+            "labelVi": "Tốc độ",
+            "labelZh": "速度",
+            "value": "14"
+          }
+        ],
+        "skill": {
+          "nameVi": "Ban Thêm Năng Lượng",
+          "nameZh": "额外赋能",
+          "descVi": "Nếu đạn bạo kích, chuyển 7% sát thương bạo kích lần đó thành sinh lực cho bản thân.",
+          "descZh": "若炮弹暴击，则将本次暴击伤害的7%转化为自身生命值"
+        }
+      }
+    },
+    {
+      "id": "nang-luong-loi",
+      "nameVi": "Năng Lượng Lõi",
+      "nameZh": "核心能源",
+      "cost": 2,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại β",
+        "moduleZh": "β型模组",
+        "moduleNo": 8,
+        "phase": 4,
+        "stats": [
+          {
+            "labelVi": "Xuyên phá",
+            "labelZh": "击穿",
+            "value": "0.58%"
+          },
+          {
+            "labelVi": "Tốc độ",
+            "labelZh": "速度",
+            "value": "17"
+          }
+        ],
+        "skill": {
+          "nameVi": "Cường Hoá Sinh Lực",
+          "nameZh": "生命强化",
+          "descVi": "Khi vào trận, sinh lực +1%.",
+          "descZh": "进入战斗，生命+1%"
+        }
+      }
+    },
+    {
+      "id": "vat-chat-phan-ra",
+      "nameVi": "Vật Chất Phân Rã",
+      "nameZh": "裂解物质",
+      "cost": 2,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại β",
+        "moduleZh": "β型模组",
+        "moduleNo": 9,
+        "phase": 4,
+        "stats": [
+          {
+            "labelVi": "Sát thương chặn",
+            "labelZh": "抵挡伤害",
+            "value": "0.7%"
+          },
+          {
+            "labelVi": "Tốc độ",
+            "labelZh": "速度",
+            "value": "17"
+          }
+        ],
+        "skill": {
+          "nameVi": "Cường Hoá Công Kích",
+          "nameZh": "攻击强化",
+          "descVi": "Khi vào trận, công kích +0.6%.",
+          "descZh": "进入战斗，攻击+0.6%"
+        }
+      }
+    },
+    {
+      "id": "luoi-sieu-nang",
+      "nameVi": "Lưỡi Siêu Năng",
+      "nameZh": "超能利刃",
+      "cost": 2,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại β",
+        "moduleZh": "β型模组",
+        "moduleNo": 10,
+        "phase": 4,
+        "stats": [
+          {
+            "labelVi": "Xuyên phá",
+            "labelZh": "击穿",
+            "value": "0.58%"
+          },
+          {
+            "labelVi": "Tốc độ",
+            "labelZh": "速度",
+            "value": "17"
+          }
+        ],
+        "skill": {
+          "nameVi": "Cường Hoá Xuyên Giáp",
+          "nameZh": "护穿强化",
+          "descVi": "Khi vào trận, xuyên giáp +0.6%.",
+          "descZh": "进入战斗，护甲穿透+0.6%"
+        }
+      }
+    },
+    {
+      "id": "ma-tran-nguyen-luc",
+      "nameVi": "Ma Trận Nguyên Lực",
+      "nameZh": "源力矩阵",
+      "cost": 2,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại β",
+        "moduleZh": "β型模组",
+        "moduleNo": 11,
+        "phase": 4,
+        "stats": [
+          {
+            "labelVi": "Sát thương chặn",
+            "labelZh": "抵挡伤害",
+            "value": "0.7%"
+          },
+          {
+            "labelVi": "Tốc độ",
+            "labelZh": "速度",
+            "value": "17"
+          }
+        ],
+        "skill": {
+          "nameVi": "Cường Hoá Giáp",
+          "nameZh": "护甲强化",
+          "descVi": "Khi vào trận, giáp +0.6%.",
+          "descZh": "进入战斗，护甲+0.6%"
+        }
+      }
+    },
+    {
+      "id": "mo-dun-phan-ung",
+      "nameVi": "Mô-đun Phản Ứng",
+      "nameZh": "反应模组",
+      "cost": 3,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại γ",
+        "moduleZh": "γ型模组",
+        "moduleNo": 1,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Xuyên phá",
+            "labelZh": "击穿",
+            "value": "0.5%"
+          },
+          {
+            "labelVi": "Hiệu ứng chính xác",
+            "labelZh": "效果命中",
+            "value": "0.4%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "56"
+          }
+        ],
+        "skill": {
+          "nameVi": "Đặc Tính Phản Đòn",
+          "nameZh": "反弹特性",
+          "descVi": "Trong mỗi lượt bất kỳ, đòn đạn đầu tiên hứng chịu sẽ bị phản lại 11% cho mục tiêu tấn công.",
+          "descZh": "任意回合内，首次受到的炮弹伤害将反弹11%给攻击目标"
+        }
+      }
+    },
+    {
+      "id": "loi-y-thuc",
+      "nameVi": "Lõi Ý Thức",
+      "nameZh": "意识核心",
+      "cost": 3,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại γ",
+        "moduleZh": "γ型模组",
+        "moduleNo": 2,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Kiên cường",
+            "labelZh": "韧性",
+            "value": "0.5%"
+          },
+          {
+            "labelVi": "Kháng hiệu ứng",
+            "labelZh": "效果抵抗",
+            "value": "0.4%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "56"
+          }
+        ],
+        "skill": {
+          "nameVi": "Nhận Diện Tàng Hình",
+          "nameZh": "隐身识别",
+          "descVi": "Khi đánh kẻ địch đang tàng hình, có 60% xác suất gây thêm sát thương bằng 8.5% sinh lực tối đa của mục tiêu, bỏ qua giảm sát thương; mỗi lượt chỉ kích hoạt 1 lần (trần sát thương 11000).",
+          "descZh": "攻击隐身状态下的敌人，有60%概率对目标附加最大生命值8.5%的额外伤害，无视减伤，每回合限触发1次（伤害上限为11000）"
+        }
+      }
+    },
+    {
+      "id": "kinh-bao-ho",
+      "nameVi": "Kính Bảo Hộ",
+      "nameZh": "护目镜",
+      "cost": 3,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại γ",
+        "moduleZh": "γ型模组",
+        "moduleNo": 3,
+        "phase": 2,
+        "stats": [
+          {
+            "labelVi": "Xuyên phá",
+            "labelZh": "击穿",
+            "value": "0.6%"
+          },
+          {
+            "labelVi": "Hiệu ứng chính xác",
+            "labelZh": "效果命中",
+            "value": "0.48%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "68"
+          }
+        ],
+        "skill": {
+          "nameVi": "Binh Tinh Nhuệ",
+          "nameZh": "精英士兵",
+          "descVi": "Trong trận, khi dính Cấm Túc, Mù Mắt, Đóng Băng, Gông Xiềng, Suy Nhược hoặc Giảm Tốc thì có 10% xác suất vô hiệu; mỗi lần miễn nhiễm xong vào CD 2 lượt.",
+          "descZh": "战斗中受到禁足、目盲、冰冻、枷锁、虚弱、减速时，有10%的概率无效，每次免疫后进入2回合cd"
+        }
+      }
+    },
+    {
+      "id": "la-ban-thu-nguyen",
+      "nameVi": "La Bàn Thứ Nguyên",
+      "nameZh": "次元罗盘",
+      "cost": 3,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại γ",
+        "moduleZh": "γ型模组",
+        "moduleNo": 5,
+        "phase": 2,
+        "stats": [
+          {
+            "labelVi": "Xuyên phá",
+            "labelZh": "击穿",
+            "value": "0.6%"
+          },
+          {
+            "labelVi": "Hiệu ứng chính xác",
+            "labelZh": "效果命中",
+            "value": "0.48%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "68"
+          }
+        ],
+        "skill": {
+          "nameVi": "Dẫn Đường Chính Xác",
+          "nameZh": "精确导航",
+          "descVi": "Khi sinh lực thú cưỡi lần đầu về 0, dịch chuyển ngẫu nhiên trong phạm vi 700 pixel và nhận Tàng Hình Mạnh (trúng đòn không bị lộ); trong trạng thái này được +5% lực công kích và +5% giáp, kéo dài 2 lượt.",
+          "descZh": "当坐骑生命首次为0时，在700像素的范围内随机传送，获得强力隐身（受击不会解除），并在此状态下提升5%攻击力和5%护甲，持续2回合"
+        }
+      }
+    },
+    {
+      "id": "dung-dich-dien-phan",
+      "nameVi": "Dung Dịch Điện Phân",
+      "nameZh": "电解液",
+      "cost": 3,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại γ",
+        "moduleZh": "γ型模组",
+        "moduleNo": 4,
+        "phase": 2,
+        "stats": [
+          {
+            "labelVi": "Kiên cường",
+            "labelZh": "韧性",
+            "value": "0.6%"
+          },
+          {
+            "labelVi": "Kháng hiệu ứng",
+            "labelZh": "效果抵抗",
+            "value": "0.48%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "68"
+          }
+        ],
+        "skill": {
+          "nameVi": "Công Nghệ Giải Cấu",
+          "nameZh": "解构科技",
+          "descVi": "Tuyệt kỹ mỗi khi đánh trúng một kẻ địch thì giá trị giảm sát thương theo sinh lực tối đa của địch đó bị bào mòn 3%, cộng dồn tối đa 3 tầng, có hiệu lực vĩnh viễn.",
+          "descZh": "必杀技每命中一名敌方，该敌方拥有的最大生命值减伤数值削弱3%，最多可叠3层，永久生效"
+        }
+      }
+    },
+    {
+      "id": "dieu-chinh-tuong-tinh",
+      "nameVi": "Điều Chỉnh Tương Tính",
+      "nameZh": "相性调率",
+      "cost": 3,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại γ",
+        "moduleZh": "γ型模组",
+        "moduleNo": 6,
+        "phase": 3,
+        "stats": [
+          {
+            "labelVi": "Xuyên phá",
+            "labelZh": "击穿",
+            "value": "0.72%"
+          },
+          {
+            "labelVi": "Hiệu ứng chính xác",
+            "labelZh": "效果命中",
+            "value": "0.58%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "82"
+          }
+        ],
+        "skill": {
+          "nameVi": "Chặn Thú Cưỡi",
+          "nameZh": "坐骑阻断",
+          "descVi": "Khi vào trận, đòn đánh của bản thân bỏ qua 30% tổng lượng giảm sát thương đến từ thú cưỡi của địch, kéo dài 3 lượt.",
+          "descZh": "进入战斗时，自身攻击无视敌人坐骑减伤总量的30%，持续3回合"
+        }
+      }
+    },
+    {
+      "id": "bien-do-linh-tu",
+      "nameVi": "Biên Độ Linh Tử",
+      "nameZh": "灵子振幅",
+      "cost": 3,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại γ",
+        "moduleZh": "γ型模组",
+        "moduleNo": 7,
+        "phase": 3,
+        "stats": [
+          {
+            "labelVi": "Kiên cường",
+            "labelZh": "韧性",
+            "value": "0.72%"
+          },
+          {
+            "labelVi": "Kháng hiệu ứng",
+            "labelZh": "效果抵抗",
+            "value": "0.58%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "82"
+          }
+        ],
+        "skill": {
+          "nameVi": "Nạp Tiềm Năng",
+          "nameZh": "潜能填充",
+          "descVi": "Sau khi đồng đội (không tính vật triệu hồi phe ta) tử trận, lập tức xoá 70% trị chờ của bản thân và +20 điểm nộ khí; mỗi trận kích hoạt tối đa 1 lần.",
+          "descZh": "队友（不含友方召唤物）死亡后，立刻清除自身70%等待值，并且怒气+20点，该效果每场战斗最多触发1次"
+        }
+      }
+    },
+    {
+      "id": "on-dinh-ket-cau",
+      "nameVi": "Bộ Ổn Định Kết Cấu",
+      "nameZh": "结构稳定器",
+      "cost": 3,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại γ",
+        "moduleZh": "γ型模组",
+        "moduleNo": 8,
+        "phase": 4,
+        "stats": [
+          {
+            "labelVi": "Xuyên phá",
+            "labelZh": "击穿",
+            "value": "0.86%"
+          },
+          {
+            "labelVi": "Hiệu ứng chính xác",
+            "labelZh": "效果命中",
+            "value": "0.7%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "98"
+          }
+        ],
+        "skill": {
+          "nameVi": "Khoá Suy Yếu",
+          "nameZh": "弱化锁定",
+          "descVi": "Giáp và kháng nguyên tố của bản thân không bị hạ xuống thấp hơn 40% giá trị gốc.",
+          "descZh": "自身护甲与元素抗性的最低值不低于基础值的40%"
+        }
+      }
+    },
+    {
+      "id": "xe-khien-chan",
+      "nameVi": "Kẻ Xé Khiên Chắn",
+      "nameZh": "屏障撕裂者",
+      "cost": 3,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại γ",
+        "moduleZh": "γ型模组",
+        "moduleNo": 9,
+        "phase": 4,
+        "stats": [
+          {
+            "labelVi": "Kiên cường",
+            "labelZh": "韧性",
+            "value": "0.86%"
+          },
+          {
+            "labelVi": "Kháng hiệu ứng",
+            "labelZh": "效果抵抗",
+            "value": "0.7%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "98"
+          }
+        ],
+        "skill": {
+          "nameVi": "Ức Chế Khiên",
+          "nameZh": "护盾抑制",
+          "descVi": "Đòn đánh của bản thân khiến lượng khiên địch tạo ra -6%, kéo dài 1 lượt.",
+          "descZh": "自身攻击使敌人护盾生成量-6%，持续1回合"
+        }
+      }
+    },
+    {
+      "id": "ket-cau-mo-dun",
+      "nameVi": "Kết Cấu Mô-đun",
+      "nameZh": "模块化结构",
+      "cost": 3,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại γ",
+        "moduleZh": "γ型模组",
+        "moduleNo": 10,
+        "phase": 4,
+        "stats": [
+          {
+            "labelVi": "Xuyên phá",
+            "labelZh": "击穿",
+            "value": "0.86%"
+          },
+          {
+            "labelVi": "Hiệu ứng chính xác",
+            "labelZh": "效果命中",
+            "value": "0.7%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "98"
+          }
+        ],
+        "skill": {
+          "nameVi": "Ức Chế Bạo Thương",
+          "nameZh": "暴伤抑制",
+          "descVi": "Khi bị địch tấn công và bị bạo kích, sát thương bạo kích của địch giảm 14%.",
+          "descZh": "被敌方攻击并暴击时，敌方的暴击伤害下降14%"
+        }
+      }
+    },
+    {
+      "id": "huyet-thanh-cuong-hoa",
+      "nameVi": "Huyết Thanh Cường Hoá",
+      "nameZh": "强化血清",
+      "cost": 3,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại γ",
+        "moduleZh": "γ型模组",
+        "moduleNo": 11,
+        "phase": 4,
+        "stats": [
+          {
+            "labelVi": "Kiên cường",
+            "labelZh": "韧性",
+            "value": "0.86%"
+          },
+          {
+            "labelVi": "Kháng hiệu ứng",
+            "labelZh": "效果抵抗",
+            "value": "0.7%"
+          },
+          {
+            "labelVi": "Công kích",
+            "labelZh": "攻击",
+            "value": "98"
+          }
+        ],
+        "skill": {
+          "nameVi": "Ức Chế Chống Đỡ",
+          "nameZh": "抵挡抑制",
+          "descVi": "Khi bắt đầu lượt bất kỳ, xuyên giảm sát thương của bản thân +2%, tối đa 60%.",
+          "descZh": "任意回合开始时，自身抵伤穿透+2%，上限60%"
+        }
+      }
+    },
+    {
+      "id": "ma-tran-nang-luong",
+      "nameVi": "Ma Trận Năng Lượng",
+      "nameZh": "能量矩阵",
+      "cost": 4,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại π",
+        "moduleZh": "π型模组",
+        "moduleNo": 1,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Kiên cường nguyên tố",
+            "labelZh": "元素韧性",
+            "value": "13"
+          },
+          {
+            "labelVi": "Xuyên giáp",
+            "labelZh": "护甲穿透",
+            "value": "26"
+          },
+          {
+            "labelVi": "Kiên cường",
+            "labelZh": "韧性",
+            "value": "0.66%"
+          },
+          {
+            "labelVi": "Kháng toàn nguyên tố",
+            "labelZh": "全元素抗性",
+            "value": "26"
+          }
+        ],
+        "skill": {
+          "nameVi": "Đặc Tính Phòng Ngự",
+          "nameZh": "防御特性",
+          "descVi": "Khi bị bạo kích, bản thân nhận khiên bằng 9% sinh lực tối đa, kéo dài 2 lượt (mỗi lượt hiệu lực 1 lần).",
+          "descZh": "被暴击时，给自己增加9%最大生命值的护盾，持续2回合（每回合生效1次）"
+        }
+      }
+    },
+    {
+      "id": "hieu-chinh-song-dien",
+      "nameVi": "Máy Hiệu Chỉnh Sóng Điện",
+      "nameZh": "电波矫正仪",
+      "cost": 4,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại π",
+        "moduleZh": "π型模组",
+        "moduleNo": 2,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Cường độ nguyên tố",
+            "labelZh": "元素强度",
+            "value": "13"
+          },
+          {
+            "labelVi": "Giáp",
+            "labelZh": "护甲",
+            "value": "26"
+          },
+          {
+            "labelVi": "Sát thương chặn",
+            "labelZh": "抵挡伤害",
+            "value": "0.8%"
+          },
+          {
+            "labelVi": "Công kích nguyên tố",
+            "labelZh": "元素攻击",
+            "value": "26"
+          }
+        ],
+        "skill": {
+          "nameVi": "Khắc Chế Khiên",
+          "nameZh": "护盾反制",
+          "descVi": "Khi tấn công mục tiêu đang có khiên, sát thương tăng thêm 12%.",
+          "descZh": "攻击拥有护盾的目标时，伤害额外增加12%"
+        }
+      }
+    },
+    {
+      "id": "mat-nang-luong",
+      "nameVi": "Mắt Năng Lượng",
+      "nameZh": "能量之眼",
+      "cost": 4,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại π",
+        "moduleZh": "π型模组",
+        "moduleNo": 4,
+        "phase": 2,
+        "stats": [
+          {
+            "labelVi": "Kiên cường nguyên tố",
+            "labelZh": "元素韧性",
+            "value": "16"
+          },
+          {
+            "labelVi": "Xuyên giáp",
+            "labelZh": "护甲穿透",
+            "value": "32"
+          },
+          {
+            "labelVi": "Kiên cường",
+            "labelZh": "韧性",
+            "value": "0.8%"
+          },
+          {
+            "labelVi": "Kháng toàn nguyên tố",
+            "labelZh": "全元素抗性",
+            "value": "32"
+          }
+        ],
+        "skill": {
+          "nameVi": "Giải Phóng Năng Lượng",
+          "nameZh": "能量释放",
+          "descVi": "Trong trận, mỗi lần hứng 1 đòn tuyệt kỹ của địch thì giáp bản thân +3% và kháng toàn nguyên tố +3%, cộng dồn 1 tầng, có hiệu lực vĩnh viễn (mỗi lượt kích hoạt 1 lần).",
+          "descZh": "本场战斗每受到1次敌方必杀攻击时，自身护甲增加3%，全元素抗性增加3%，可叠加1层，永久生效（每回合可触发1次）"
+        }
+      }
+    },
+    {
+      "id": "lang-kinh-khuc-xa",
+      "nameVi": "Lăng Kính Khúc Xạ",
+      "nameZh": "折光棱镜",
+      "cost": 4,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại π",
+        "moduleZh": "π型模组",
+        "moduleNo": 3,
+        "phase": 2,
+        "stats": [
+          {
+            "labelVi": "Kiên cường nguyên tố",
+            "labelZh": "元素韧性",
+            "value": "16"
+          },
+          {
+            "labelVi": "Xuyên giáp",
+            "labelZh": "护甲穿透",
+            "value": "32"
+          },
+          {
+            "labelVi": "Kiên cường",
+            "labelZh": "韧性",
+            "value": "0.8%"
+          },
+          {
+            "labelVi": "Kháng toàn nguyên tố",
+            "labelZh": "全元素抗性",
+            "value": "32"
+          }
+        ],
+        "skill": {
+          "nameVi": "Công Nghệ Phòng Vệ",
+          "nameZh": "防卫科技",
+          "descVi": "Khi phần trăm sinh lực lần đầu xuống dưới 50%, nhận hiệu ứng lệch hướng trong 2 lượt: đạn do bất kỳ kẻ địch nào bắn tới có 60% xác suất miss (tối đa miss 1 phát, vẫn có thể bị đột kích).",
+          "descZh": "当生命值百分比首次低于50%时，获得2回合偏转效果，受到的任意敌方发射的炮弹有60%概率miss（最多可miss1发炮弹，可被突袭）"
+        }
+      }
+    },
+    {
+      "id": "loi-vo-nat",
+      "nameVi": "Lõi Vỡ Nát",
+      "nameZh": "破碎核心",
+      "cost": 4,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại π",
+        "moduleZh": "π型模组",
+        "moduleNo": 5,
+        "phase": 2,
+        "stats": [
+          {
+            "labelVi": "Cường độ nguyên tố",
+            "labelZh": "元素强度",
+            "value": "16"
+          },
+          {
+            "labelVi": "Giáp",
+            "labelZh": "护甲",
+            "value": "32"
+          },
+          {
+            "labelVi": "Sát thương chặn",
+            "labelZh": "抵挡伤害",
+            "value": "0.96%"
+          },
+          {
+            "labelVi": "Công kích nguyên tố",
+            "labelZh": "元素攻击",
+            "value": "32"
+          }
+        ],
+        "skill": {
+          "nameVi": "Đòn Đánh Chuẩn Xác",
+          "nameZh": "精准打击",
+          "descVi": "Khi sinh lực thú cưỡi lần đầu về 0, trong 3 lượt kế tiếp sát thương phải chịu giảm 10%.",
+          "descZh": "当坐骑生命首次为0时，接下来的3回合内，受到伤害降低10%"
+        }
+      }
+    },
+    {
+      "id": "canh-day-tich-nang",
+      "nameVi": "Cánh Đẩy Tích Năng",
+      "nameZh": "蓄能推进翼",
+      "cost": 4,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại π",
+        "moduleZh": "π型模组",
+        "moduleNo": 6,
+        "phase": 3,
+        "stats": [
+          {
+            "labelVi": "Kiên cường nguyên tố",
+            "labelZh": "元素韧性",
+            "value": "19"
+          },
+          {
+            "labelVi": "Xuyên giáp",
+            "labelZh": "护甲穿透",
+            "value": "38"
+          },
+          {
+            "labelVi": "Kiên cường",
+            "labelZh": "韧性",
+            "value": "0.96%"
+          },
+          {
+            "labelVi": "Kháng toàn nguyên tố",
+            "labelZh": "全元素抗性",
+            "value": "38"
+          }
+        ],
+        "skill": {
+          "nameVi": "Khoá Điểm Rơi",
+          "nameZh": "落点锁定",
+          "descVi": "Khi địch dùng cánh tinh linh, hồi chiêu cánh tinh linh của bản thân -1 và bản thân giảm sát thương +6%, kéo dài 2 lượt.",
+          "descZh": "敌人使用翼精灵时，自身翼精灵冷却-1，且自身减伤+6%，持续2回合"
+        }
+      }
+    },
+    {
+      "id": "tang-bien-nang-luong",
+      "nameVi": "Bộ Tăng Biên Năng Lượng",
+      "nameZh": "能量增幅器",
+      "cost": 4,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại π",
+        "moduleZh": "π型模组",
+        "moduleNo": 7,
+        "phase": 3,
+        "stats": [
+          {
+            "labelVi": "Cường độ nguyên tố",
+            "labelZh": "元素强度",
+            "value": "19"
+          },
+          {
+            "labelVi": "Giáp",
+            "labelZh": "护甲",
+            "value": "38"
+          },
+          {
+            "labelVi": "Sát thương chặn",
+            "labelZh": "抵挡伤害",
+            "value": "1.15%"
+          },
+          {
+            "labelVi": "Công kích nguyên tố",
+            "labelZh": "元素攻击",
+            "value": "38"
+          }
+        ],
+        "skill": {
+          "nameVi": "Khuếch Đại Năng Lực",
+          "nameZh": "能力增幅",
+          "descVi": "Khi dùng đạo cụ chiến đấu “Bắn Nhanh”, sát thương tăng thêm 10.5% nhưng trị chờ bị nâng lên 350 điểm.",
+          "descZh": "使用战斗道具“速射”时，伤害额外提升10.5%，但等待值提升至350点"
+        }
+      }
+    },
+    {
+      "id": "gang-xung-kich",
+      "nameVi": "Găng Xung Kích",
+      "nameZh": "脉冲拳套",
+      "cost": 4,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại π",
+        "moduleZh": "π型模组",
+        "moduleNo": 8,
+        "phase": 4,
+        "stats": [
+          {
+            "labelVi": "Kiên cường nguyên tố",
+            "labelZh": "元素韧性",
+            "value": "23"
+          },
+          {
+            "labelVi": "Xuyên giáp",
+            "labelZh": "护甲穿透",
+            "value": "46"
+          },
+          {
+            "labelVi": "Kiên cường",
+            "labelZh": "韧性",
+            "value": "1.15%"
+          },
+          {
+            "labelVi": "Kháng toàn nguyên tố",
+            "labelZh": "全元素抗性",
+            "value": "46"
+          }
+        ],
+        "skill": {
+          "nameVi": "Chuyển Hoá Động Lực",
+          "nameZh": "动力转换",
+          "descVi": "Khi bản thân bắn, nếu thể lực còn lại ≥85% thì giáp +4%; hiệu ứng bị gỡ khi bắt đầu lượt.",
+          "descZh": "自身开炮时，若剩余体力≥85%，则护甲+4%，回合开始时移除"
+        }
+      }
+    },
+    {
+      "id": "tram-tiep-nang",
+      "nameVi": "Trạm Tiếp Năng",
+      "nameZh": "能量补给站",
+      "cost": 4,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại π",
+        "moduleZh": "π型模组",
+        "moduleNo": 9,
+        "phase": 4,
+        "stats": [
+          {
+            "labelVi": "Cường độ nguyên tố",
+            "labelZh": "元素强度",
+            "value": "23"
+          },
+          {
+            "labelVi": "Giáp",
+            "labelZh": "护甲",
+            "value": "46"
+          },
+          {
+            "labelVi": "Sát thương chặn",
+            "labelZh": "抵挡伤害",
+            "value": "1.38%"
+          },
+          {
+            "labelVi": "Công kích nguyên tố",
+            "labelZh": "元素攻击",
+            "value": "46"
+          }
+        ],
+        "skill": {
+          "nameVi": "Nạp Năng Bị Động",
+          "nameZh": "被动充能",
+          "descVi": "Sau khi trúng tuyệt kỹ của địch, lập tức hồi 15 điểm nộ khí; 3 lượt kích hoạt tối đa 1 lần.",
+          "descZh": "被敌方必杀命中后，立刻回复15点怒气，每3回合最多触发1次"
+        }
+      }
+    },
+    {
+      "id": "dan-duong-khe-nut",
+      "nameVi": "Thiết Bị Dẫn Đường Khe Nứt",
+      "nameZh": "裂隙导航仪",
+      "cost": 4,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại π",
+        "moduleZh": "π型模组",
+        "moduleNo": 10,
+        "phase": 4,
+        "stats": [
+          {
+            "labelVi": "Cường độ nguyên tố",
+            "labelZh": "元素强度",
+            "value": "23"
+          },
+          {
+            "labelVi": "Giáp",
+            "labelZh": "护甲",
+            "value": "46"
+          },
+          {
+            "labelVi": "Sát thương chặn",
+            "labelZh": "抵挡伤害",
+            "value": "1.38%"
+          },
+          {
+            "labelVi": "Công kích nguyên tố",
+            "labelZh": "元素攻击",
+            "value": "46"
+          }
+        ],
+        "skill": {
+          "nameVi": "Sách Lược Khẩn Cấp",
+          "nameZh": "紧急策略",
+          "descVi": "Khi phần trăm sinh lực lần đầu xuống dưới 60%, gán cho kẻ địch có sinh lực thấp nhất hiệu ứng dễ tổn thương +7%, kéo dài 2 lượt.",
+          "descZh": "当生命值百分比首次低于60%时，赋予敌方生命值最低的敌人易伤+7%，持续2回合"
+        }
+      }
+    },
+    {
+      "id": "dia-nuoi-y-thuc",
+      "nameVi": "Đĩa Nuôi Ý Thức",
+      "nameZh": "意识培养皿",
+      "cost": 5,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại ψ",
+        "moduleZh": "ψ型模组",
+        "moduleNo": 1,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Công kích nguyên tố",
+            "labelZh": "元素攻击",
+            "value": "33"
+          },
+          {
+            "labelVi": "Tỉ lệ chặn",
+            "labelZh": "抵挡率",
+            "value": "0.83%"
+          },
+          {
+            "labelVi": "Sinh lực",
+            "labelZh": "生命",
+            "value": "833"
+          },
+          {
+            "labelVi": "Sát thương chặn",
+            "labelZh": "抵挡伤害",
+            "value": "1%"
+          }
+        ],
+        "skill": {
+          "nameVi": "Đặc Tính Thú Cưỡi",
+          "nameZh": "坐骑特性",
+          "descVi": "Khi sinh lực thú cưỡi của bản thân về 0, bản thân và đồng đội nhận tăng sát thương 18%, kéo dài 3 lượt (mỗi trận hiệu lực 1 lần).",
+          "descZh": "当自身坐骑血量为0时，自身和队友获得增伤18%，持续3回合（每场战斗生效1次）"
+        }
+      }
+    },
+    {
+      "id": "nang-luong-ben-vung",
+      "nameVi": "Năng Lượng Bền Vững",
+      "nameZh": "可持续能源",
+      "cost": 5,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại ψ",
+        "moduleZh": "ψ型模组",
+        "moduleNo": 2,
+        "phase": 1,
+        "stats": [
+          {
+            "labelVi": "Kháng toàn nguyên tố",
+            "labelZh": "全元素抗性",
+            "value": "33"
+          },
+          {
+            "labelVi": "Tỉ lệ bạo kích",
+            "labelZh": "暴击率",
+            "value": "0.83%"
+          },
+          {
+            "labelVi": "Sinh lực",
+            "labelZh": "生命",
+            "value": "833"
+          },
+          {
+            "labelVi": "Sát thương bạo kích",
+            "labelZh": "暴击伤害",
+            "value": "1.33%"
+          }
+        ],
+        "skill": {
+          "nameVi": "Đặc Tính Rơi Ngã",
+          "nameZh": "坠落特性",
+          "descVi": "Lần đầu rơi xuống trong trận, nhận giảm 35% sát thương do rơi.",
+          "descZh": "战斗中首次坠落，则获得35%掉落伤害减免"
+        }
+      }
+    },
+    {
+      "id": "nang-luong-sach",
+      "nameVi": "Năng Lượng Sạch",
+      "nameZh": "清洁能源",
+      "cost": 5,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại ψ",
+        "moduleZh": "ψ型模组",
+        "moduleNo": 3,
+        "phase": 2,
+        "stats": [
+          {
+            "labelVi": "Công kích nguyên tố",
+            "labelZh": "元素攻击",
+            "value": "40"
+          },
+          {
+            "labelVi": "Tỉ lệ chặn",
+            "labelZh": "抵挡率",
+            "value": "1%"
+          },
+          {
+            "labelVi": "Sinh lực",
+            "labelZh": "生命",
+            "value": "1000"
+          },
+          {
+            "labelVi": "Sát thương chặn",
+            "labelZh": "抵挡伤害",
+            "value": "1.2%"
+          }
+        ],
+        "skill": {
+          "nameVi": "Lọc Hiệu Suất Cao",
+          "nameZh": "高效过滤",
+          "descVi": "Mỗi khi kẻ địch hồi sinh lực, bản thân nhận giảm sát thương +2%, kéo dài 2 lượt, cộng dồn tối đa 3 tầng.",
+          "descZh": "敌方每次回复生命时，自身获得减伤+2%，持续2回合，最多可叠加3层"
+        }
+      }
+    },
+    {
+      "id": "gen-phong-sinh",
+      "nameVi": "Gen Phỏng Sinh",
+      "nameZh": "仿生基因",
+      "cost": 5,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại ψ",
+        "moduleZh": "ψ型模组",
+        "moduleNo": 4,
+        "phase": 2,
+        "stats": [
+          {
+            "labelVi": "Kháng toàn nguyên tố",
+            "labelZh": "全元素抗性",
+            "value": "40"
+          },
+          {
+            "labelVi": "Tỉ lệ bạo kích",
+            "labelZh": "暴击率",
+            "value": "1%"
+          },
+          {
+            "labelVi": "Sinh lực",
+            "labelZh": "生命",
+            "value": "1000"
+          },
+          {
+            "labelVi": "Sát thương bạo kích",
+            "labelZh": "暴击伤害",
+            "value": "1.6%"
+          }
+        ],
+        "skill": {
+          "nameVi": "Cường Hoá Gen",
+          "nameZh": "基因增强",
+          "descVi": "Sau khi vào tử đấu, nhận giảm sát thương vật lý 10%, kéo dài 3 lượt.",
+          "descZh": "进入死斗后，获得物理减伤10%，持续3回合。"
+        }
+      }
+    },
+    {
+      "id": "than-cuong-hoa",
+      "nameVi": "Thân Cường Hoá",
+      "nameZh": "增强躯干",
+      "cost": 5,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại ψ",
+        "moduleZh": "ψ型模组",
+        "moduleNo": 5,
+        "phase": 2,
+        "stats": [
+          {
+            "labelVi": "Công kích nguyên tố",
+            "labelZh": "元素攻击",
+            "value": "40"
+          },
+          {
+            "labelVi": "Tỉ lệ chặn",
+            "labelZh": "抵挡率",
+            "value": "1%"
+          },
+          {
+            "labelVi": "Sinh lực",
+            "labelZh": "生命",
+            "value": "1000"
+          },
+          {
+            "labelVi": "Sát thương chặn",
+            "labelZh": "抵挡伤害",
+            "value": "1.2%"
+          }
+        ],
+        "skill": {
+          "nameVi": "Xâm Nhập Mã Hoá",
+          "nameZh": "编码入侵",
+          "descVi": "Khi bản thân dùng tuyệt kỹ, có 30% xác suất khiến kỹ năng hồi sinh của mục tiêu mất hiệu lực.",
+          "descZh": "自身使用必杀时，有30%概率使目标复活类技能失效"
+        }
+      }
+    },
+    {
+      "id": "bat-moi-chat",
+      "nameVi": "Bộ Bắt Môi Chất",
+      "nameZh": "介质捕获器",
+      "cost": 5,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại ψ",
+        "moduleZh": "ψ型模组",
+        "moduleNo": 6,
+        "phase": 3,
+        "stats": [
+          {
+            "labelVi": "Kháng toàn nguyên tố",
+            "labelZh": "全元素抗性",
+            "value": "48"
+          },
+          {
+            "labelVi": "Tỉ lệ bạo kích",
+            "labelZh": "暴击率",
+            "value": "1.2%"
+          },
+          {
+            "labelVi": "Sinh lực",
+            "labelZh": "生命",
+            "value": "1200"
+          },
+          {
+            "labelVi": "Sát thương bạo kích",
+            "labelZh": "暴击伤害",
+            "value": "1.92%"
+          }
+        ],
+        "skill": {
+          "nameVi": "Bắt Giữ Thông Minh",
+          "nameZh": "智能捕获",
+          "descVi": "Khi địch dùng kỹ năng thú cưng hoặc thú cưỡi, giáp và kháng nguyên tố của bản thân +1.5%, cộng dồn tối đa 2 tầng, kéo dài 2 lượt.",
+          "descZh": "敌方使用宠物或坐骑技能时，自身护甲和元素抗性+1.5%，该效果最多叠加2层，持续2回合"
+        }
+      }
+    },
+    {
+      "id": "pho-dinh-vi",
+      "nameVi": "Phổ Định Vị",
+      "nameZh": "定位量谱",
+      "cost": 5,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại ψ",
+        "moduleZh": "ψ型模组",
+        "moduleNo": 7,
+        "phase": 3,
+        "stats": [
+          {
+            "labelVi": "Công kích nguyên tố",
+            "labelZh": "元素攻击",
+            "value": "48"
+          },
+          {
+            "labelVi": "Tỉ lệ chặn",
+            "labelZh": "抵挡率",
+            "value": "1.2%"
+          },
+          {
+            "labelVi": "Sinh lực",
+            "labelZh": "生命",
+            "value": "1200"
+          },
+          {
+            "labelVi": "Sát thương chặn",
+            "labelZh": "抵挡伤害",
+            "value": "1.44%"
+          }
+        ],
+        "skill": {
+          "nameVi": "Nâng Bậc Định Vị",
+          "nameZh": "定位升阶",
+          "descVi": "Trong trận, cứ mỗi 3 lần dùng đạo cụ chiến đấu / kỹ năng thú cưỡi / kỹ năng thú cưng thì vĩnh viễn +2% công kích và +2% giáp, nâng tối đa 2 lần.",
+          "descZh": "战斗中使用战斗道具、坐骑技能、宠物技能的计数每达到3次，永久攻击+2%，护甲+2%，最多提升2次"
+        }
+      }
+    },
+    {
+      "id": "lam-tinh-tai-to-hop",
+      "nameVi": "Lam Tinh Tái Tổ Hợp",
+      "nameZh": "重组蓝星",
+      "cost": 5,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại ψ",
+        "moduleZh": "ψ型模组",
+        "moduleNo": 8,
+        "phase": 4,
+        "stats": [
+          {
+            "labelVi": "Kháng toàn nguyên tố",
+            "labelZh": "全元素抗性",
+            "value": "58"
+          },
+          {
+            "labelVi": "Tỉ lệ bạo kích",
+            "labelZh": "暴击率",
+            "value": "1.44%"
+          },
+          {
+            "labelVi": "Sinh lực",
+            "labelZh": "生命",
+            "value": "1440"
+          },
+          {
+            "labelVi": "Sát thương bạo kích",
+            "labelZh": "暴击伤害",
+            "value": "2.3%"
+          }
+        ],
+        "skill": {
+          "nameVi": "Kháng Cự Thần Thánh",
+          "nameZh": "神圣抵御",
+          "descVi": "Mỗi lần bị đạn đánh trúng, sát thương thần thánh +200 và giảm sát thương +0.2%, tối đa 10 tầng.",
+          "descZh": "每次被炮弹命中时，神圣伤害+200，减伤+0.2%，上限10层"
+        }
+      }
+    },
+    {
+      "id": "khuech-no-khi",
+      "nameVi": "Bộ Khuếch Nộ Khí",
+      "nameZh": "超怒增幅器",
+      "cost": 5,
+      "detail": {
+        "qualityVi": "Truyền thuyết",
+        "qualityZh": "传说",
+        "moduleVi": "Mô-đun loại ψ",
+        "moduleZh": "ψ型模组",
+        "moduleNo": 9,
+        "phase": 4,
+        "stats": [
+          {
+            "labelVi": "Công kích nguyên tố",
+            "labelZh": "元素攻击",
+            "value": "58"
+          },
+          {
+            "labelVi": "Tỉ lệ chặn",
+            "labelZh": "抵挡率",
+            "value": "1.44%"
+          },
+          {
+            "labelVi": "Sinh lực",
+            "labelZh": "生命",
+            "value": "1440"
+          },
+          {
+            "labelVi": "Sát thương chặn",
+            "labelZh": "抵挡伤害",
+            "value": "1.73%"
+          }
+        ],
+        "skill": {
+          "nameVi": "Công Nghệ Siêu Nộ",
+          "nameZh": "超怒科技",
+          "descVi": "Khi bắt đầu lượt: nếu nộ khí ≥90 thì sát thương lượt này +5%; nếu nộ khí <90 thì giảm sát thương +5% (3 lượt hiệu lực 1 lần).",
+          "descZh": "回合开始时，若怒气≥90，则本回合伤害+5%，若怒气<90，则减伤+5%（3回合生效1次）"
+        }
+      }
+    }
+  ]
+}

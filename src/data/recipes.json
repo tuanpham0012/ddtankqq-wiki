@@ -1,0 +1,474 @@
+[
+  {
+    "id": "hat-de-xao-toi-vang-bao-diem",
+    "method": "fry",
+    "methodVi": "Xào / Áp chảo",
+    "methodZh": "煎炒",
+    "nameVi": "Hạt dẻ xào tỏi vàng Bạo Diễm",
+    "nameZh": "爆炎金蒜炒栗",
+    "image": "hat-de-xao-toi-vang-bao-diem.png",
+    "stats": [
+      "Công kích +60",
+      "Xuyên phá vật công +20"
+    ],
+    "recipe": [
+      {
+        "name": "Ớt Dung Nham",
+        "qty": 4
+      },
+      {
+        "name": "Tỏi Chuông",
+        "qty": 4
+      },
+      {
+        "name": "Hạt dẻ Vỏ Đồng",
+        "qty": 5
+      }
+    ],
+    "peak": 330,
+    "pets": [
+      {
+        "name": "Chiến Hùng",
+        "hot": true
+      },
+      {
+        "name": "Ngưu Ma",
+        "hot": false
+      },
+      {
+        "name": "Địa Long",
+        "hot": false
+      },
+      {
+        "name": "Chu Tước",
+        "hot": false
+      }
+    ]
+  },
+  {
+    "id": "ngo-sen-gion-toi-thom-thanh-phong",
+    "method": "fry",
+    "methodVi": "Xào / Áp chảo",
+    "methodZh": "煎炒",
+    "nameVi": "Ngó sen giòn tỏi thơm Thanh Phong",
+    "nameZh": "蒜香清风藕脆",
+    "image": "ngo-sen-gion-toi-thom-thanh-phong.png",
+    "stats": [
+      "Công kích +30",
+      "Công kích vật lý +150"
+    ],
+    "recipe": [
+      {
+        "name": "Ngó sen Trân Châu",
+        "qty": 4
+      },
+      {
+        "name": "Tỏi Chuông",
+        "qty": 4
+      },
+      {
+        "name": "Dương xỉ Thanh Phong",
+        "qty": 4
+      }
+    ],
+    "peak": 253,
+    "pets": [
+      {
+        "name": "Ngao Liệt",
+        "hot": true
+      },
+      {
+        "name": "Chú Hề",
+        "hot": false
+      },
+      {
+        "name": "Tiên Tử Rừng Xanh",
+        "hot": false
+      },
+      {
+        "name": "Lôi Điểu",
+        "hot": false
+      }
+    ]
+  },
+  {
+    "id": "khoai-xao-nam-dung-nham",
+    "method": "fry",
+    "methodVi": "Xào / Áp chảo",
+    "methodZh": "煎炒",
+    "nameVi": "Khoai xào nấm Dung Nham",
+    "nameZh": "熔岩菇炒薯块",
+    "image": "khoai-xao-nam-dung-nham.png",
+    "stats": [
+      "Công kích +60",
+      "Chính xác hiệu ứng +1%"
+    ],
+    "recipe": [
+      {
+        "name": "Ớt Dung Nham",
+        "qty": 4
+      },
+      {
+        "name": "Khoai Tinh Vân",
+        "qty": 5
+      },
+      {
+        "name": "Nấm Đom Đóm",
+        "qty": 4
+      }
+    ],
+    "peak": 363,
+    "pets": [
+      {
+        "name": "Hajimi",
+        "hot": true
+      },
+      {
+        "name": "Bảo Lũy",
+        "hot": false
+      },
+      {
+        "name": "Thanh Long",
+        "hot": false
+      },
+      {
+        "name": "Cú Thần Ma Pháp",
+        "hot": false
+      }
+    ]
+  },
+  {
+    "id": "hat-de-ngo-sen-keo-to-mat-lo",
+    "method": "fry",
+    "methodVi": "Xào / Áp chảo",
+    "methodZh": "煎炒",
+    "nameVi": "Hạt dẻ & ngó sen kéo tơ Mật Lộ",
+    "nameZh": "蜜露拔丝铜栗藕",
+    "image": "hat-de-ngo-sen-keo-to-mat-lo.png",
+    "stats": [
+      "Xuyên phá nguyên tố +15"
+    ],
+    "recipe": [
+      {
+        "name": "Hạt dẻ Vỏ Đồng",
+        "qty": 5
+      },
+      {
+        "name": "Quả Mật Lộ",
+        "qty": 4
+      },
+      {
+        "name": "Ngó sen Trân Châu",
+        "qty": 5
+      }
+    ],
+    "peak": 297,
+    "pets": [
+      {
+        "name": "Cô Nàng Cây Kéo",
+        "hot": false
+      },
+      {
+        "name": "Mỹ Địch Lạc",
+        "hot": false
+      },
+      {
+        "name": "Tuyết Nữ",
+        "hot": false
+      }
+    ]
+  },
+  {
+    "id": "ngo-sen-ham-toi-thom-tinh-van",
+    "method": "stew",
+    "methodVi": "Hầm",
+    "methodZh": "炖煮",
+    "nameVi": "Ngó sen hầm tỏi thơm Tinh Vân",
+    "nameZh": "蒜香星云炖藕",
+    "image": "ngo-sen-ham-toi-thom-tinh-van.png",
+    "stats": [
+      "Kháng nguyên tố +20"
+    ],
+    "recipe": [
+      {
+        "name": "Tỏi Chuông",
+        "qty": 4
+      },
+      {
+        "name": "Khoai Tinh Vân",
+        "qty": 4
+      },
+      {
+        "name": "Ngó sen Trân Châu",
+        "qty": 5
+      }
+    ],
+    "peak": 308,
+    "pets": [
+      {
+        "name": "Đào Đào",
+        "hot": false
+      },
+      {
+        "name": "Kim Trư Hiệp",
+        "hot": false
+      },
+      {
+        "name": "Bạch Hổ",
+        "hot": false
+      }
+    ]
+  },
+  {
+    "id": "khoai-ham-rau-duong-xi-dia-nguc",
+    "method": "stew",
+    "methodVi": "Hầm",
+    "methodZh": "炖煮",
+    "nameVi": "Khoai hầm rau dương xỉ Địa Ngục",
+    "nameZh": "地狱蕨菜炖薯",
+    "image": "khoai-ham-rau-duong-xi-dia-nguc.png",
+    "stats": [
+      "Công kích nguyên tố +75"
+    ],
+    "recipe": [
+      {
+        "name": "Ớt Dung Nham",
+        "qty": 4
+      },
+      {
+        "name": "Dương xỉ Thanh Phong",
+        "qty": 4
+      },
+      {
+        "name": "Khoai Tinh Vân",
+        "qty": 5
+      }
+    ],
+    "peak": 330,
+    "pets": [
+      {
+        "name": "Tiên Phong",
+        "hot": false
+      },
+      {
+        "name": "Huyền Vũ",
+        "hot": false
+      },
+      {
+        "name": "Mèo Quậy",
+        "hot": false
+      }
+    ]
+  },
+  {
+    "id": "hat-de-ham-mac-ngoc-u-quang",
+    "method": "stew",
+    "methodVi": "Hầm",
+    "methodZh": "炖煮",
+    "nameVi": "Hạt dẻ hầm Mặc Ngọc U Quang",
+    "nameZh": "幽光墨玉炖栗",
+    "image": "hat-de-ham-mac-ngoc-u-quang.png",
+    "stats": [
+      "Sinh lực +100",
+      "Công kích nguyên tố +50"
+    ],
+    "recipe": [
+      {
+        "name": "Hạt dẻ Vỏ Đồng",
+        "qty": 5
+      },
+      {
+        "name": "Nấm Đom Đóm",
+        "qty": 4
+      },
+      {
+        "name": "Cỏ Mặc Ngọc",
+        "qty": 4
+      }
+    ],
+    "peak": 385,
+    "pets": [
+      {
+        "name": "Triều Tịch",
+        "hot": false
+      },
+      {
+        "name": "Na Tra",
+        "hot": false
+      },
+      {
+        "name": "Bíp Bíp",
+        "hot": false
+      }
+    ]
+  },
+  {
+    "id": "ngo-sen-ham-mat-ao-thai",
+    "method": "stew",
+    "methodVi": "Hầm",
+    "methodZh": "炖煮",
+    "nameVi": "Ngó sen hầm mật Ảo Thái",
+    "nameZh": "幻彩蜜汁炖藕",
+    "image": "ngo-sen-ham-mat-ao-thai.png",
+    "stats": [
+      "Giáp +25",
+      "Kháng nguyên tố +5",
+      "Kháng vật công +50"
+    ],
+    "recipe": [
+      {
+        "name": "Hoa Mê Ảo",
+        "qty": 4
+      },
+      {
+        "name": "Quả Mật Lộ",
+        "qty": 4
+      },
+      {
+        "name": "Ngó sen Trân Châu",
+        "qty": 5
+      }
+    ],
+    "peak": 275,
+    "pets": [
+      {
+        "name": "Nguyệt Tiểu Thố",
+        "hot": false
+      },
+      {
+        "name": "Tiểu Thương",
+        "hot": false
+      },
+      {
+        "name": "Hỏa Vương",
+        "hot": false
+      }
+    ]
+  },
+  {
+    "id": "tien-thao-mat-cuc-han",
+    "method": "mix",
+    "methodVi": "Pha chế",
+    "methodZh": "调制",
+    "nameVi": "Tiên thảo mật Cực Hàn",
+    "nameZh": "极寒蜜汁仙草",
+    "image": "tien-thao-mat-cuc-han.png",
+    "stats": [
+      "Sinh lực +200",
+      "Công kích nguyên tố +25"
+    ],
+    "recipe": [
+      {
+        "name": "Quả Mật Lộ",
+        "qty": 4
+      },
+      {
+        "name": "Lá Sương Tinh",
+        "qty": 5
+      },
+      {
+        "name": "Cỏ Mặc Ngọc",
+        "qty": 4
+      }
+    ],
+    "peak": 396,
+    "pets": [
+      {
+        "name": "Tiểu Thánh",
+        "hot": false
+      },
+      {
+        "name": "Thần Đèn",
+        "hot": false
+      },
+      {
+        "name": "Hàn Sương",
+        "hot": false
+      }
+    ]
+  },
+  {
+    "id": "nuoc-uong-ao-quang-suong-tinh",
+    "method": "mix",
+    "methodVi": "Pha chế",
+    "methodZh": "调制",
+    "nameVi": "Nước uống Ảo Quang Sương Tinh",
+    "nameZh": "霜星幻光饮",
+    "image": "nuoc-uong-ao-quang-suong-tinh.png",
+    "stats": [
+      "Sinh lực +300",
+      "Kháng hiệu ứng +1%"
+    ],
+    "recipe": [
+      {
+        "name": "Nấm Đom Đóm",
+        "qty": 4
+      },
+      {
+        "name": "Lá Sương Tinh",
+        "qty": 4
+      },
+      {
+        "name": "Hoa Mê Ảo",
+        "qty": 4
+      }
+    ],
+    "peak": 374,
+    "pets": [
+      {
+        "name": "Đại Thánh",
+        "hot": true
+      },
+      {
+        "name": "Đô Đô",
+        "hot": false
+      },
+      {
+        "name": "Giáng Sinh",
+        "hot": false
+      }
+    ]
+  },
+  {
+    "id": "mat-lo-thanh-phong-me-ao",
+    "method": "mix",
+    "methodVi": "Pha chế",
+    "methodZh": "调制",
+    "nameVi": "Mật Lộ Thanh Phong Mê Ảo",
+    "nameZh": "迷幻清风蜜露",
+    "image": "mat-lo-thanh-phong-me-ao.png",
+    "stats": [
+      "Xuyên giáp +25",
+      "Xuyên phá vật công +50"
+    ],
+    "recipe": [
+      {
+        "name": "Quả Mật Lộ",
+        "qty": 6
+      },
+      {
+        "name": "Dương xỉ Thanh Phong",
+        "qty": 5
+      },
+      {
+        "name": "Hoa Mê Ảo",
+        "qty": 5
+      }
+    ],
+    "peak": 330,
+    "pets": [
+      {
+        "name": "Bách Hoa Tiên Tử",
+        "hot": true
+      },
+      {
+        "name": "Bành Bành",
+        "hot": false
+      },
+      {
+        "name": "Vượng Niên",
+        "hot": false
+      }
+    ]
+  }
+]

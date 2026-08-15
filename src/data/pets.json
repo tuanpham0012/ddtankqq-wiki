@@ -1,0 +1,79 @@
+{
+  "_note": "Tên tiếng Việt lấy trùng với cột 'Thú cưng yêu thích' trong recipes.json để trang Thú cưng tự nối được món ăn. Ảnh: bỏ file .png vào src/assets/pets/ theo đúng 'image' là tự hiện.",
+  "ranks": [
+    {
+      "key": "ex",
+      "label": "Cực phẩm",
+      "labelZh": "EX",
+      "badge": "EX",
+      "desc": "Bậc cao nhất, viền thẻ màu đỏ trong đồ giám."
+    },
+    {
+      "key": "s",
+      "label": "Truyền thuyết",
+      "labelZh": "传说宠物",
+      "badge": "S",
+      "desc": "Nhóm thú cưng truyền thuyết, viền thẻ màu vàng."
+    }
+  ],
+  "pets": [
+    { "id": "hajimi", "nameVi": "Hajimi", "nameZh": "哈基喵", "rank": "ex", "image": "hajimi.png" },
+    { "id": "ngao-liet", "nameVi": "Ngao Liệt", "nameZh": "敖烈", "rank": "ex", "image": "ngao-liet.png" },
+    { "id": "chien-hung", "nameVi": "Chiến Hùng", "nameZh": "星穹战熊", "rank": "ex", "image": "chien-hung.png" },
+    { "id": "bach-hoa-tien-tu", "nameVi": "Bách Hoa Tiên Tử", "nameZh": "百花仙子", "rank": "ex", "image": "bach-hoa-tien-tu.png" },
+    { "id": "dai-thanh", "nameVi": "Đại Thánh", "nameZh": "齐天大圣", "rank": "ex", "image": "dai-thanh.png" },
+    { "id": "than-phat", "nameVi": "Thần Phạt", "nameZh": "神罚", "rank": "ex", "limited": true, "image": "than-phat.png" },
+
+    { "id": "tieu-thanh", "nameVi": "Tiểu Thánh", "nameZh": "孙小圣", "rank": "s", "image": "tieu-thanh.png" },
+    { "id": "nguyet-tieu-tho", "nameVi": "Nguyệt Tiểu Thố", "nameZh": "月小兔", "rank": "s", "image": "nguyet-tieu-tho.png" },
+    { "id": "trieu-tich", "nameVi": "Triều Tịch", "nameZh": "潮汐", "rank": "s", "image": "trieu-tich.png" },
+    { "id": "tien-phong", "nameVi": "Tiên Phong", "nameZh": "先驱者α", "rank": "s", "image": "tien-phong.png" },
+    { "id": "dao-dao", "nameVi": "Đào Đào", "nameZh": "淘淘", "rank": "s", "image": "dao-dao.png" },
+
+    { "id": "co-nang-cay-keo", "nameVi": "Cô Nàng Cây Kéo", "nameZh": "织梦", "rank": "s", "image": "co-nang-cay-keo.png" },
+    { "id": "bao-luy", "nameVi": "Bảo Lũy", "nameZh": "堡垒", "rank": "s", "image": "bao-luy.png" },
+    { "id": "chu-he", "nameVi": "Chú Hề", "nameZh": "诡术魔偶", "rank": "s", "image": "chu-he.png" },
+    { "id": "nguu-ma", "nameVi": "Ngưu Ma", "nameZh": "混世魔王", "rank": "s", "image": "nguu-ma.png" },
+    { "id": "banh-banh", "nameVi": "Bành Bành", "nameZh": "膨膨", "rank": "s", "image": "banh-banh.png" },
+
+    { "id": "do-do", "nameVi": "Đô Đô", "nameZh": "嘟嘟", "rank": "s", "image": "do-do.png" },
+    { "id": "than-den", "nameVi": "Thần Đèn", "nameZh": "神灯精灵", "rank": "s", "image": "than-den.png" },
+    { "id": "tieu-thuong", "nameVi": "Tiểu Thương", "nameZh": "神奇小仓", "rank": "s", "image": "tieu-thuong.png" },
+    { "id": "na-tra", "nameVi": "Na Tra", "nameZh": "哪吒", "rank": "s", "image": "na-tra.png" },
+    { "id": "meo-quay", "nameVi": "Mèo Quậy", "nameZh": "捣蛋猫", "rank": "s", "image": "meo-quay.png" },
+
+    { "id": "kim-tru-hiep", "nameVi": "Kim Trư Hiệp", "nameZh": "金猪侠", "rank": "s", "image": "kim-tru-hiep.png" },
+    { "id": "my-dich-lac", "nameVi": "Mỹ Địch Lạc", "nameZh": "美狄洛", "rank": "s", "image": "my-dich-lac.png" },
+    {
+      "id": "cu-than-ma-phap",
+      "nameVi": "Cú Thần Ma Pháp",
+      "nameZh": "魔法神泉",
+      "rank": "s",
+      "image": "cu-than-ma-phap.png",
+      "note": "Tên Trung đọc từ ảnh, cần đối chiếu lại trong game."
+    },
+    {
+      "id": "tien-tu-rung-xanh",
+      "nameVi": "Tiên Tử Rừng Xanh",
+      "nameZh": "森林仙子",
+      "rank": "s",
+      "image": "tien-tu-rung-xanh.png",
+      "note": "Tên Trung bị che một phần trong ảnh, cần đối chiếu lại."
+    },
+    { "id": "dia-long", "nameVi": "Địa Long", "nameZh": "洪荒地龙", "rank": "s", "image": "dia-long.png" },
+
+    { "id": "vuong-nien", "nameVi": "Vượng Niên", "nameZh": "旺年", "rank": "s", "image": "vuong-nien.png" },
+    { "id": "giang-sinh", "nameVi": "Giáng Sinh", "nameZh": "圣诞之星", "rank": "s", "image": "giang-sinh.png" },
+    { "id": "han-suong", "nameVi": "Hàn Sương", "nameZh": "寒霜", "rank": "s", "image": "han-suong.png" },
+    { "id": "hoa-vuong", "nameVi": "Hỏa Vương", "nameZh": "火精灵王", "rank": "s", "image": "hoa-vuong.png" },
+    { "id": "bip-bip", "nameVi": "Bíp Bíp", "nameZh": "哔哔", "rank": "s", "image": "bip-bip.png" },
+
+    { "id": "huyen-vu", "nameVi": "Huyền Vũ", "nameZh": "玄武", "rank": "s", "image": "huyen-vu.png" },
+    { "id": "bach-ho", "nameVi": "Bạch Hổ", "nameZh": "白虎", "rank": "s", "image": "bach-ho.png" },
+    { "id": "tuyet-nu", "nameVi": "Tuyết Nữ", "nameZh": "冰雪女神", "rank": "s", "image": "tuyet-nu.png" },
+    { "id": "thanh-long", "nameVi": "Thanh Long", "nameZh": "青龙", "rank": "s", "image": "thanh-long.png" },
+    { "id": "loi-dieu", "nameVi": "Lôi Điểu", "nameZh": "雷鸟", "rank": "s", "image": "loi-dieu.png" },
+
+    { "id": "chu-tuoc", "nameVi": "Chu Tước", "nameZh": "朱雀", "rank": "s", "image": "chu-tuoc.png" }
+  ]
+}

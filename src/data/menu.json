@@ -1,0 +1,42 @@
+[
+  {
+    "key": "bep-ma-phap",
+    "label": "Bếp Ma Pháp",
+    "labelZh": "魔法厨房",
+    "path": "/bep-ma-phap",
+    "icon": "🍳",
+    "ready": true
+  },
+  {
+    "key": "trong-trot",
+    "label": "Trồng trọt",
+    "labelZh": "种植 · 商店",
+    "path": "/trong-trot",
+    "icon": "🌱",
+    "ready": true
+  },
+  {
+    "key": "thu-cung",
+    "label": "Thú cưng",
+    "labelZh": "宠物图鉴",
+    "path": "/thu-cung",
+    "icon": "🐾",
+    "ready": true
+  },
+  {
+    "key": "sieu-cai-tien",
+    "label": "Siêu cải tiến",
+    "labelZh": "超级改造",
+    "path": "/sieu-cai-tien",
+    "icon": "⚙️",
+    "ready": true
+  },
+  {
+    "key": "tran-hinh",
+    "label": "Trận hình pet",
+    "labelZh": "宠物阵法",
+    "path": "/tran-hinh",
+    "icon": "🔯",
+    "ready": true
+  }
+]

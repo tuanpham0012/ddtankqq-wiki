@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(node -e \"const r=require\\('./src/data/recipes.json'\\);console.log\\(JSON.stringify\\(r[0],null,1\\)\\);const s=new Set\\(\\);for\\(const x of r\\){\\(x.pets||[]\\).forEach\\(p=>s.add\\(JSON.stringify\\(p\\)\\)\\)};console.log\\([...s].join\\('\\\\n'\\)\\)\")",
+      "Bash(node -e ' *)",
+      "Bash(node -e \"console.log\\(require\\('vue/package.json'\\).version\\)\")",
+      "Bash(mkdir -p C:/Users/tuanp/AppData/Local/Temp/claude/c--work-Project-ddtank-wiki/790bd75a-c7ac-4397-a19a-535089ff9426/scratchpad/shots)",
+      "Bash(npm init *)",
+      "Bash(npm i *)",
+      "Bash(node -e *)",
+      "Bash(node cropitems.js)",
+      "Bash(node upgrid.js up1.jpeg up2.jpeg up3.jpeg up4.jpeg up5.jpeg up6.jpeg up7.jpeg up8.jpeg)",
+      "Bash(node detail23.js)",
+      "Bash(node detail45.js)"
+    ]
+  }
+}

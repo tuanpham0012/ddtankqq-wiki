@@ -1,0 +1,317 @@
+{
+  "_note": "Điều kiện kích hoạt thuộc tính trận hình pet (阵宠物属性激活). Chỉ lưu MỐC YÊU CẦU, không lưu tiến độ cá nhân trong ảnh chụp. Mọi phần thưởng đều cộng cho 'pet xuất trận' (出战宠物).",
+  "sections": [
+    { "key": "attr", "labelVi": "Thuộc tính pet", "labelZh": "宠物属性", "note": "Mỗi mốc kích hoạt tối đa 1 lần (已激活 x/1)." },
+    { "key": "gear", "labelVi": "Trang bị pet", "labelZh": "宠物装备", "note": "Mỗi mốc kích hoạt tối đa 9 lần (已激活 x/9)." }
+  ],
+  "formations": [
+    {
+      "key": "fire",
+      "nameVi": "Hoả Trận Công Kích",
+      "nameZh": "攻击火阵",
+      "elementVi": "Lửa",
+      "elementZh": "火",
+      "icon": "🔥",
+      "color": "#D2691E",
+      "attr": [
+        {
+          "reqVi": "Tổng cấp pet trong trận",
+          "reqZh": "攻击火阵宠物总等级达",
+          "tiers": [
+            { "needVi": "Tổng cấp đạt 160", "needZh": "总等级达到160", "rewardVi": "Sinh lực +250", "rewardZh": "生命+250" }
+          ]
+        },
+        {
+          "reqVi": "Tổng công kích cả trận cung cấp",
+          "reqZh": "攻击火阵共提供攻击",
+          "tiers": [
+            { "needVi": "Công kích đạt 276", "needZh": "攻击达到276", "rewardVi": "Giáp +50%", "rewardZh": "护甲+50%" }
+          ]
+        },
+        {
+          "reqVi": "Tổng cấp kỹ năng trong trận",
+          "reqZh": "攻击火阵总技能等级达",
+          "tiers": [
+            { "needVi": "Tổng cấp kỹ năng đạt 24", "needZh": "总技能等级达到24", "rewardVi": "Giáp +68", "rewardZh": "护甲+68" }
+          ]
+        },
+        {
+          "reqVi": "Kháng Lửa cộng dồn trong trận",
+          "reqZh": "攻击火阵内累计加成火抗",
+          "tiers": [
+            { "needVi": "Kháng Lửa đạt 495", "needZh": "火抗达到495", "rewardVi": "Kháng toàn nguyên tố +75", "rewardZh": "全元素抗性+75" }
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "reqVi": "Tổng công kích của mọi trang bị pet trong trận",
+          "reqZh": "阵内所有宠物装备攻击达到",
+          "tiers": [
+            { "needVi": "Công kích đạt 284", "needZh": "攻击达到284", "rewardVi": "Công kích +179", "rewardZh": "攻击+179" },
+            { "needVi": "Công kích đạt 378", "needZh": "攻击达到378", "rewardVi": "Công kích +238", "rewardZh": "攻击+238" }
+          ]
+        },
+        {
+          "reqVi": "Công kích nguyên tố Lửa cộng dồn trong trận",
+          "reqZh": "阵内累计加成火元素攻击",
+          "tiers": [
+            { "needVi": "Công kích nguyên tố Lửa đạt 32", "needZh": "累计火元素攻击32", "rewardVi": "Sinh lực +250", "rewardZh": "生命+250" }
+          ]
+        },
+        {
+          "reqVi": "Tổng giáp của mọi trang bị pet trong trận",
+          "reqZh": "阵内所有宠物装备护甲达到",
+          "tiers": [
+            { "needVi": "Giáp đạt 75", "needZh": "护甲达到75", "rewardVi": "Cường độ nguyên tố +150", "rewardZh": "元素强度+150" },
+            { "needVi": "Giáp đạt 100", "needZh": "护甲达到100", "rewardVi": "Cường độ nguyên tố +200", "rewardZh": "元素强度+200" }
+          ]
+        },
+        {
+          "reqVi": "Tổng xuyên nguyên tố của mọi trang bị pet trong trận",
+          "reqZh": "阵内所有宠物装备元素穿透总和达到",
+          "tiers": [
+            { "needVi": "Xuyên nguyên tố đạt 225", "needZh": "元素穿透达到225", "rewardVi": "Sát thương Lửa phụ thêm +125", "rewardZh": "火额外伤害+125" }
+          ]
+        },
+        {
+          "reqVi": "Tổng cường độ nguyên tố của mọi trang bị pet trong trận",
+          "reqZh": "阵内所有宠物装备元素强度总和达到",
+          "tiers": [
+            { "needVi": "Cường độ nguyên tố đạt 113", "needZh": "元素强度达到113", "rewardVi": "Công kích Lửa +75", "rewardZh": "火攻击+75" }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "nameVi": "Thuỷ Trận Sinh Mệnh",
+      "nameZh": "生命水阵",
+      "elementVi": "Nước",
+      "elementZh": "水",
+      "icon": "💧",
+      "color": "#1E7F94",
+      "attr": [
+        {
+          "reqVi": "Tổng sinh lực cả trận cung cấp",
+          "reqZh": "生命水阵共提供生命",
+          "tiers": [
+            { "needVi": "Sinh lực đạt 1020", "needZh": "生命达到1020", "rewardVi": "Công kích +48", "rewardZh": "攻击+48" }
+          ]
+        },
+        {
+          "reqVi": "Tổng cấp kỹ năng trong trận",
+          "reqZh": "生命水阵总技能等级达",
+          "tiers": [
+            { "needVi": "Cấp kỹ năng đạt 16", "needZh": "技能等级达到16", "rewardVi": "Sinh lực +50%", "rewardZh": "生命+50%" }
+          ]
+        },
+        {
+          "reqVi": "Tổng sinh lực cả trận cung cấp (mốc 2)",
+          "reqZh": "生命水阵共提供生命",
+          "tiers": [
+            { "needVi": "Sinh lực đạt 1600", "needZh": "生命达到1600", "rewardVi": "Xuyên giáp +68", "rewardZh": "护甲穿透+68" }
+          ]
+        },
+        {
+          "reqVi": "Kháng Nước cộng dồn trong trận",
+          "reqZh": "生命水阵内累计加成水抗",
+          "tiers": [
+            { "needVi": "Kháng Nước đạt 500", "needZh": "水抗达到500", "rewardVi": "Giáp +96", "rewardZh": "护甲+96" }
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "reqVi": "Tổng sinh lực của mọi trang bị pet trong trận",
+          "reqZh": "阵内所有宠物装备生命达到",
+          "tiers": [
+            { "needVi": "Sinh lực đạt 452", "needZh": "生命达到452", "rewardVi": "Sinh lực +298", "rewardZh": "生命+298" }
+          ]
+        },
+        {
+          "reqVi": "Công kích nguyên tố Nước cộng dồn trong trận",
+          "reqZh": "阵内累计加成水元素攻击",
+          "tiers": [
+            { "needVi": "Công kích nguyên tố Nước đạt 32", "needZh": "累计水元素攻击32", "rewardVi": "Giáp +25", "rewardZh": "护甲+25" }
+          ]
+        },
+        {
+          "reqVi": "Tổng công kích của mọi trang bị pet trong trận",
+          "reqZh": "阵内所有宠物装备攻击达到",
+          "tiers": [
+            { "needVi": "Công kích đạt 88", "needZh": "攻击达到88", "rewardVi": "Kháng toàn nguyên tố +50", "rewardZh": "全元素抗性+50" }
+          ]
+        },
+        {
+          "reqVi": "Tổng kiên cường nguyên tố của mọi trang bị pet trong trận",
+          "reqZh": "阵内所有宠物装备元素韧性总和达到",
+          "tiers": [
+            { "needVi": "Kiên cường nguyên tố đạt 100", "needZh": "元素韧性达到100", "rewardVi": "Sát thương Nước phụ thêm +125", "rewardZh": "水额外伤害+125" }
+          ]
+        },
+        {
+          "reqVi": "Tổng kháng nguyên tố của mọi trang bị pet trong trận",
+          "reqZh": "阵内所有宠物装备元素抗性总和达到",
+          "tiers": [
+            { "needVi": "Kháng nguyên tố đạt 250", "needZh": "元素抗性达到250", "rewardVi": "Công kích Nước +75", "rewardZh": "水攻击+75" }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "earth",
+      "nameVi": "Thổ Trận Thủ Hộ",
+      "nameZh": "守护土阵",
+      "elementVi": "Đất",
+      "elementZh": "土",
+      "icon": "🪨",
+      "color": "#8A5A2B",
+      "attr": [
+        {
+          "reqVi": "Tổng cấp pet trong trận",
+          "reqZh": "守护土阵宠物总等级达",
+          "tiers": [
+            { "needVi": "Tổng cấp đạt 185", "needZh": "总等级达到185", "rewardVi": "Xuyên giáp +35", "rewardZh": "护甲穿透+35" }
+          ]
+        },
+        {
+          "reqVi": "Tổng cấp kỹ năng trong trận",
+          "reqZh": "守护土阵总技能等级达",
+          "tiers": [
+            { "needVi": "Tổng cấp kỹ năng đạt 16", "needZh": "总技能等级达16", "rewardVi": "Tốc độ +50%", "rewardZh": "速度+50%" }
+          ]
+        },
+        {
+          "reqVi": "Tổng giáp cả trận cung cấp",
+          "reqZh": "守护土阵共提供护甲",
+          "tiers": [
+            { "needVi": "Giáp đạt 102", "needZh": "护甲达到102", "rewardVi": "Sinh lực +1260", "rewardZh": "生命+1260" }
+          ]
+        },
+        {
+          "reqVi": "Kháng Đất cộng dồn trong trận",
+          "reqZh": "守护土阵内累计加成土抗",
+          "tiers": [
+            { "needVi": "Kháng Đất đạt 410", "needZh": "土抗达到410", "rewardVi": "Sinh lực +720", "rewardZh": "生命+720" }
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "reqVi": "Tổng giáp của mọi trang bị pet trong trận",
+          "reqZh": "阵内所有宠物装备护甲达到",
+          "tiers": [
+            { "needVi": "Giáp đạt 21", "needZh": "护甲达到21", "rewardVi": "Giáp +14", "rewardZh": "护甲+14" }
+          ]
+        },
+        {
+          "reqVi": "Công kích nguyên tố Đất cộng dồn trong trận",
+          "reqZh": "阵内累计加成土元素攻击",
+          "tiers": [
+            { "needVi": "Công kích nguyên tố Đất đạt 32", "needZh": "土元素攻击达到32", "rewardVi": "Sinh lực +250", "rewardZh": "生命+250" }
+          ]
+        },
+        {
+          "reqVi": "Tổng xuyên giáp của mọi trang bị pet trong trận",
+          "reqZh": "阵内所有宠物装备护穿达到",
+          "tiers": [
+            { "needVi": "Xuyên giáp trang bị đạt 25", "needZh": "装备护穿达到25", "rewardVi": "Kiên cường nguyên tố +50", "rewardZh": "元素韧性+50" }
+          ]
+        },
+        {
+          "reqVi": "Tổng cường độ nguyên tố của mọi trang bị pet trong trận",
+          "reqZh": "阵内所有宠物装备元素强度总和达到",
+          "tiers": [
+            { "needVi": "Cường độ nguyên tố đạt 100", "needZh": "元素强度达到100", "rewardVi": "Sát thương Đất phụ thêm +125", "rewardZh": "土额外伤害+125" }
+          ]
+        },
+        {
+          "reqVi": "Tổng kiên cường nguyên tố của mọi trang bị pet trong trận",
+          "reqZh": "阵内所有宠物装备元素韧性总和达到",
+          "tiers": [
+            { "needVi": "Kiên cường nguyên tố đạt 113", "needZh": "元素韧性达到113", "rewardVi": "Công kích Đất +75", "rewardZh": "土攻击+75" }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "wind",
+      "nameVi": "Phong Trận Tật Tốc",
+      "nameZh": "疾速风阵",
+      "elementVi": "Gió",
+      "elementZh": "风",
+      "icon": "🌪️",
+      "color": "#4E8C4A",
+      "attr": [
+        {
+          "reqVi": "Xếp 1 pet cam ra trận",
+          "reqZh": "疾速风阵上阵1只橙宠",
+          "tiers": [
+            { "needVi": "Ra trận 1 pet cam", "needZh": "上阵1只橙宠", "rewardVi": "Công kích +50%", "rewardZh": "攻击+50%" }
+          ]
+        },
+        {
+          "reqVi": "Tổng tốc độ cả trận cung cấp",
+          "reqZh": "疾速风阵共提供速度",
+          "tiers": [
+            { "needVi": "Tốc độ đạt 126", "needZh": "速度达到126", "rewardVi": "Tốc độ +120", "rewardZh": "速度+120" }
+          ]
+        },
+        {
+          "reqVi": "Tổng cấp kỹ năng trong trận",
+          "reqZh": "疾速风阵总技能等级达",
+          "tiers": [
+            { "needVi": "Tổng cấp kỹ năng đạt 24", "needZh": "总技能等级达24", "rewardVi": "Công kích +235", "rewardZh": "攻击+235" }
+          ]
+        },
+        {
+          "reqVi": "Kháng Gió cộng dồn trong trận",
+          "reqZh": "疾速风阵内累计加成风抗",
+          "tiers": [
+            { "needVi": "Kháng Gió đạt 415", "needZh": "风抗达到415", "rewardVi": "Sinh lực +675", "rewardZh": "生命+675" }
+          ]
+        }
+      ],
+      "gear": [
+        {
+          "reqVi": "Tổng xuyên giáp của mọi trang bị pet trong trận",
+          "reqZh": "阵内所有宠物装备护穿达到",
+          "tiers": [
+            { "needVi": "Xuyên giáp trang bị đạt 63", "needZh": "装备护穿达到63", "rewardVi": "Xuyên giáp +41", "rewardZh": "护甲穿透+41" },
+            { "needVi": "Xuyên giáp trang bị đạt 84", "needZh": "装备护穿达到84", "rewardVi": "Xuyên giáp +54", "rewardZh": "护甲穿透+54" }
+          ]
+        },
+        {
+          "reqVi": "Công kích nguyên tố Gió cộng dồn trong trận",
+          "reqZh": "阵内累计加成风元素攻击",
+          "tiers": [
+            { "needVi": "Công kích nguyên tố Gió đạt 32", "needZh": "风元素攻击达到32", "rewardVi": "Giáp +25", "rewardZh": "护甲+25" }
+          ]
+        },
+        {
+          "reqVi": "Tổng sinh lực của mọi trang bị pet trong trận",
+          "reqZh": "阵内所有宠物装备生命达到",
+          "tiers": [
+            { "needVi": "Sinh lực trang bị đạt 1200", "needZh": "装备生命达到1200", "rewardVi": "Xuyên nguyên tố +150", "rewardZh": "元素穿透+150" },
+            { "needVi": "Sinh lực trang bị đạt 1600", "needZh": "装备生命达到1600", "rewardVi": "Xuyên nguyên tố +200", "rewardZh": "元素穿透+200" }
+          ]
+        },
+        {
+          "reqVi": "Tổng kháng nguyên tố của mọi trang bị pet trong trận",
+          "reqZh": "阵内所有宠物装备元素抗性总和达到",
+          "tiers": [
+            { "needVi": "Kháng nguyên tố đạt 225", "needZh": "元素抗性达到225", "rewardVi": "Sát thương Gió phụ thêm +125", "rewardZh": "风额外伤害+125" }
+          ]
+        },
+        {
+          "reqVi": "Tổng xuyên nguyên tố của mọi trang bị pet trong trận",
+          "reqZh": "阵内所有宠物装备元素穿透总和达到",
+          "tiers": [
+            { "needVi": "Xuyên nguyên tố đạt 250", "needZh": "元素穿透达到250", "rewardVi": "Công kích Gió +75", "rewardZh": "风攻击+75" }
+          ]
+        }
+      ]
+    }
+  ]
+}
