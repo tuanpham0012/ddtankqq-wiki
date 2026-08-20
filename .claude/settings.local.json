@@ -12,7 +12,19 @@
       "Bash(node cropitems.js)",
       "Bash(node upgrid.js up1.jpeg up2.jpeg up3.jpeg up4.jpeg up5.jpeg up6.jpeg up7.jpeg up8.jpeg)",
       "Bash(node detail23.js)",
-      "Bash(node detail45.js)"
+      "Bash(node detail45.js)",
+      "Bash(npx vite *)",
+      "Bash(ls -lt /tmp/claude-1000/-home-quoc-tuan-QT-Workspace-ddtankqq-wiki/22f92777-c456-4e0a-b7aa-bf79e47d5300/ 2>/dev/null; find /tmp/claude-1000 ~/.claude -maxdepth 4 -newermt '-2 hours' \\\\\\( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.webp' \\\\\\) 2>/dev/null | head -20)",
+      "Read(//tmp/claude-1000/**)",
+      "Bash(python3 -c \"import PIL; print\\('PIL', PIL.__version__\\)\")",
+      "Read(//home/quoc-tuan/Pictures/**)",
+      "Bash(python3 -)",
+      "Bash(find /tmp /var/tmp ~/.cache ~/.config/Code ~/.claude -maxdepth 6 -newermt '-30 minutes' \\\\\\( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.webp' \\\\\\) 2>/dev/null | head -20)",
+      "Read(//tmp/**)",
+      "Bash(python3 -c \"import json;d=json.load\\(open\\('src/data/soul-bodies.json'\\)\\);print\\(len\\(d['items']\\),[i['id'] for i in d['items']]\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"import json;print\\([m['key'] for m in json.load\\(open\\('src/data/menu.json'\\)\\)]\\)\")",
+      "Bash(python3 -c \"import json;d=json.load\\(open\\('src/data/mounts.json'\\)\\);i=d['items'][0];print\\(i['nameVi'],len\\(i['stats']\\),len\\(i['unlocks']\\),[\\(s['nameZh'],len\\(s['tiers']\\)\\) for s in i['skills']]\\)\")"
     ]
   }
 }

@@ -38,5 +38,21 @@
     "path": "/tran-hinh",
     "icon": "🔯",
     "ready": true
+  },
+  {
+    "key": "hon-the",
+    "label": "Hồn thể",
+    "labelZh": "神殿 · 魂体",
+    "path": "/hon-the",
+    "icon": "🏛️",
+    "ready": true
+  },
+  {
+    "key": "thu-cuoi",
+    "label": "Thú cưỡi",
+    "labelZh": "坐骑",
+    "path": "/thu-cuoi",
+    "icon": "🐎",
+    "ready": true
   }
 ]

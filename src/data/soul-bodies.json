@@ -1,0 +1,344 @@
+{
+  "_note": "Hồn thể (魂体) trong Thần Điện (神殿). Ảnh ở src/assets/soul-bodies/<id>.png. Mỗi hồn thể: chỉ số (属性), từ điều (词条) và kỹ năng (技能). Bổ sung dần theo id.",
+  "types": [
+    { "key": "trat-tu", "labelVi": "Trật tự", "labelZh": "秩序" },
+    { "key": "hu-vo", "labelVi": "Hư Vô", "labelZh": "虚无" },
+    { "key": "sieu-nhien", "labelVi": "Siêu Nhiên", "labelZh": "超然" }
+  ],
+  "items": [
+    {
+      "id": "minh-uyen-quan-chua",
+      "nameVi": "Minh Uyên Quận Chúa",
+      "nameZh": "溟渊郡主",
+      "image": "minh-uyen-quan-chua.png",
+      "type": "trat-tu",
+      "tradable": true,
+      "stats": [
+        { "labelVi": "Công kích", "labelZh": "攻击", "value": "580" },
+        { "labelVi": "Sinh lực", "labelZh": "生命", "value": "9000" },
+        { "labelVi": "Kháng toàn nguyên tố", "labelZh": "全元素抗性", "value": "155" }
+      ],
+      "affixes": [
+        {
+          "nameVi": "Kháng Trật Tự",
+          "nameZh": "秩序抗性",
+          "descVi": "Khi bị mục tiêu mang hồn thể loại 【Trật tự】 tấn công, sát thương nhận vào giảm 5%.",
+          "descZh": "受到持有【秩序】类型魂体目标攻击时，伤害减免5%"
+        },
+        {
+          "nameVi": "Kiên cường",
+          "nameZh": "韧性",
+          "descVi": "Khi vào trận nhận thêm 29.75% thuộc tính 【Kiên cường】.",
+          "descZh": "开战时获得29.75%【韧性】属性加成"
+        },
+        {
+          "nameVi": "Tỉ lệ chặn",
+          "nameZh": "抵挡率",
+          "descVi": "Khi vào trận nhận thêm 42.5% thuộc tính 【Tỉ lệ chặn】.",
+          "descZh": "开战时获得42.5%【抵挡率】属性加成"
+        },
+        {
+          "nameVi": "Xuyên phá nguyên tố",
+          "nameZh": "元素穿透",
+          "descVi": "Khi vào trận nhận thêm 79 điểm thuộc tính 【Xuyên phá nguyên tố】.",
+          "descZh": "开战时获得79点【元素穿透】属性加成"
+        }
+      ],
+      "skill": {
+        "nameVi": "Hoán Hồn Thức Tỉnh",
+        "nameZh": "唤魂觉醒",
+        "meta": [
+          { "labelVi": "Mốc chờ", "labelZh": "等待值", "value": "500" },
+          { "labelVi": "Loại kỹ năng", "labelZh": "技能类型", "value": "Chủ động", "valueZh": "主动" },
+          { "labelVi": "Tiêu hao thể lực", "labelZh": "消耗体力", "value": "30" },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": "999" },
+          { "labelVi": "Tiêu hao nộ khí", "labelZh": "消耗怒气", "value": "0" }
+        ],
+        "leadVi": "Triệu hồi Minh Uyên Quận Chúa, trong 4 lượt nhận các hiệu quả sau:",
+        "leadZh": "召唤出溟渊郡主，且4回合内获得以下效果：",
+        "effectsVi": [
+          "Miễn nhiễm Cấm Di Chuyển; khi bản thân nhận sát thương có 50% xác suất nhận hiệu quả \"Khúc Hát Người Cá\" (khiên +5% sinh lực tối đa, hồi 1.5% sinh lực, 1 lần mỗi lượt, bỏ qua xuyên giáp), khiên duy trì 2 lượt.",
+          "Khi bản thân đánh trúng mục tiêu đơn, 30% xác suất giam địch vào \"Bong Bóng Sóng Nước\". (Bong Bóng Sóng Nước: tồn tại vĩnh viễn, đạn của địch có thể xuyên qua, đạn của ta không xuyên qua được, bong bóng biến mất ngay sau khi bị đạn của ta đánh 1 lần, không có tác dụng trong PVE.)",
+          "Toàn bộ đồng minh: kháng nguyên tố +5%, giáp +5%. Toàn bộ đối phương: lượng khiên tạo ra -20%, tiêu hao lực di chuyển +100%."
+        ],
+        "effectsZh": [
+          "免疫禁足，自身受到伤害时50%概率获得\"人鱼之歌\"效果（最大生命护盾+5%，恢复1.5%生命值，回合1次，无视穿甲），护盾持续2回合。",
+          "自身弹中目标时，30%概率将敌人关入\"浪花泡泡\"。（浪花泡泡：永久存在，敌方炮弹可以穿透，己方炮弹不可穿透，己方炮弹攻击1次即会消失，PVE无效）",
+          "所有友方元素抗性+5%，护甲+5%，所有敌方护盾生成量-20%，移动力消耗+100%。"
+        ]
+      }
+    },
+    {
+      "id": "nghich-menh-ma-dong",
+      "nameVi": "Nghịch Mệnh Ma Đồng",
+      "nameZh": "逆命魔童",
+      "image": "nghich-menh-ma-dong.png",
+      "type": "hu-vo",
+      "tradable": false,
+      "stats": [
+        { "labelVi": "Công kích", "labelZh": "攻击", "value": "580" },
+        { "labelVi": "Sinh lực", "labelZh": "生命", "value": "9000" },
+        { "labelVi": "Giáp", "labelZh": "护甲", "value": "310" }
+      ],
+      "skill": {
+        "nameVi": "Hoán Hồn Thức Tỉnh",
+        "nameZh": "唤魂觉醒",
+        "meta": [
+          { "labelVi": "Mốc chờ", "labelZh": "等待值", "value": "500" },
+          { "labelVi": "Loại kỹ năng", "labelZh": "技能类型", "value": "Chủ động", "valueZh": "主动" },
+          { "labelVi": "Tiêu hao thể lực", "labelZh": "消耗体力", "value": "30" },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": "999" },
+          { "labelVi": "Tiêu hao nộ khí", "labelZh": "消耗怒气", "value": "0" }
+        ],
+        "leadVi": "Triệu hồi Nghịch Mệnh Ma Đồng, trong 4 lượt nhận các hiệu quả sau:",
+        "leadZh": "召唤出逆命魔童，且4回合内获得以下效果：",
+        "effectsVi": [
+          "Bản thân nhận hiệu quả \"Nghiệp Hỏa Hồng Liên\" (giáp +10%, kháng nguyên tố +10%, khi di chuyển sẽ gây cho một địch ở xa nhất lượng sát thương thêm bằng 40% tổng sát thương bản thân đã nhận trong thời gian giữ buff), duy trì 4 lượt.",
+          "Khi bản thân bị tấn công, kẻ tấn công nhận hiệu quả \"Phần Thiên\" (công kích nguyên tố -10%, mỗi đầu lượt nhận sát thương bằng 5% sinh lực hiện tại), duy trì 2 lượt; khi bản thân bị địch đang mang trạng thái \"Phần Thiên\" tấn công, công kích nguyên tố -10%.",
+          "Toàn bộ đồng minh: giảm sát thương rơi +10%, công kích +5%. Toàn bộ đối phương: đầu lượt nộ khí -10."
+        ],
+        "effectsZh": [
+          "自身获得\"业火红莲\"效果（护甲+10%，元素抗性+10%，移动时对最远的一个敌人造成buff持有期间受到总伤害的40%的额外伤害），持续4回合。",
+          "自身受到攻击时会使得攻击者获得\"焚天\"效果（元素攻击-10%，每回合开始时受到当前生命值5%伤害），持续2回合；自身受到\"焚天\"状态的敌人攻击时，元素攻击-10%。",
+          "所有友方摔伤减免+10%，攻击+5%，所有敌方回合开始时怒气-10。"
+        ]
+      }
+    },
+    {
+      "id": "si-linh",
+      "nameVi": "Sí Linh",
+      "nameZh": "炽灵",
+      "image": "si-linh.png",
+      "type": "hu-vo",
+      "tradable": false,
+      "stats": [
+        { "labelVi": "Công kích", "labelZh": "攻击", "value": "510" },
+        { "labelVi": "Sinh lực", "labelZh": "生命", "value": "7820" },
+        { "labelVi": "Xuyên phá nguyên tố", "labelZh": "元素穿透", "value": "127" }
+      ],
+      "affixes": [
+        {
+          "nameVi": "Tỉ lệ bạo kích",
+          "nameZh": "暴击率",
+          "descVi": "Khi vào trận nhận thêm 29.75% thuộc tính 【Tỉ lệ bạo kích】.",
+          "descZh": "开战时获得29.75%【暴击率】属性加成"
+        },
+        {
+          "nameVi": "Sát thương bạo kích",
+          "nameZh": "暴击伤害",
+          "descVi": "Khi vào trận nhận thêm 42.5% thuộc tính 【Sát thương bạo kích】.",
+          "descZh": "开战时获得42.5%【暴击伤害】属性加成"
+        },
+        {
+          "nameVi": "Xuyên giáp",
+          "nameZh": "护甲穿透",
+          "descVi": "Khi vào trận nhận thêm 212 điểm thuộc tính 【Xuyên giáp】.",
+          "descZh": "开战时获得212点【护甲穿透】属性加成"
+        },
+        {
+          "nameVi": "Giảm sát thương thú cưỡi",
+          "nameZh": "坐骑减免",
+          "descVi": "Khi vào trận nhận thêm 8.5% thuộc tính 【Giảm sát thương thú cưỡi】.",
+          "descZh": "开战时获得8.5%【坐骑减免】属性加成"
+        }
+      ],
+      "skill": {
+        "nameVi": "Hoán Hồn Thức Tỉnh",
+        "nameZh": "唤魂觉醒",
+        "meta": [
+          { "labelVi": "Mốc chờ", "labelZh": "等待值", "value": "500" },
+          { "labelVi": "Loại kỹ năng", "labelZh": "技能类型", "value": "Chủ động", "valueZh": "主动" },
+          { "labelVi": "Tiêu hao thể lực", "labelZh": "消耗体力", "value": "30" },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": "999" },
+          { "labelVi": "Tiêu hao nộ khí", "labelZh": "消耗怒气", "value": "0" }
+        ],
+        "leadVi": "Triệu hồi Sí Linh, trong 4 lượt nhận các hiệu quả sau:",
+        "leadZh": "召唤出炽灵，且4回合内获得以下效果：",
+        "effectsVi": [
+          "Khi đạn đánh trúng, đạn sẽ nảy sang địch đầu tiên trong phạm vi 700, gây 30% sát thương phi-đạn. (Không mang theo hiệu ứng của đạn.)",
+          "Phạm vi nổ của đạn tăng 15%, đồng thời gán cho địch bị đạn đánh trúng hiệu quả \"Đi Lửa\" (nếu đạn bay đủ 3 giây thì sẽ nổ ngay), 2 lượt.",
+          "Toàn bộ đồng minh: công kích +5%. Toàn bộ đối phương: đầu lượt nhận sát thương thiêu đốt bằng 2% sinh lực tối đa."
+        ],
+        "effectsZh": [
+          "炮弹命中时，会弹射到700范围内的第一个敌人身上，造成30%非炮弹伤害。（不附带炮弹效果）",
+          "炮弹爆炸范围扩大15%，且赋予炮弹命中的敌人\"走火\"效果（若发射的炮弹飞行时间达到3秒，则会立即爆炸），2回合。",
+          "所有友方攻击+5%，所有敌方在回合开始时受到2%最大生命上限的灼烧伤害。"
+        ]
+      }
+    },
+    {
+      "id": "thien-cong-tu",
+      "nameVi": "Thiên Công Tự",
+      "nameZh": "天公絮",
+      "image": "thien-cong-tu.png",
+      "type": "sieu-nhien",
+      "tradable": true,
+      "stats": [
+        { "labelVi": "Công kích", "labelZh": "攻击", "value": "510" },
+        { "labelVi": "Sinh lực", "labelZh": "生命", "value": "7820" },
+        { "labelVi": "Kháng toàn nguyên tố", "labelZh": "全元素抗性", "value": "127" }
+      ],
+      "affixes": [
+        {
+          "nameVi": "(chưa rõ tên)",
+          "nameZh": "？",
+          "descVi": "Khi ra tay có 50% xác suất nhận thêm 5% khiên, duy trì 1 lượt.",
+          "descZh": "出手有50%几率获得护盾增加5%，持续1回合"
+        },
+        {
+          "nameVi": "Sinh lực",
+          "nameZh": "生命",
+          "descVi": "Khi vào trận nhận thêm 1275 điểm thuộc tính 【Sinh lực】.",
+          "descZh": "开战时获得1275点【生命】属性加成"
+        },
+        {
+          "nameVi": "Kiên cường",
+          "nameZh": "韧性",
+          "descVi": "Khi vào trận nhận thêm 29.75% thuộc tính 【Kiên cường】.",
+          "descZh": "开战时获得29.75%【韧性】属性加成"
+        },
+        {
+          "nameVi": "Xuyên phá giảm sát thương",
+          "nameZh": "抵伤穿透",
+          "descVi": "Khi vào trận nhận thêm 42.5% thuộc tính 【Xuyên phá giảm sát thương】.",
+          "descZh": "开战时获得42.5%【抵伤穿透】属性加成"
+        }
+      ],
+      "skill": {
+        "nameVi": "Hoán Hồn Thức Tỉnh",
+        "nameZh": "唤魂觉醒",
+        "meta": [
+          { "labelVi": "Mốc chờ", "labelZh": "等待值", "value": "500" },
+          { "labelVi": "Loại kỹ năng", "labelZh": "技能类型", "value": "Chủ động", "valueZh": "主动" },
+          { "labelVi": "Tiêu hao thể lực", "labelZh": "消耗体力", "value": "30" },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": "999" },
+          { "labelVi": "Tiêu hao nộ khí", "labelZh": "消耗怒气", "value": "0" }
+        ],
+        "leadVi": "Triệu hồi Thiên Công Tự, trong 4 lượt nhận các hiệu quả sau:",
+        "leadZh": "召唤出天公絮，且4回合内获得以下效果：",
+        "effectsVi": [
+          "Đầu lượt của bản thân, hút lực di chuyển còn lại ở lượt trước của một người chơi địch (nhiều người thì lấy giá trị lớn nhất); mỗi 1% hút được tạo cho bản thân 0.2% khiên, duy trì 2 lượt.",
+          "Cứ mỗi 4 lần bị tấn công sẽ dịch chuyển ngẫu nhiên 1 lần trong phạm vi 1000; đòn tấn công kèm hiệu quả \"Cấm Di Chuyển\" (có thể giải), duy trì 2 lượt.",
+          "Toàn bộ đồng minh: mốc chờ -5%. Toàn bộ đối phương: giảm sát thương -10%."
+        ],
+        "effectsZh": [
+          "自身回合开始，吸收单个敌方玩家上一回合剩余的移动力（多个玩家取最大值），每1%使自身产生0.2%护盾，持续2回合。",
+          "每被攻击4次，则会在1000范围内随机传送1次；攻击附带\"禁足\"效果（可驱散），持续2回合。",
+          "所有友方等待值-5%，所有敌方伤害减免-10%。"
+        ]
+      }
+    },
+    {
+      "id": "thanatos",
+      "nameVi": "Thanatos",
+      "nameZh": "塔纳托斯",
+      "image": "thanatos.png",
+      "type": "sieu-nhien",
+      "tradable": true,
+      "stats": [
+        { "labelVi": "Công kích", "labelZh": "攻击", "value": "510" },
+        { "labelVi": "Sinh lực", "labelZh": "生命", "value": "7820" },
+        { "labelVi": "Xuyên giáp", "labelZh": "护甲穿透", "value": "255" }
+      ],
+      "affixes": [
+        {
+          "nameVi": "Cường Hoá Khiên",
+          "nameZh": "护盾强化",
+          "descVi": "Sau khi vào trận, nhận thêm 5% lượng khiên nhận được.",
+          "descZh": "进入战斗后，获得+5%护盾获得量"
+        },
+        {
+          "nameVi": "Tỉ lệ chặn",
+          "nameZh": "抵挡率",
+          "descVi": "Khi vào trận nhận thêm 42.5% thuộc tính 【Tỉ lệ chặn】.",
+          "descZh": "开战时获得42.5%【抵挡率】属性加成"
+        },
+        {
+          "nameVi": "Sát thương thần thánh",
+          "nameZh": "神圣伤害",
+          "descVi": "Khi vào trận nhận thêm 318 điểm thuộc tính 【Sát thương thần thánh】.",
+          "descZh": "开战时获得318点【神圣伤害】属性加成"
+        }
+      ],
+      "skill": {
+        "nameVi": "Hoán Hồn Thức Tỉnh",
+        "nameZh": "唤魂觉醒",
+        "meta": [
+          { "labelVi": "Mốc chờ", "labelZh": "等待值", "value": "500" },
+          { "labelVi": "Loại kỹ năng", "labelZh": "技能类型", "value": "Chủ động", "valueZh": "主动" },
+          { "labelVi": "Tiêu hao thể lực", "labelZh": "消耗体力", "value": "30" },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": "999" },
+          { "labelVi": "Tiêu hao nộ khí", "labelZh": "消耗怒气", "value": "0" }
+        ],
+        "leadVi": "Triệu hồi Thanatos, trong 4 lượt nhận các hiệu quả sau:",
+        "leadZh": "召唤出塔纳托斯，且4回合内获得以下效果：",
+        "effectsVi": [
+          "Mỗi đầu lượt nhận 1 lần miễn sát thương; khi nhận khiên thì hồi lượng sinh lực bằng 30% giá trị khiên đó (tối đa 5 vạn).",
+          "Khi bất kỳ địch nào nhận khiên, địch đó phải nhận sát thương thật bằng 15% giá trị khiên (tối đa 10 vạn, không gây tử vong).",
+          "Toàn bộ đồng minh: lượng khiên tạo ra +10%. Toàn bộ đối phương: lượng khiên tạo ra -10%, kháng hiệu ứng -50%."
+        ],
+        "effectsZh": [
+          "每个回合开始时，获得1次免伤效果；获得护盾时，恢复护盾值对应30%比例生命值（上限5W）。",
+          "所有敌方获得护盾时，相应受到护盾值15%的真实伤害（上限10W，不致死）。",
+          "所有友方护盾生成量+10%，所有敌方护盾生成量-10%，效果抵抗-50%。"
+        ]
+      }
+    },
+    {
+      "id": "messiah",
+      "nameVi": "Messiah",
+      "nameZh": "弥赛亚",
+      "image": "messiah.png",
+      "type": "trat-tu",
+      "tradable": true,
+      "stats": [
+        { "labelVi": "Công kích", "labelZh": "攻击", "value": "510" },
+        { "labelVi": "Sinh lực", "labelZh": "生命", "value": "7820" },
+        { "labelVi": "Giáp", "labelZh": "护甲", "value": "255" }
+      ],
+      "affixes": [
+        {
+          "nameVi": "Đạn Tăng Nhất Kích",
+          "nameZh": "弹增一击",
+          "descVi": "Khi dùng 【Đạn Tăng Cường】, sát thương tăng thêm 2%, duy trì 1 lượt.",
+          "descZh": "使用【增幅弹】时，伤害额外提升2%，持续1回合"
+        },
+        {
+          "nameVi": "Xuyên giáp",
+          "nameZh": "护甲穿透",
+          "descVi": "Khi vào trận nhận thêm 212 điểm thuộc tính 【Xuyên giáp】.",
+          "descZh": "开战时获得212点【护甲穿透】属性加成"
+        },
+        {
+          "nameVi": "Sát thương chặn",
+          "nameZh": "抵挡伤害",
+          "descVi": "Khi vào trận nhận thêm 42.5% thuộc tính 【Sát thương chặn】.",
+          "descZh": "开战时获得42.5%【抵挡伤害】属性加成"
+        }
+      ],
+      "skill": {
+        "nameVi": "Hoán Hồn Thức Tỉnh",
+        "nameZh": "唤魂觉醒",
+        "meta": [
+          { "labelVi": "Mốc chờ", "labelZh": "等待值", "value": "500" },
+          { "labelVi": "Loại kỹ năng", "labelZh": "技能类型", "value": "Chủ động", "valueZh": "主动" },
+          { "labelVi": "Tiêu hao thể lực", "labelZh": "消耗体力", "value": "30" },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": "999" },
+          { "labelVi": "Tiêu hao nộ khí", "labelZh": "消耗怒气", "value": "0" }
+        ],
+        "leadVi": "Triệu hồi Messiah, trong 4 lượt nhận các hiệu quả sau:",
+        "leadZh": "召唤出弥赛亚，且4回合内获得以下效果：",
+        "effectsVi": [
+          "Sinh lực tối đa của bản thân tăng 60%, sau đó giảm 15% vào đầu mỗi lượt trong 4 lượt kế tiếp.",
+          "Mỗi lần tấn công, kèm thêm sát thương thật bằng 2% sinh lực tối đa hiện tại của bản thân. (1 lần mỗi lượt)",
+          "Toàn bộ đồng minh: hiệu quả hồi phục +10%. Toàn bộ đối phương: giáp -5%."
+        ],
+        "effectsZh": [
+          "自身生命上限提升60%，随后4回合开始时下降15%。",
+          "每次攻击时，附加自身当前最大生命值2%的真实伤害。（1回合1次）",
+          "所有友方治疗效果+10%，所有敌方护甲-5%。"
+        ]
+      }
+    }
+  ]
+}

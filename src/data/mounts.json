@@ -1,0 +1,185 @@
+{
+  "_note": "Thú cưỡi (坐骑). Ảnh ở src/assets/mounts/<id>.png. Mỗi thú cưỡi: chỉ số gốc LV.0 (属性), các mốc mở khoá (解锁) và danh sách kỹ năng; mỗi kỹ năng có thể có nhiều bậc (tiers): bậc hiện tại + 下一级效果.",
+  "items": [
+    {
+      "id": "pho-hien-linh-tuong",
+      "nameVi": "Phổ Hiền Linh Tượng",
+      "nameZh": "普贤灵象",
+      "image": "pho-hien-linh-tuong.png",
+      "taglineVi": "Phổ Hiền Linh Tượng đạp mây tới, tường thụy theo cùng, phúc đầy đường.",
+      "taglineZh": "普贤灵象踏云来 祥瑞随行福满途",
+      "stats": [
+        { "labelVi": "Sinh lực", "labelZh": "生命", "value": "320" },
+        { "labelVi": "Công kích", "labelZh": "攻击", "value": "32" },
+        { "labelVi": "Giáp", "labelZh": "护甲", "value": "30" },
+        { "labelVi": "Xuyên giáp", "labelZh": "护甲穿透", "value": "22" },
+        { "labelVi": "Lực trinh sát", "labelZh": "侦查力", "value": "25" },
+        { "labelVi": "Xuyên phá nguyên tố", "labelZh": "元素穿透", "value": "0" }
+      ],
+      "unlocks": [
+        { "labelVi": "Mở ở cấp 10", "labelZh": "10级解锁", "progress": "1/3" },
+        { "labelVi": "Mở ở cấp 30", "labelZh": "30级解锁", "progress": "1/3" },
+        { "labelVi": "Mở ở bậc 4", "labelZh": "4阶解锁", "progress": "MAX" }
+      ],
+      "skills": [
+        {
+          "nameVi": "Uy Linh Trọng Áp",
+          "nameZh": "威灵重压",
+          "kindVi": "Chủ động",
+          "kindZh": "主动",
+          "meta": [
+            { "labelVi": "Mốc chờ", "labelZh": "等待值", "value": "600" },
+            { "labelVi": "Loại kỹ năng", "labelZh": "技能类型", "value": "Chủ động", "valueZh": "主动" },
+            { "labelVi": "Tiêu hao thể lực", "labelZh": "消耗体力", "value": "20" },
+            { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": "5" },
+            { "labelVi": "Tiêu hao nộ khí", "labelZh": "消耗怒气", "value": "0" }
+          ],
+          "tiers": [
+            {
+              "labelVi": "Lv.1",
+              "labelZh": "Lv.1",
+              "effectsVi": [
+                "Sau khi dùng kỹ năng, lập tức \"ăn\" 40% giá trị khiên của toàn bộ địch trên sân; 50% tổng khiên ăn được chuyển thành sát thương thật cho đòn tấn công này của bản thân. (Sát thương tối đa 8 vạn)",
+                "Bản thân vào trạng thái bay, duy trì 1 lượt. (Không có tác dụng trong PVE)",
+                "Gây thêm 30% sát thương lên khiên, đòn đánh bỏ qua 15% giáp của mục tiêu, duy trì 2 lượt.",
+                "Gán cho địch bị đánh trúng và các địch trong phạm vi 800 quanh bản thân hiệu quả \"Uy Áp\" (nhận sát thương +20%, tiêu hao di chuyển +100%, lượng khiên tạo ra -25%), duy trì 3 lượt."
+              ],
+              "effectsZh": [
+                "使用技能后，立即吃掉场上所有敌人40%护盾值，且吃掉的护盾值总和50%转化为自身本次攻击的真实伤害。（伤害上限8w）",
+                "自身进入飞行状态，持续1回合。（PVE无效）",
+                "对护盾额外造成30%伤害，攻击忽略目标15%护甲，持续2回合。",
+                "赋予攻击命中的敌人以及自身800范围内敌人\"威压\"效果（易伤+20%，移动消耗+100%，护盾生成量-25%），持续3回合。"
+              ],
+              "pveVi": [
+                "Đòn tấn công gán thêm sát thương thật bằng 60% sinh lực tối đa hiện tại của bản thân (1 lần mỗi lượt), duy trì 3 lượt."
+              ],
+              "pveZh": [
+                "攻击赋予自身当前最大生命值60%真实伤害（1回合1次），持续3回合。"
+              ]
+            },
+            {
+              "labelVi": "Bậc kế tiếp — mở ở cấp 170",
+              "labelZh": "下一级效果（170级解锁）",
+              "effectsVi": [
+                "Sau khi dùng kỹ năng, lập tức \"ăn\" 45% giá trị khiên của toàn bộ địch trên sân; 75% tổng khiên ăn được chuyển thành sát thương thật cho đòn tấn công này của bản thân. (Sát thương tối đa 8 vạn)",
+                "Bản thân vào trạng thái bay, duy trì 1 lượt. (Không có tác dụng trong PVE)",
+                "Gây thêm 40% sát thương lên khiên, đòn đánh bỏ qua 15% giáp của mục tiêu, duy trì 2 lượt.",
+                "Gán cho địch bị đánh trúng và các địch trong phạm vi 800 quanh bản thân hiệu quả \"Uy Áp\" (nhận sát thương +20%, tiêu hao di chuyển +100%, lượng khiên tạo ra -25%), duy trì 3 lượt."
+              ],
+              "effectsZh": [
+                "使用技能后，立即吃掉场上所有敌人45%护盾值，且吃掉的护盾值总和75%转化为自身本次攻击的真实伤害。（伤害上限8w）",
+                "自身进入飞行状态，持续1回合。（PVE无效）",
+                "对护盾额外造成40%伤害，攻击忽略目标15%护甲，持续2回合。",
+                "赋予攻击命中的敌人以及自身800范围内敌人\"威压\"效果（易伤+20%，移动消耗+100%，护盾生成量-25%），持续3回合。"
+              ],
+              "pveVi": [
+                "Đòn tấn công gán thêm sát thương thật bằng 80% sinh lực tối đa hiện tại của bản thân (1 lần mỗi lượt), duy trì 3 lượt."
+              ],
+              "pveZh": [
+                "攻击赋予自身当前最大生命值80%真实伤害（1回合1次），持续3回合。"
+              ]
+            }
+          ]
+        },
+        {
+          "nameVi": "Linh Tượng Ân Trạch",
+          "nameZh": "灵象恩泽",
+          "kindVi": "Bị động",
+          "kindZh": "被动",
+          "meta": [
+            { "labelVi": "Loại kỹ năng", "labelZh": "技能类型", "value": "Bị động", "valueZh": "被动" },
+            { "labelVi": "Tiêu hao thể lực", "labelZh": "消耗体力", "value": "0" },
+            { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": "0" },
+            { "labelVi": "Tiêu hao nộ khí", "labelZh": "消耗怒气", "value": "0" }
+          ],
+          "tiers": [
+            {
+              "labelVi": "Lv.1",
+              "labelZh": "Lv.1",
+              "effectsVi": [
+                "Khi sinh lực bản thân dưới 40%, nhận khiên bằng 30% sinh lực tối đa. (Mỗi trận chỉ kích hoạt 1 lần)",
+                "Hiệu quả \"dễ thương tổn\" (易伤) chịu vào giảm 60%, hiệu quả \"giảm sát thương gây ra\" (降伤) chịu vào giảm 75%, giảm sát thương +10%; mỗi đầu lượt bất kỳ, giảm sát thương +1.5%, tối đa 15%.",
+                "Vào đầu lượt kế tiếp sau khi dùng kỹ năng thú cưỡi, hút địch trong phạm vi 1500 về phía ta 500 khoảng cách (có thể bị chắn); khi lượt hiện tại kết thúc, mỗi 100 khoảng cách địch bị dịch chuyển sẽ khiến địch nhận sát thương thật bằng 4% sinh lực hiện tại của chúng, tối đa 10 vạn. (Không có tác dụng trong PVE)",
+                "Thể lực tối đa +20, sát thương +20%, tốc độ di chuyển +50%; khi tấn công địch đang mang \"Uy Áp\", sát thương thêm +10%."
+              ],
+              "effectsZh": [
+                "自身生命低于40%时，获得30%最大生命值护盾。（单场战斗触发1次）",
+                "易伤效果下降60%，降伤效果下降75%，减伤+10%，每个任意回合开始时，减伤+1.5%，上限15%。",
+                "使用坐骑技能后的下一回合开始时，将1500范围内的敌人向我方吸引500距离，可被阻挡，当前回合结束时场上敌人位置移动每100距离会受到敌方当前生命值4%的真实伤害，上限10W（PVE无效）",
+                "体力上限+20，伤害+20%，移动速度+50%，攻击持有\"威压\"效果的敌人时，伤害额外+10%。"
+              ],
+              "pveVi": [
+                "Khi vào trận, nhận khiên bằng phần chênh lệch (sinh lực tối đa hiện tại − sinh lực hiện có), duy trì 3 lượt.",
+                "Khi vào trận, công kích +8%, công kích nguyên tố +5%, giảm sát thương +20%.",
+                "Đầu lượt của bản thân hồi 15% sinh lực (bỏ qua cấm hồi/giảm hồi), mỗi lượt hồi thêm 10 thể lực."
+              ],
+              "pveZh": [
+                "进入战斗时，获得（自身当前最大生命值-当前生命值）相差值的护盾，持续3回合。",
+                "进入战斗时，攻击+8%，元素攻击+5%，减伤+20%。",
+                "自身回合开始时恢复15%生命值（无视禁疗降疗），每回合额外回复体力10。"
+              ]
+            },
+            {
+              "labelVi": "Bậc kế tiếp — mở ở cấp 180",
+              "labelZh": "下一级效果（180级解锁）",
+              "effectsVi": [
+                "Khi sinh lực bản thân dưới 40%, nhận khiên bằng 35% sinh lực tối đa. (Mỗi trận chỉ kích hoạt 1 lần)",
+                "Hiệu quả \"dễ thương tổn\" (易伤) chịu vào giảm 60%, hiệu quả \"giảm sát thương gây ra\" (降伤) chịu vào giảm 75%, giảm sát thương +15%; mỗi đầu lượt bất kỳ, giảm sát thương +1.5%, tối đa 15%.",
+                "Vào đầu lượt kế tiếp sau khi dùng kỹ năng thú cưỡi, hút địch trong phạm vi 1500 về phía ta 500 khoảng cách (có thể bị chắn); khi lượt hiện tại kết thúc, mỗi 100 khoảng cách địch bị dịch chuyển sẽ khiến địch nhận sát thương thật bằng 4% sinh lực hiện tại của chúng, tối đa 10 vạn. (Không có tác dụng trong PVE)",
+                "Thể lực tối đa +25, sát thương +20%, tốc độ di chuyển +50%; khi tấn công địch đang mang \"Uy Áp\", sát thương thêm +12.5%."
+              ],
+              "effectsZh": [
+                "自身生命低于40%时，获得35%最大生命值护盾。（单场战斗触发1次）",
+                "易伤效果下降60%，降伤效果下降75%，减伤+15%，每个任意回合开始时，减伤+1.5%，上限15%。",
+                "使用坐骑技能后的下一回合开始时，将1500范围内的敌人向我方吸引500距离，可被阻挡，当前回合结束时场上敌人位置移动每100距离会受到敌方当前生命值4%的真实伤害，上限10W（PVE无效）",
+                "体力上限+25，伤害+20%，移动速度+50%，攻击持有\"威压\"效果的敌人时，伤害额外+12.5%。"
+              ],
+              "pveVi": [
+                "Khi vào trận, nhận khiên bằng phần chênh lệch (sinh lực tối đa hiện tại − sinh lực hiện có), duy trì 3 lượt.",
+                "Khi vào trận, công kích +12%, công kích nguyên tố +8%, giảm sát thương +30%.",
+                "Đầu lượt của bản thân hồi 15% sinh lực (bỏ qua cấm hồi/giảm hồi), mỗi lượt hồi thêm 20 thể lực."
+              ],
+              "pveZh": [
+                "进入战斗时，获得（自身当前最大生命值-当前生命值）相差值的护盾，持续3回合。",
+                "进入战斗时，攻击+12%，元素攻击+8%，减伤+30%。",
+                "自身回合开始时恢复15%生命值（无视禁疗降疗），每回合额外回复体力20。"
+              ]
+            }
+          ]
+        },
+        {
+          "nameVi": "Giác Tỉnh Kích Phát",
+          "nameZh": "觉醒激发",
+          "kindVi": "Bị động",
+          "kindZh": "被动",
+          "meta": [
+            { "labelVi": "Loại kỹ năng", "labelZh": "技能类型", "value": "Bị động", "valueZh": "被动" },
+            { "labelVi": "Tiêu hao thể lực", "labelZh": "消耗体力", "value": "0" },
+            { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": "0" },
+            { "labelVi": "Tiêu hao nộ khí", "labelZh": "消耗怒气", "value": "0" }
+          ],
+          "tiers": [
+            {
+              "labelVi": "Lv.max",
+              "labelZh": "Lv.max",
+              "leadVi": "Khi vào trận, chỉ số nhận thêm phần cộng dồn:",
+              "leadZh": "进入战斗时，属性获得额外加成：",
+              "effectsVi": [
+                "Sinh lực thú cưỡi +30000",
+                "Giảm sát thương thú cưỡi +14%",
+                "Sinh lực +20000",
+                "Giáp +500"
+              ],
+              "effectsZh": [
+                "坐骑生命+30000",
+                "坐骑减伤+14%",
+                "生命+20000",
+                "护甲+500"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

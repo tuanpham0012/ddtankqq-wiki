@@ -5,6 +5,8 @@ import ThuCungView from '../views/ThuCungView.vue'
 import TranHinhView from '../views/TranHinhView.vue'
 import TrongTrotView from '../views/TrongTrotView.vue'
 import SieuCaiTienView from '../views/SieuCaiTienView.vue'
+import HonTheView from '../views/HonTheView.vue'
+import ThuCuoiView from '../views/ThuCuoiView.vue'
 import ComingSoonView from '../views/ComingSoonView.vue'
 
 // Trang đã có nội dung thật: khai báo ở đây theo `key` trong src/data/menu.json.
@@ -15,6 +17,8 @@ const views = {
   'tran-hinh': TranHinhView,
   'trong-trot': TrongTrotView,
   'sieu-cai-tien': SieuCaiTienView,
+  'hon-the': HonTheView,
+  'thu-cuoi': ThuCuoiView,
 }
 
 const routes = menu.map((item) => ({
