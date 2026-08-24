@@ -54,5 +54,13 @@
     "path": "/thu-cuoi",
     "icon": "🐎",
     "ready": true
+  },
+  {
+    "key": "vu-khi",
+    "label": "Vũ khí",
+    "labelZh": "武器",
+    "path": "/vu-khi",
+    "icon": "🔫",
+    "ready": true
   }
 ]

@@ -1,0 +1,289 @@
+{
+  "_note": "Vũ khí (武器). Ảnh ở src/assets/weapons/<id>.png. Mỗi vũ khí: chỉ số ở mức cường hoá đang xem, các mốc mở khoá theo cấp (解锁) và mốc đột phá (突破等级解锁). Một hiệu quả có thể kèm 'subs' — các trạng thái/buff con được mô tả riêng trong game.",
+  "items": [
+    {
+      "id": "tra-sui-bot-gau-truc",
+      "nameVi": "Trà Sủi Bọt Gấu Trúc",
+      "nameZh": "熊猫泡泡茶",
+      "image": "tra-sui-bot-gau-truc.png",
+      "typeVi": "Sinh vật",
+      "typeZh": "生物",
+      "angle": "20° ~ 75°",
+      "plus": "+3",
+      "plusMax": "MAX 50",
+      "ex": true,
+      "enhanceLv": "Lv.600",
+      "flavorVi": "※ Cục cục cục ~ đám gấu trúc con tới rồi đây! Bạo kích ngọt lịm biubiubiu ~",
+      "flavorZh": "※ 咕咕咕~熊猫崽崽来啦！萌爽暴击 biubiubiu~",
+      "stats": [
+        { "labelVi": "Sinh lực", "labelZh": "生命", "value": "5031" },
+        { "labelVi": "Công kích", "labelZh": "攻击", "value": "977" },
+        { "labelVi": "Giáp", "labelZh": "护甲", "value": "202" },
+        { "labelVi": "Tốc độ", "labelZh": "速度", "value": "453" },
+        { "labelVi": "Tỉ lệ bạo kích", "labelZh": "暴击率", "value": "34%" },
+        { "labelVi": "Tỉ lệ chặn", "labelZh": "抵挡率", "value": "44%" }
+      ],
+      "unlocks": [
+        {
+          "labelVi": "Mở ban đầu",
+          "labelZh": "初始解锁",
+          "unlocked": true,
+          "effects": [
+            { "vi": "Kháng hiệu ứng +50%.", "zh": "效果抵抗+50%" },
+            { "vi": "Xuyên phá giảm sát thương +80%.", "zh": "抵伤穿透+80%" },
+            {
+              "vi": "Cứ mỗi 3 lần nhận sát thương, nhận khiên bằng 150% chỉ số Giáp hiện tại của bản thân, khiên duy trì 2 lượt.",
+              "zh": "每受到3次伤害时，获得自身当前护甲属性的150%护盾，护盾持续2回合。"
+            }
+          ]
+        },
+        {
+          "labelVi": "Mở ở cấp 80",
+          "labelZh": "80级解锁",
+          "unlocked": true,
+          "effects": [
+            {
+              "vi": "Đòn đánh thường gây 150% sát thương; mỗi phát đạn lần lượt luân phiên theo thứ tự Độ Lạnh → Độ Ngọt → Độ Chua, và dấu hiệu thức uống tương ứng duy trì 3 lượt.",
+              "zh": "普通攻击造成150%伤害，每发炮弹顺序按照 冰度→甜度→酸度 炮弹循环，且相应附带的饮品标记效果持续3回合。"
+            },
+            {
+              "vi": "Khi dấu hiệu thức uống trên người đối tượng đủ các điều kiện sau, lập tức chuyển thành các hiệu quả xấu khác nhau, đều duy trì 3 lượt:",
+              "zh": "当玩家身上的饮品标记满足以下条件，立即转换为成不同的负面效果，均持续3回合：",
+              "subs": [
+                {
+                  "nameVi": "Độ Ngọt + Độ Lạnh = Hơi Ngọt",
+                  "nameZh": "甜度+冰度=有点甜",
+                  "vi": "Sát thương -25%; mỗi lần dùng đạo cụ chiến đấu thì nhận sát thương bằng 3% sinh lực tối đa (tối đa 2 lần mỗi lượt).",
+                  "zh": "伤害-25%，每次使用战斗道具时，受到最大生命值3%伤害（1回合最多2次）"
+                },
+                {
+                  "nameVi": "Độ Ngọt + Độ Chua = Chưa Đủ Lạnh",
+                  "nameZh": "甜度+酸度=不够冰",
+                  "vi": "Mốc chờ +15%, hồi phục thể lực -30%.",
+                  "zh": "等待值+15%，体力恢复-30%"
+                },
+                {
+                  "nameVi": "Độ Lạnh + Độ Chua = Hơi Chua",
+                  "nameZh": "冰度+酸度=有点酸",
+                  "vi": "Nhận sát thương +15%, công kích -10.",
+                  "zh": "易伤+15%，攻击力-10"
+                }
+              ]
+            },
+            {
+              "vi": "Khi dùng tuyệt kỹ, mỗi phát đạn đánh trúng nhận 1 tầng \"Cuồng Đường\" (sinh lực tối đa của bản thân +3%, sát thương +2%), tối đa 6 tầng, duy trì 3 lượt.",
+              "zh": "使用必杀技时，每命中一发炮弹获得1层\"糖分狂热\"效果（自身最大生命值+3%，伤害+2%），上限6层，持续3回合。"
+            }
+          ]
+        },
+        {
+          "labelVi": "Mở ở cấp 240",
+          "labelZh": "240级解锁",
+          "unlocked": true,
+          "effects": [
+            {
+              "vi": "Công kích nguyên tố +10%; mỗi lần dùng đạo cụ chiến đấu thì sát thương +3% vĩnh viễn, tối đa 5 tầng.",
+              "zh": "元素攻击+10%，每次使用战斗道具，永久伤害+3%，上限5层。"
+            },
+            {
+              "vi": "Giảm sát thương +15%; mỗi lần bị đạn đánh trúng thì giảm sát thương +4%, tối đa 3 tầng, bị xoá khi đến lượt của bản thân.",
+              "zh": "减伤+15%，每次被炮弹命中时，减伤+4%，上限3层，到自身回合时移除。"
+            },
+            { "vi": "Trạng thái xấu dạng sát thương giảm 50%.", "zh": "伤害型负面状态降低50%" }
+          ]
+        },
+        {
+          "labelVi": "Mở ở cấp 320",
+          "labelZh": "320级解锁",
+          "unlocked": true,
+          "effects": [
+            {
+              "vi": "Tuyệt kỹ biến đạn thành \"Trà Sủi Bọt Gấu Trúc\", đánh trúng địch gây 180% sát thương; khi trà nổ sinh ra 5 viên đạn gấu trúc (không tạo hố), đánh trúng ngẫu nhiên các địch ở gần, mỗi viên gây 20% sát thương. (Không cộng dồn được với các kỹ năng đa đạn.)",
+              "zh": "必杀技将炮弹变成\"熊猫泡泡茶\"命中敌方后造成180%伤害，熊猫泡泡茶爆炸时产生5个熊猫炮弹（无弹坑），随机命中附近的敌人，每发造成20%伤害。（无法叠加多发技能）"
+            },
+            {
+              "vi": "Khi \"Trà Sủi Bọt Gấu Trúc\" đánh trúng, dựa theo debuff đang có trên người địch: nếu đủ cả Hơi Ngọt / Hơi Chua / Chưa Đủ Lạnh thì chuyển thành \"Đại Tiệc Hoàn Hảo\"; nếu chỉ có 2 trong số đó thì chuyển thành \"Sinh Tố Thất Bại\".",
+              "zh": "\"熊猫泡泡茶\"命中时，根据敌方身上的debuff效果，若集齐有点甜/有点酸/不够冰，则转化为\"完美盛宴\"，只有其中2个则转为\"失败冰沙\"。",
+              "subs": [
+                {
+                  "nameVi": "Đại Tiệc Hoàn Hảo",
+                  "nameZh": "完美盛宴",
+                  "vi": "Vào đầu lượt của người mang buff, gây cho chính người đó sát thương bằng 5% sinh lực tối đa (bỏ qua giảm sát thương, bỏ qua khiên), giới hạn sinh lực tối đa -5% vĩnh viễn (tối đa 8 tầng), duy trì 2 lượt.",
+                  "zh": "buff持有者自身回合开始时，造成自身5%最大生命值伤害（无视减伤，无视护盾），永久最大生命上限-5%（上限8层），持续2回合"
+                },
+                {
+                  "nameVi": "Sinh Tố Thất Bại",
+                  "nameZh": "失败冰沙",
+                  "vi": "Lượng nộ khí nhận được của người mang buff -50%, bị cấm hồi phục, duy trì 3 lượt, đồng thời hồi 10% sinh lực cho toàn bộ địch trên sân.",
+                  "zh": "buff持有者怒气获得量-50%，禁疗，持续3回合，且给与全场敌方恢复10%生命值。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "labelVi": "Mở ở cấp 400",
+          "labelZh": "400级解锁",
+          "unlocked": true,
+          "effects": [
+            { "vi": "Kháng bạo thương +50%.", "zh": "暴伤抵抗+50%" },
+            { "vi": "Thể lực tối đa +20; đầu lượt hồi thêm 20 điểm thể lực.", "zh": "体力上限+20，回合开始时，额外恢复20点体力" },
+            { "vi": "Khi ra tay có 10% xác suất nhận công kích +100 điểm trong 1 lượt.", "zh": "出手有10%几率获得攻击+100点一回合。" }
+          ]
+        }
+      ],
+      "breakthroughs": [
+        {
+          "labelVi": "Mở ở +30",
+          "labelZh": "+30 解锁",
+          "effects": [
+            {
+              "vi": "Đồ Uống Đá Đặc Chế: nhận một cốc đồ uống đá gấu trúc — dùng cho đồng minh thì giảm 50% mốc chờ hiện tại và hồi 25% sinh lực; dùng cho địch thì gán hiệu quả \"Đường Vượt Ngưỡng\" (nhận sát thương +15%, các bị động dạng phản-khi-bị-đánh mất hiệu lực, nếu cuối lượt đã dùng quá 60 thể lực thì choáng 1 lượt), duy trì 2 lượt. Sau khi bắn không kết thúc lượt, vẫn tiếp tục hành động được. (Mỗi trận chỉ dùng 1 lần.)",
+              "zh": "特制冰饮：获得一杯熊猫冰饮，对友方使用则减少当前50%等待值并恢复25%生命值，对敌方使用则赋予\"糖分超标\"效果（易伤+15%，受击型被动失效，回合结束时使用体力超过60则眩晕1回合），持续2回合，发炮后不结束回合，可以继续行动。（每场战斗限用1次）"
+            }
+          ]
+        },
+        {
+          "labelVi": "Mở ở +40",
+          "labelZh": "+40 解锁",
+          "effects": [
+            { "vi": "Khi dùng tuyệt kỹ, bỏ qua phần giảm sát thương theo sinh lực tối đa, duy trì 2 lượt.", "zh": "使用必杀技时，无视最大生命减伤，持续2回合。" },
+            { "vi": "Đầu lượt có 40% xác suất khiến đạo cụ chiến đấu dùng kế tiếp không tốn thể lực và không tính mốc chờ.", "zh": "回合开始时，有40%概率下一个使用的战斗道具不消耗体力和等待值。" },
+            { "vi": "Hiệu lực trong PVE: mỗi lần đạn đánh trúng, gán cho địch hiệu ứng nhận sát thương +3% vĩnh viễn (tối đa 10 tầng).", "zh": "PVE生效：每次炮弹命中时，赋予敌方永久易伤+3%（上限10层）。", "pve": true }
+          ]
+        },
+        {
+          "labelVi": "Mở ở +50",
+          "labelZh": "+50 解锁",
+          "effects": [
+            { "vi": "Mỗi tầng \"Cuồng Đường\" cho thêm hiệu quả giáp +4%.", "zh": "每层\"糖分狂热\"效果额外提供护甲+4%效果。" },
+            {
+              "vi": "Hiệu lực trong PVE: khi vào phó bản, nhận hiệu quả \"Gấu Trúc Bảo Hộ\" (khi nhận sát thương lớn hơn 40% sinh lực tối đa thì miễn nhiễm sát thương đó và nhận khiên bằng 30% sinh lực tối đa, chỉ có hiệu lực 1 lần), duy trì 2 lượt; mỗi lần dùng một đạo cụ chiến đấu thì sát thương +20%, tỉ lệ chuyển hoá nguyên tố +5%, tối đa 3 tầng, duy trì 1 lượt.",
+              "zh": "PVE生效：进入副本时，获得\"熊猫守护\"效果（当受到伤害大于最大生命值40%时，免疫外伤害，并获得30%最大生命护盾，仅生效1次），持续2回合；每使用一个战斗道具，伤害+20%，元素转化率+5%，上限3层，持续1回合。",
+              "pve": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ho-ho-sinh-uy",
+      "nameVi": "Hổ Hổ Sinh Uy",
+      "nameZh": "虎虎生威",
+      "image": "ho-ho-sinh-uy.png",
+      "typeVi": "Sinh hoạt",
+      "typeZh": "生活",
+      "angle": "20° ~ 75°",
+      "plus": "+0",
+      "plusMax": "MAX 50",
+      "ex": true,
+      "enhanceLv": "Lv.600",
+      "flavorVi": "※ Tiếng hổ gầm rung chuyển núi sông, một phát đạn phá tan ngàn quân.",
+      "flavorZh": "※ 虎啸震山河，弹射破千军",
+      "stats": [
+        { "labelVi": "Sinh lực", "labelZh": "生命", "value": "5584" },
+        { "labelVi": "Công kích", "labelZh": "攻击", "value": "977" },
+        { "labelVi": "Giáp", "labelZh": "护甲", "value": "286" },
+        { "labelVi": "Tốc độ", "labelZh": "速度", "value": "352" },
+        { "labelVi": "Tỉ lệ bạo kích", "labelZh": "暴击率", "value": "34%" },
+        { "labelVi": "Tỉ lệ chặn", "labelZh": "抵挡率", "value": "44%" }
+      ],
+      "unlocks": [
+        {
+          "labelVi": "Mở ban đầu",
+          "labelZh": "初始解锁",
+          "unlocked": true,
+          "effects": [
+            { "vi": "Kháng hiệu ứng +50%.", "zh": "效果抵抗+50%" },
+            { "vi": "Xuyên phá giảm sát thương +80%.", "zh": "抵伤穿透+80%" },
+            {
+              "vi": "Mỗi lần bị đạn đánh trúng, nhận 1 tầng \"Khát Máu\" (hút máu +10%, công kích +5%), tối đa 3 tầng, bị xoá khi kết thúc lượt của bản thân.",
+              "zh": "每次被炮弹命中时，获得1层\"嗜血\"效果（吸血+10%，攻击+5%），上限3层，自身回合结束时移除"
+            }
+          ]
+        },
+        {
+          "labelVi": "Mở ở cấp 80",
+          "labelZh": "80级解锁",
+          "unlocked": true,
+          "effects": [
+            {
+              "vi": "Đòn đánh thường gây 150% sát thương; khi đạn của bản thân đánh trúng địch, nhận vĩnh viễn 1 tầng \"Sức Mạnh Hổ Con\" (1 lần mỗi lượt — giảm sát thương +2%, giới hạn sinh lực tối đa +2%, giáp +2%), tối đa 5 tầng; khi \"Sức Mạnh Hổ Con\" đạt 5 tầng thì nhận thêm \"Sức Mạnh Mãnh Hổ\" (công kích +5%, giảm sát thương +5%).",
+              "zh": "普通攻击造成150%伤害，自身炮弹命中敌人时，永久获得1层\"萌虎之力\"效果（1回合1次，减伤+2%，最大生命上限+2%，护甲+2%），上限5层，\"萌虎之力\"达到5层时，额外获得\"猛虎之力\"（攻击+5%，减伤+5%）"
+            },
+            {
+              "vi": "Khi bản thân hành động mà tiêu hao trên 30 thể lực, đòn tấn công gán cho địch hiệu quả \"Vuốt Xé\" (giáp -15%, lượng khiên tạo ra -40%, khi địch đó tấn công thì nhận sát thương thật bằng 10% sát thương của phát đạn ấy, tối đa 5 vạn, bỏ qua giảm sát thương và bỏ qua khiên, không gây tử vong), duy trì 3 lượt.",
+              "zh": "自身行动时消耗30以上体力时，攻击赋予敌人\"裂爪\"效果（护甲-15%，护盾生成量-40%，自身攻击时受到该次炮弹造成伤害的10%真实伤害，上限5W，无视减伤无视护盾，不致死），持续3回合"
+            },
+            { "vi": "Khi bản thân dùng đạo cụ, thể lực +5, nộ khí +5 (tối đa 2 lần mỗi lượt).", "zh": "自身使用道具时，体力+5，怒气+5（1回合最多2次）" }
+          ]
+        },
+        {
+          "labelVi": "Mở ở cấp 240",
+          "labelZh": "240级解锁",
+          "unlocked": true,
+          "effects": [
+            { "vi": "Sát thương +15%; khi tấn công mục tiêu có sinh lực dưới 75%, sát thương thêm +15%.", "zh": "伤害+15%，攻击生命低于75%以下的目标额外伤害+15%" },
+            { "vi": "Giảm sát thương +15%; khi bị tuyệt kỹ đánh trúng thì khiên +20%, khiên duy trì 2 lượt (hồi chiêu nội tại 3 lượt).", "zh": "减伤+15%，被必杀技命中时，护盾+20%，护盾持续2回合（内置冷却3回合）" },
+            { "vi": "Miễn nhiễm các hiệu ứng làm tăng mốc chờ theo phần trăm; trạng thái xấu dạng sát thương giảm 40%.", "zh": "免受等待值增加百分比效果影响，伤害型负面状态降低40%" }
+          ]
+        },
+        {
+          "labelVi": "Mở ở cấp 320",
+          "labelZh": "320级解锁",
+          "unlocked": true,
+          "effects": [
+            {
+              "vi": "Tuyệt kỹ đánh trúng gây 190% sát thương; tại điểm rơi của phát đạn cuối triệu hồi hổ giẫm đạp oanh kích ngẫu nhiên trong khu vực 4 lần, mỗi lần gây 20% sát thương cộng thêm sát thương thật bằng 20% công kích của bản thân (đòn oanh kích bỏ qua khiên).",
+              "zh": "必杀技命中造成190%伤害，最后一发炮弹落点召唤出老虎踩踏随机轰击区域4次，每次造成20%伤害+自身攻击力*20%的真实伤害（轰击无视护盾）"
+            },
+            {
+              "vi": "Mỗi lần đòn oanh kích đánh trúng thì gán hiệu quả \"Hổ Chấn\" (kháng nguyên tố -1.5%, hiệu quả hồi phục -5%), tối đa 10 tầng, duy trì 3 lượt.",
+              "zh": "每次轰击命中时得赋予\"虎慑\"效果（元素抗性-1.5%，治疗效果-5%），上限10层，持续3回合"
+            }
+          ]
+        },
+        {
+          "labelVi": "Mở ở cấp 400",
+          "labelZh": "400级解锁",
+          "unlocked": true,
+          "effects": [
+            { "vi": "Kháng bạo thương +100%.", "zh": "暴伤抵抗+100%" },
+            { "vi": "Thể lực tối đa +25; mỗi 1 điểm thể lực tiêu hao thì sát thương trong lượt hiện tại +0.25%, tối đa 10%.", "zh": "体力上限+25，每消耗1点体力，当前回合获得伤害+0.25%，上限10%" },
+            { "vi": "Khi ra tay có 10% xác suất nhận công kích +100 điểm trong 1 lượt.", "zh": "出手有10%几率获得攻击+100点一回合。" }
+          ]
+        }
+      ],
+      "breakthroughs": [
+        {
+          "labelVi": "Mở ở +30",
+          "labelZh": "+30 解锁",
+          "effects": [
+            {
+              "vi": "Mãnh Hổ Cách Đấu Kỹ (kỹ năng chủ động, mốc chờ = 200, hồi chiêu 5 lượt): phóng ra con hổ đánh nhau, gây đòn tấn công 80% sát thương kèm hất bay trong phạm vi 200 quanh điểm đánh trúng; đồng thời truy kích ngẫu nhiên 1 địch xa nhất trong phạm vi 500, gây 50% sát thương kèm hất bay, truy kích tổng 2 lần; mỗi lần đánh trúng kèm hiệu ứng nhận sát thương +15%, tối đa 2 tầng, duy trì 3 lượt. (Mỗi trận chỉ dùng 2 lần, không cộng dồn sát thương đa đạn, cố định bắn 1 phát.)",
+              "zh": "猛虎格斗技（主动技能，等待值=200，冷却5回合）：发射打架老虎，对命中点200范围造成80%伤害带击飞的攻击，并会随机对500范围内最远的1个敌人追击造成50%带击飞伤害，共追击2次，每次命中时附带易伤+15%，上限2层，持续3回合。（每场战斗限用2次，不叠加多发伤害，恒定单发）"
+            }
+          ]
+        },
+        {
+          "labelVi": "Mở ở +40",
+          "labelZh": "+40 解锁",
+          "effects": [
+            { "vi": "Số lần oanh kích của tuyệt kỹ tăng lên 8 lần.", "zh": "必杀技轰击提升到8次" },
+            { "vi": "Đòn tấn công bỏ qua phần giảm sát thương theo sinh lực tối đa; sát thương hất-rơi +15%.", "zh": "攻击无视最大生命减伤，击落伤害+15%" },
+            { "vi": "Hiệu lực trong PVE: công kích +20%; mỗi lần dùng một đạo cụ chiến đấu thì sát thương +20%, sát thương bạo kích +15%, tối đa 3 tầng, duy trì từng lượt.", "zh": "PVE生效：攻击+20%，每使用一个战斗道具，伤害+20%，暴击伤害+15%，上限3层，持续每回合。", "pve": true }
+          ]
+        },
+        {
+          "labelVi": "Mở ở +50",
+          "labelZh": "+50 解锁",
+          "effects": [
+            { "vi": "Sau khi đánh thường trúng, nếu sinh lực mục tiêu ≥ 50% thì triệu hồi thêm \"hổ thong dong\" gây 15% sát thương; trong PVE còn gán cho địch hiệu ứng nhận sát thương +5%, tối đa 8 tầng, duy trì 5 lượt.", "zh": "普攻命中后，目标血量≥50%，额外召唤15%伤害悠闲虎，PVE额外赋予敌人易伤+5%，上限8层，持续5回合" },
+            { "vi": "Sau khi đánh thường trúng, nếu sinh lực mục tiêu < 50% thì triệu hồi thêm \"hổ vui vẻ\" gây 10% sát thương; trong PVE còn cho bản thân khiên +10%, tối đa 3 tầng, duy trì 3 lượt.", "zh": "普攻命中后，目标血量<50%，额外召唤10%伤害欢乐虎，PVE额外赋予自身护盾+10%，上限3层，持续3回合" },
+            { "vi": "Hiệu lực trong PVE: đầu lượt của bản thân nhận 3 tầng \"Khát Máu\".", "zh": "PVE生效：自身回合开始时获得3层\"嗜血\"效果", "pve": true }
+          ]
+        }
+      ]
+    }
+  ]
+}

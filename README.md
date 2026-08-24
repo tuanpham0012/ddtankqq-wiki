@@ -29,12 +29,14 @@ src/
   data/upgrades.json       ← 55 mô-đun Siêu cải tiến theo cost 1-5 (detail bổ sung dần)
   data/soul-bodies.json    ← hồn thể Thần Điện: chỉ số + từ điều + kỹ năng (bổ sung dần)
   data/mounts.json         ← thú cưỡi: chỉ số gốc + mốc mở khoá + kỹ năng theo bậc
+  data/weapons.json        ← vũ khí: chỉ số + hiệu quả mở khoá theo cấp và mốc đột phá
   assets/items/*.png       ← 14 icon vật phẩm cửa hàng
   assets/upgrades/*.png    ← 55 icon mô-đun Siêu cải tiến
   assets/dishes/*.png      ← 11 ảnh món, tách từ base64 trong HTML gốc
   assets/pets/*.png        ← 37 ảnh pet, cắt từ ảnh chụp đồ giám trong game
   assets/soul-bodies/*.png ← ảnh hồn thể, cắt từ ảnh chụp bảng Thần Điện
   assets/mounts/*.png      ← ảnh thú cưỡi, cắt từ ảnh chụp bảng Thú cưỡi
+  assets/weapons/*.png     ← ảnh vũ khí, cắt từ ảnh chụp bảng Vũ khí
   assets/theme.css         ← biến màu + style dùng chung (giữ nguyên bản gốc)
   components/
     SiteNav.vue            ← menu dọc bên trái (tự xuống hàng ngang khi màn hình < 900px)
@@ -48,6 +50,7 @@ src/
     SieuCaiTienView.vue    ← trang Siêu cải tiến (mô-đun theo cost)
     HonTheView.vue         ← trang Hồn thể (Thần Điện)
     ThuCuoiView.vue        ← trang Thú cưỡi
+    VuKhiView.vue          ← trang Vũ khí
     ComingSoonView.vue     ← trang mặc định cho mục chưa có nội dung
 ```
 
