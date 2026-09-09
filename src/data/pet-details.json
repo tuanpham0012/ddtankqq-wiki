@@ -6,10 +6,34 @@
     "sourceVi": "Sự kiện",
     "sourceZh": "活动",
     "stats": [
-      { "key": "atk", "icon": "⚔️", "labelVi": "Công kích", "labelZh": "攻击", "value": 684 },
-      { "key": "hp", "icon": "❤️", "labelVi": "Sinh lực", "labelZh": "生命", "value": 1900 },
-      { "key": "spd", "icon": "💨", "labelVi": "Tốc độ", "labelZh": "速度", "value": 228 },
-      { "key": "def", "icon": "🛡️", "labelVi": "Giáp", "labelZh": "护甲", "value": 190 }
+      {
+        "key": "atk",
+        "icon": "⚔️",
+        "labelVi": "Công kích",
+        "labelZh": "攻击",
+        "value": 684
+      },
+      {
+        "key": "hp",
+        "icon": "❤️",
+        "labelVi": "Sinh lực",
+        "labelZh": "生命",
+        "value": 1900
+      },
+      {
+        "key": "spd",
+        "icon": "💨",
+        "labelVi": "Tốc độ",
+        "labelZh": "速度",
+        "value": 228
+      },
+      {
+        "key": "def",
+        "icon": "🛡️",
+        "labelVi": "Giáp",
+        "labelZh": "护甲",
+        "value": 190
+      }
     ],
     "skills": [
       {
@@ -20,10 +44,26 @@
         "typeVi": "Chủ động",
         "typeZh": "主动",
         "meta": [
-          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 30 },
-          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 5 },
-          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 },
-          { "labelVi": "Trị chờ", "labelZh": "等待值", "value": 880 }
+          {
+            "labelVi": "Tốn thể lực",
+            "labelZh": "消耗体力",
+            "value": 30
+          },
+          {
+            "labelVi": "Hồi chiêu",
+            "labelZh": "技能冷却",
+            "value": 5
+          },
+          {
+            "labelVi": "Tốn nộ khí",
+            "labelZh": "消耗怒气",
+            "value": 0
+          },
+          {
+            "labelVi": "Trị chờ",
+            "labelZh": "等待值",
+            "value": 880
+          }
         ],
         "effects": [
           {
@@ -56,9 +96,21 @@
         "typeVi": "Bị động",
         "typeZh": "被动",
         "meta": [
-          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
-          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
-          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+          {
+            "labelVi": "Tốn thể lực",
+            "labelZh": "消耗体力",
+            "value": 0
+          },
+          {
+            "labelVi": "Hồi chiêu",
+            "labelZh": "技能冷却",
+            "value": 0
+          },
+          {
+            "labelVi": "Tốn nộ khí",
+            "labelZh": "消耗怒气",
+            "value": 0
+          }
         ],
         "effects": [
           {
@@ -87,10 +139,34 @@
     "sourceVi": "Sự kiện",
     "sourceZh": "活动",
     "stats": [
-      { "key": "atk", "icon": "⚔️", "labelVi": "Công kích", "labelZh": "攻击", "value": 380 },
-      { "key": "hp", "icon": "❤️", "labelVi": "Sinh lực", "labelZh": "生命", "value": 2280 },
-      { "key": "spd", "icon": "💨", "labelVi": "Tốc độ", "labelZh": "速度", "value": 190 },
-      { "key": "def", "icon": "🛡️", "labelVi": "Giáp", "labelZh": "护甲", "value": 266 }
+      {
+        "key": "atk",
+        "icon": "⚔️",
+        "labelVi": "Công kích",
+        "labelZh": "攻击",
+        "value": 380
+      },
+      {
+        "key": "hp",
+        "icon": "❤️",
+        "labelVi": "Sinh lực",
+        "labelZh": "生命",
+        "value": 2280
+      },
+      {
+        "key": "spd",
+        "icon": "💨",
+        "labelVi": "Tốc độ",
+        "labelZh": "速度",
+        "value": 190
+      },
+      {
+        "key": "def",
+        "icon": "🛡️",
+        "labelVi": "Giáp",
+        "labelZh": "护甲",
+        "value": 266
+      }
     ],
     "skills": [
       {
@@ -101,10 +177,26 @@
         "typeVi": "Chủ động",
         "typeZh": "主动",
         "meta": [
-          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 30 },
-          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 5 },
-          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 },
-          { "labelVi": "Trị chờ", "labelZh": "等待值", "value": 750 }
+          {
+            "labelVi": "Tốn thể lực",
+            "labelZh": "消耗体力",
+            "value": 30
+          },
+          {
+            "labelVi": "Hồi chiêu",
+            "labelZh": "技能冷却",
+            "value": 5
+          },
+          {
+            "labelVi": "Tốn nộ khí",
+            "labelZh": "消耗怒气",
+            "value": 0
+          },
+          {
+            "labelVi": "Trị chờ",
+            "labelZh": "等待值",
+            "value": 750
+          }
         ],
         "effects": [
           {
@@ -129,9 +221,21 @@
         "typeVi": "Bị động",
         "typeZh": "被动",
         "meta": [
-          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
-          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
-          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+          {
+            "labelVi": "Tốn thể lực",
+            "labelZh": "消耗体力",
+            "value": 0
+          },
+          {
+            "labelVi": "Hồi chiêu",
+            "labelZh": "技能冷却",
+            "value": 0
+          },
+          {
+            "labelVi": "Tốn nộ khí",
+            "labelZh": "消耗怒气",
+            "value": 0
+          }
         ],
         "effects": [
           {
@@ -160,10 +264,34 @@
     "sourceVi": "Sự kiện",
     "sourceZh": "活动",
     "stats": [
-      { "key": "atk", "icon": "⚔️", "labelVi": "Công kích", "labelZh": "攻击", "value": 760 },
-      { "key": "hp", "icon": "❤️", "labelVi": "Sinh lực", "labelZh": "生命", "value": 2432 },
-      { "key": "spd", "icon": "💨", "labelVi": "Tốc độ", "labelZh": "速度", "value": 190 },
-      { "key": "def", "icon": "🛡️", "labelVi": "Giáp", "labelZh": "护甲", "value": 266 }
+      {
+        "key": "atk",
+        "icon": "⚔️",
+        "labelVi": "Công kích",
+        "labelZh": "攻击",
+        "value": 760
+      },
+      {
+        "key": "hp",
+        "icon": "❤️",
+        "labelVi": "Sinh lực",
+        "labelZh": "生命",
+        "value": 2432
+      },
+      {
+        "key": "spd",
+        "icon": "💨",
+        "labelVi": "Tốc độ",
+        "labelZh": "速度",
+        "value": 190
+      },
+      {
+        "key": "def",
+        "icon": "🛡️",
+        "labelVi": "Giáp",
+        "labelZh": "护甲",
+        "value": 266
+      }
     ],
     "skills": [
       {
@@ -174,10 +302,26 @@
         "typeVi": "Chủ động",
         "typeZh": "主动",
         "meta": [
-          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 30 },
-          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 5 },
-          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 },
-          { "labelVi": "Trị chờ", "labelZh": "等待值", "value": 500 }
+          {
+            "labelVi": "Tốn thể lực",
+            "labelZh": "消耗体力",
+            "value": 30
+          },
+          {
+            "labelVi": "Hồi chiêu",
+            "labelZh": "技能冷却",
+            "value": 5
+          },
+          {
+            "labelVi": "Tốn nộ khí",
+            "labelZh": "消耗怒气",
+            "value": 0
+          },
+          {
+            "labelVi": "Trị chờ",
+            "labelZh": "等待值",
+            "value": 500
+          }
         ],
         "effects": [
           {
@@ -206,9 +350,21 @@
         "typeVi": "Bị động",
         "typeZh": "被动",
         "meta": [
-          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
-          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
-          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+          {
+            "labelVi": "Tốn thể lực",
+            "labelZh": "消耗体力",
+            "value": 0
+          },
+          {
+            "labelVi": "Hồi chiêu",
+            "labelZh": "技能冷却",
+            "value": 0
+          },
+          {
+            "labelVi": "Tốn nộ khí",
+            "labelZh": "消耗怒气",
+            "value": 0
+          }
         ],
         "effects": [
           {
@@ -233,9 +389,21 @@
         "typeVi": "Bị động",
         "typeZh": "被动",
         "meta": [
-          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
-          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
-          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+          {
+            "labelVi": "Tốn thể lực",
+            "labelZh": "消耗体力",
+            "value": 0
+          },
+          {
+            "labelVi": "Hồi chiêu",
+            "labelZh": "技能冷却",
+            "value": 0
+          },
+          {
+            "labelVi": "Tốn nộ khí",
+            "labelZh": "消耗怒气",
+            "value": 0
+          }
         ],
         "effects": [
           {
@@ -264,10 +432,34 @@
     "sourceVi": "Sự kiện",
     "sourceZh": "活动",
     "stats": [
-      { "key": "atk", "icon": "⚔️", "labelVi": "Công kích", "labelZh": "攻击", "value": 1672 },
-      { "key": "hp", "icon": "❤️", "labelVi": "Sinh lực", "labelZh": "生命", "value": 4484 },
-      { "key": "spd", "icon": "💨", "labelVi": "Tốc độ", "labelZh": "速度", "value": 319 },
-      { "key": "def", "icon": "🛡️", "labelVi": "Giáp", "labelZh": "护甲", "value": 608 }
+      {
+        "key": "atk",
+        "icon": "⚔️",
+        "labelVi": "Công kích",
+        "labelZh": "攻击",
+        "value": 1672
+      },
+      {
+        "key": "hp",
+        "icon": "❤️",
+        "labelVi": "Sinh lực",
+        "labelZh": "生命",
+        "value": 4484
+      },
+      {
+        "key": "spd",
+        "icon": "💨",
+        "labelVi": "Tốc độ",
+        "labelZh": "速度",
+        "value": 319
+      },
+      {
+        "key": "def",
+        "icon": "🛡️",
+        "labelVi": "Giáp",
+        "labelZh": "护甲",
+        "value": 608
+      }
     ],
     "skills": [
       {
@@ -278,10 +470,26 @@
         "typeVi": "Chủ động",
         "typeZh": "主动",
         "meta": [
-          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 30 },
-          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 5 },
-          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 },
-          { "labelVi": "Trị chờ", "labelZh": "等待值", "value": 600 }
+          {
+            "labelVi": "Tốn thể lực",
+            "labelZh": "消耗体力",
+            "value": 30
+          },
+          {
+            "labelVi": "Hồi chiêu",
+            "labelZh": "技能冷却",
+            "value": 5
+          },
+          {
+            "labelVi": "Tốn nộ khí",
+            "labelZh": "消耗怒气",
+            "value": 0
+          },
+          {
+            "labelVi": "Trị chờ",
+            "labelZh": "等待值",
+            "value": 600
+          }
         ],
         "effects": [
           {
@@ -306,9 +514,21 @@
         "typeVi": "Bị động",
         "typeZh": "被动",
         "meta": [
-          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
-          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
-          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+          {
+            "labelVi": "Tốn thể lực",
+            "labelZh": "消耗体力",
+            "value": 0
+          },
+          {
+            "labelVi": "Hồi chiêu",
+            "labelZh": "技能冷却",
+            "value": 0
+          },
+          {
+            "labelVi": "Tốn nộ khí",
+            "labelZh": "消耗怒气",
+            "value": 0
+          }
         ],
         "effects": [
           {
@@ -337,9 +557,21 @@
         "typeVi": "Bị động",
         "typeZh": "被动",
         "meta": [
-          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
-          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
-          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+          {
+            "labelVi": "Tốn thể lực",
+            "labelZh": "消耗体力",
+            "value": 0
+          },
+          {
+            "labelVi": "Hồi chiêu",
+            "labelZh": "技能冷却",
+            "value": 0
+          },
+          {
+            "labelVi": "Tốn nộ khí",
+            "labelZh": "消耗怒气",
+            "value": 0
+          }
         ],
         "effects": [
           {
@@ -368,10 +600,34 @@
     "sourceVi": "Sự kiện",
     "sourceZh": "活动",
     "stats": [
-      { "key": "atk", "icon": "⚔️", "labelVi": "Công kích", "labelZh": "攻击", "value": 1064 },
-      { "key": "hp", "icon": "❤️", "labelVi": "Sinh lực", "labelZh": "生命", "value": 3192 },
-      { "key": "spd", "icon": "💨", "labelVi": "Tốc độ", "labelZh": "速度", "value": 243 },
-      { "key": "def", "icon": "🛡️", "labelVi": "Giáp", "labelZh": "护甲", "value": 387 }
+      {
+        "key": "atk",
+        "icon": "⚔️",
+        "labelVi": "Công kích",
+        "labelZh": "攻击",
+        "value": 1064
+      },
+      {
+        "key": "hp",
+        "icon": "❤️",
+        "labelVi": "Sinh lực",
+        "labelZh": "生命",
+        "value": 3192
+      },
+      {
+        "key": "spd",
+        "icon": "💨",
+        "labelVi": "Tốc độ",
+        "labelZh": "速度",
+        "value": 243
+      },
+      {
+        "key": "def",
+        "icon": "🛡️",
+        "labelVi": "Giáp",
+        "labelZh": "护甲",
+        "value": 387
+      }
     ],
     "skills": [
       {
@@ -382,10 +638,26 @@
         "typeVi": "Chủ động",
         "typeZh": "主动",
         "meta": [
-          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 30 },
-          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 5 },
-          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 },
-          { "labelVi": "Trị chờ", "labelZh": "等待值", "value": 600 }
+          {
+            "labelVi": "Tốn thể lực",
+            "labelZh": "消耗体力",
+            "value": 30
+          },
+          {
+            "labelVi": "Hồi chiêu",
+            "labelZh": "技能冷却",
+            "value": 5
+          },
+          {
+            "labelVi": "Tốn nộ khí",
+            "labelZh": "消耗怒气",
+            "value": 0
+          },
+          {
+            "labelVi": "Trị chờ",
+            "labelZh": "等待值",
+            "value": 600
+          }
         ],
         "effects": [
           {
@@ -444,9 +716,21 @@
         "typeVi": "Bị động",
         "typeZh": "被动",
         "meta": [
-          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
-          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
-          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+          {
+            "labelVi": "Tốn thể lực",
+            "labelZh": "消耗体力",
+            "value": 0
+          },
+          {
+            "labelVi": "Hồi chiêu",
+            "labelZh": "技能冷却",
+            "value": 0
+          },
+          {
+            "labelVi": "Tốn nộ khí",
+            "labelZh": "消耗怒气",
+            "value": 0
+          }
         ],
         "effects": [
           {
@@ -471,9 +755,21 @@
         "typeVi": "Bị động",
         "typeZh": "被动",
         "meta": [
-          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
-          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
-          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+          {
+            "labelVi": "Tốn thể lực",
+            "labelZh": "消耗体力",
+            "value": 0
+          },
+          {
+            "labelVi": "Hồi chiêu",
+            "labelZh": "技能冷却",
+            "value": 0
+          },
+          {
+            "labelVi": "Tốn nộ khí",
+            "labelZh": "消耗怒气",
+            "value": 0
+          }
         ],
         "effects": [
           {
@@ -498,10 +794,34 @@
     "sourceVi": "Sự kiện",
     "sourceZh": "活动",
     "stats": [
-      { "key": "atk", "icon": "⚔️", "labelVi": "Công kích", "labelZh": "攻击", "value": 532 },
-      { "key": "hp", "icon": "❤️", "labelVi": "Sinh lực", "labelZh": "生命", "value": 1596 },
-      { "key": "spd", "icon": "💨", "labelVi": "Tốc độ", "labelZh": "速度", "value": 190 },
-      { "key": "def", "icon": "🛡️", "labelVi": "Giáp", "labelZh": "护甲", "value": 266 }
+      {
+        "key": "atk",
+        "icon": "⚔️",
+        "labelVi": "Công kích",
+        "labelZh": "攻击",
+        "value": 532
+      },
+      {
+        "key": "hp",
+        "icon": "❤️",
+        "labelVi": "Sinh lực",
+        "labelZh": "生命",
+        "value": 1596
+      },
+      {
+        "key": "spd",
+        "icon": "💨",
+        "labelVi": "Tốc độ",
+        "labelZh": "速度",
+        "value": 190
+      },
+      {
+        "key": "def",
+        "icon": "🛡️",
+        "labelVi": "Giáp",
+        "labelZh": "护甲",
+        "value": 266
+      }
     ],
     "skills": [
       {
@@ -512,10 +832,26 @@
         "typeVi": "Chủ động",
         "typeZh": "主动",
         "meta": [
-          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 30 },
-          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 5 },
-          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 },
-          { "labelVi": "Trị chờ", "labelZh": "等待值", "value": 500 }
+          {
+            "labelVi": "Tốn thể lực",
+            "labelZh": "消耗体力",
+            "value": 30
+          },
+          {
+            "labelVi": "Hồi chiêu",
+            "labelZh": "技能冷却",
+            "value": 5
+          },
+          {
+            "labelVi": "Tốn nộ khí",
+            "labelZh": "消耗怒气",
+            "value": 0
+          },
+          {
+            "labelVi": "Trị chờ",
+            "labelZh": "等待值",
+            "value": 500
+          }
         ],
         "effects": [
           {
@@ -540,9 +876,21 @@
         "typeVi": "Bị động",
         "typeZh": "被动",
         "meta": [
-          { "labelVi": "Tốn thể lực", "labelZh": "消耗体力", "value": 0 },
-          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": 0 },
-          { "labelVi": "Tốn nộ khí", "labelZh": "消耗怒气", "value": 0 }
+          {
+            "labelVi": "Tốn thể lực",
+            "labelZh": "消耗体力",
+            "value": 0
+          },
+          {
+            "labelVi": "Hồi chiêu",
+            "labelZh": "技能冷却",
+            "value": 0
+          },
+          {
+            "labelVi": "Tốn nộ khí",
+            "labelZh": "消耗怒气",
+            "value": 0
+          }
         ],
         "effects": [
           {
@@ -578,6 +926,141 @@
           {
             "vi": "Hoả Nhãn Kim Tinh: khi đánh đơn vị tàng hình, sát thương tăng thêm 15%.",
             "zh": "火眼金睛：攻击隐身单位时，伤害额外增加15%。"
+          }
+        ]
+      }
+    ]
+  },
+  "trieu-tich": {
+    "quoteZh": "无风不起浪，征服海浪的潮汐行者。",
+    "quoteVi": "Không gió thì chẳng dậy sóng — kẻ lữ hành thuỷ triều chinh phục sóng biển.",
+    "sourceVi": "Sự kiện",
+    "sourceZh": "活动",
+    "stats": [
+      {
+        "key": "atk",
+        "icon": "⚔️",
+        "labelVi": "Công kích",
+        "labelZh": "攻击",
+        "value": 456
+      },
+      {
+        "key": "hp",
+        "icon": "❤️",
+        "labelVi": "Sinh lực",
+        "labelZh": "生命",
+        "value": 1672
+      },
+      {
+        "key": "spd",
+        "icon": "💨",
+        "labelVi": "Tốc độ",
+        "labelZh": "速度",
+        "value": 190
+      },
+      {
+        "key": "def",
+        "icon": "🛡️",
+        "labelVi": "Giáp",
+        "labelZh": "护甲",
+        "value": 228
+      }
+    ],
+    "skills": [
+      {
+        "nameVi": "Săn Mồi Vùng Nước",
+        "nameZh": "水域狩猎",
+        "level": "Lv.max",
+        "type": "active",
+        "typeVi": "Chủ động",
+        "typeZh": "主动",
+        "meta": [
+          {
+            "labelVi": "Tốn thể lực",
+            "labelZh": "消耗体力",
+            "value": 30
+          },
+          {
+            "labelVi": "Hồi chiêu",
+            "labelZh": "技能冷却",
+            "value": 6
+          },
+          {
+            "labelVi": "Tốn nộ khí",
+            "labelZh": "消耗怒气",
+            "value": 0
+          },
+          {
+            "labelVi": "Trị chờ",
+            "labelZh": "等待值",
+            "value": 884
+          }
+        ],
+        "effects": [
+          {
+            "vi": "Sau khi thi triển, triệu ra một trường lực hơi nước bán kính 500 (không thể giải trừ); từ ngoài không nhìn rõ được bên trong. Trường tồn tại 3 lượt, bản thân nhận các hiệu ứng sau:",
+            "zh": "释放技能后，召唤一个500范围的水汽力场（不可驱散），外面无法看清里面，存在3回合，自身获得以下效果：",
+            "sub": [
+              {
+                "vi": "1. Kháng hiệu ứng +50%, kéo dài 2 lượt.",
+                "zh": "1.效果抵抗+50%，持续2回合。"
+              },
+              {
+                "vi": "2. Khi sinh lực bản thân trên 50%: sát thương bản thân +30%, hút máu +20%, kéo dài 2 lượt.",
+                "zh": "2.当自身血量大于50%时，自身伤害提升30%，吸血+20%，持续2回合。"
+              },
+              {
+                "vi": "3. Khi sinh lực bản thân dưới 50%: sát thương bản thân +15%, hút máu +40%, kéo dài 2 lượt.",
+                "zh": "3.当自身血量小于50%时，自身伤害提升15%，吸血+40%，持续2回合。"
+              },
+              {
+                "vi": "4. Nhận hiệu ứng “Truy Sát Hiểm Độc”: khi gây sát thương lên khiên của địch thì gây thêm sát thương chuẩn bằng 30% giá trị khiên đó (chỉ trừ vào sinh lực), kéo dài 2 lượt.",
+                "zh": "4.获得恶意追击的效果，当对敌人造成护盾伤害时，再追加造成护盾值伤害的30%真实伤害（只扣除血量），持续2回合。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nameVi": "Sấu Quán Mãn Doanh",
+        "nameZh": "鳄贯满盈",
+        "level": "Lv.max",
+        "type": "passive",
+        "typeVi": "Bị động",
+        "typeZh": "被动",
+        "meta": [
+          {
+            "labelVi": "Tốn thể lực",
+            "labelZh": "消耗体力",
+            "value": 0
+          },
+          {
+            "labelVi": "Hồi chiêu",
+            "labelZh": "技能冷却",
+            "value": 0
+          },
+          {
+            "labelVi": "Tốn nộ khí",
+            "labelZh": "消耗怒气",
+            "value": 0
+          }
+        ],
+        "effects": [
+          {
+            "vi": "Mỗi 1 điểm thể lực tiêu hao thì lượt hiện tại được cộng 0.15% sát thương, tối đa +15%.",
+            "zh": "每消耗1点体力，则当前回合获得0.15%的伤害加成，最多提高15%伤害。"
+          },
+          {
+            "vi": "Khi kết thúc lượt của mình, nếu bản thân đang mang trạng thái “Thiêu Đốt” thì nhận 15 điểm nộ khí; mỗi khi bắt đầu lượt, hiệu ứng “Thiêu Đốt” giảm đi 1 lượt (tối thiểu còn 1 lượt).",
+            "zh": "自身回合结束时，当自身处于“灼烧”状态，获得15点怒气，每回合开始时“灼烧”效果减少1回合（最少为1回合）。"
+          },
+          {
+            "vi": "Hiệu ứng dễ tổn thương giảm 40%. Mỗi khi bắt đầu lượt, cộng thêm lượng giảm sát thương bằng phần trăm sinh lực đã mất trong lượt bị thương gần nhất (ít nhất phải lớn hơn 1% sinh lực tối đa).",
+            "zh": "易伤效果下降40%，每回合开始时，追加上一次受伤的回合损失生命百分比的减伤（至少大于生命上限1%）。"
+          },
+          {
+            "vi": "Khi bản thân đứng trong trường lực hơi nước của phe ta: mỗi lượt hồi 15% sinh lực và 20% khiên, bỏ qua cấm trị liệu; khi bắt đầu lượt hồi thêm 15 điểm thể lực và nhận miễn thương bằng 3% sinh lực tối đa của bản thân. (Mỗi lượt nhận tối đa 1 lần; nếu đã bị gỡ trong lượt hiện tại thì không nhận lại được nữa)",
+            "zh": "当自身处于我方的水汽力场内时，每回合恢复15%生命，20%护盾，无视禁疗，回合开始时额外恢复15点体力值，增加自身最大生命值3%的免伤。（每回合最多获得1次，当前回合移除后无法再次获得）"
           }
         ]
       }
