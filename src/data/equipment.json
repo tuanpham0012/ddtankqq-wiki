@@ -1,0 +1,415 @@
+{
+  "_note": "Trang bị (装备), gom theo bộ (套装). Ảnh ở src/assets/equipment/<image>. Mỗi món chỉ ghi thuộc tính truyền thuyết (传说属性); hiệu quả bộ (bonuses) theo số món mặc (count/total).",
+  "sets": [
+    {
+      "id": "su-gia-dia-nguc",
+      "nameVi": "Sứ Giả Địa Ngục",
+      "nameZh": "地狱使者套装",
+      "total": 8,
+      "pieces": [
+        {
+          "id": "su-gia-dia-nguc-mu",
+          "nameVi": "Sứ Giả Địa Ngục",
+          "nameZh": "地狱使者",
+          "image": "su-gia-dia-nguc-mu.png",
+          "rarityVi": "Truyền thuyết",
+          "rarityZh": "传说",
+          "slotVi": "Mũ",
+          "slotZh": "帽子",
+          "legendVi": "Sinh lực tăng 10% (theo phần trăm)",
+          "legendZh": "生命百分比提高10%"
+        }
+      ],
+      "bonuses": [
+        {
+          "count": 2,
+          "effects": [
+            {
+              "vi": "Kháng sát thương bạo kích +50%.",
+              "zh": "暴伤抵抗+50%。"
+            },
+            {
+              "vi": "Xuyên phá giảm sát thương +50%.",
+              "zh": "抵伤穿透+50%。"
+            }
+          ]
+        },
+        {
+          "count": 4,
+          "effects": [
+            {
+              "vi": "Công kích vật lý +3000.",
+              "zh": "物理攻击+3000。"
+            },
+            {
+              "vi": "Kháng nguyên tố +1000.",
+              "zh": "元素抗性+1000。"
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "effects": [
+            {
+              "vi": "Sát thương +15%, giảm sát thương nhận vào +10%.",
+              "zh": "伤害+15%，减伤+10%。"
+            },
+            {
+              "vi": "Phát đạn gây sát thương cuối cùng mỗi lượt, sau khi nổ sẽ triệu hồi kết giới [Điêu Linh]: địch trong kết giới mất 4% sinh lực tối đa vào đầu lượt (tối đa 100.000, không có tác dụng trong phó bản PVE) và bị giảm 3 điểm độ dài đường ngắm. Phạm vi kết giới 300 pixel, duy trì 3 lượt.",
+              "zh": "每回合最后一发伤害类炮弹爆炸后召唤【凋零】结界：在结界内的敌方目标回合开始时失去4%最大生命值（最多100000点，PVE副本无效），降低3点瞄准线长。结界范围300像素，持续3回合。"
+            }
+          ]
+        },
+        {
+          "count": 8,
+          "effects": [
+            {
+              "vi": "Sát thương +25%, giảm sát thương nhận vào +20%.",
+              "zh": "伤害+25%，减伤+20%。"
+            },
+            {
+              "vi": "Khi bản thân sắp chết, lập tức hồi sinh với 30% sinh lực và khiên bằng 20% sinh lực tối đa; vô địch cho tới lượt của bản thân.",
+              "zh": "自身濒死时，立即复活自身并拥有30%生命值和最大生命值20%护盾，在轮到自身前无敌。"
+            },
+            {
+              "vi": "Phạm vi 800 quanh bản thân cũng có hiệu quả giống kết giới [Điêu Linh].",
+              "zh": "自己的周边800范围，也拥有【凋零】结界相同的效果。"
+            },
+            {
+              "vi": "Khi tấn công địch trong kết giới [Điêu Linh], khiến mục tiêu nhận thêm sát thương +10%; hiệu quả mất sau khi đòn tấn công kết thúc.",
+              "zh": "攻击【凋零】结界内的敌人时，额外使其易伤+10%，攻击结束后消失。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pha-phong-tuan-le",
+      "nameVi": "Phá Phong Tuần Lễ",
+      "nameZh": "破风巡礼套装",
+      "total": 8,
+      "pieces": [
+        {
+          "id": "pha-phong-tuan-le-giay",
+          "nameVi": "Phá Phong Tuần Lễ",
+          "nameZh": "破风巡礼",
+          "image": "pha-phong-tuan-le-giay.png",
+          "rarityVi": "Truyền thuyết",
+          "rarityZh": "传说",
+          "slotVi": "Giày",
+          "slotZh": "鞋子",
+          "legendVi": "Công kích tăng 10% (theo phần trăm)",
+          "legendZh": "攻击百分比提高10%"
+        }
+      ],
+      "bonuses": [
+        {
+          "count": 2,
+          "effects": [
+            {
+              "vi": "Tốc độ di chuyển và quãng đường di chuyển +50%.",
+              "zh": "移动速度和移动距离+50%。"
+            },
+            {
+              "vi": "Sát thương đánh rơi +3%.",
+              "zh": "击落伤害+3%。"
+            }
+          ]
+        },
+        {
+          "count": 4,
+          "effects": [
+            {
+              "vi": "Trong lượt này, nếu bản thân di chuyển quá 350 khoảng cách rồi mới bắn: sát thương +15%, duy trì 3 lượt.",
+              "zh": "本回合自己位移超过350距离后开炮，伤害+15%，持续3回合。"
+            },
+            {
+              "vi": "Khi tấn công từ chỗ cao xuống chỗ thấp, sát thương +10%; khi bị tấn công từ chỗ thấp, giảm sát thương nhận vào +10%, duy trì 1 lượt.",
+              "zh": "从高处攻击低处时，伤害+10%；从低处被攻击时，减伤+10%，持续1回合。"
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "effects": [
+            {
+              "vi": "Sát thương +15%, giảm sát thương nhận vào +10%.",
+              "zh": "伤害+15%，减伤+10%。"
+            },
+            {
+              "vi": "Khi đánh trúng, gán cho mục tiêu 1 tầng [Thất Bộ]: tiêu hao di chuyển +30%, duy trì 2 lượt. Khi [Thất Bộ] cộng dồn tới 2 tầng, mục tiêu bị giảm thêm 50% hiệu quả hồi phục, duy trì 2 lượt.",
+              "zh": "命中后使目标获得1层【失步】效果：移动力消耗+30%，持续2回合。【失步】叠加到2层时，额外使目标治疗效果-50%，持续2回合。"
+            },
+            {
+              "vi": "Khi bản thân đánh trúng mục tiêu chênh lệch độ cao từ 100 trở lên, công kích +10%, duy trì 3 lượt.",
+              "zh": "自己命中处于高低差100以上的目标时，攻击力+10%，持续3回合。"
+            }
+          ]
+        },
+        {
+          "count": 8,
+          "effects": [
+            {
+              "vi": "Sát thương +25%, giảm sát thương nhận vào +20%.",
+              "zh": "伤害+25%，减伤+20%。"
+            },
+            {
+              "vi": "Khi từ chỗ cao đánh trúng mục tiêu thấp hơn từ 100 pixel trở lên, tạo [Phong Thiết Đới] bán kính 300 pixel tại điểm nổ; vùng này rơi theo địa hình. Địch đi vào vùng bị công kích -10%, tiêu hao di chuyển +75%, và hiệu quả miễn kháng mất tác dụng. Duy trì theo lượt (game không ghi số lượt).",
+              "zh": "从高处命中低处100像素及以上落差的目标时，在爆炸点生成半径300像素的【风切带】，风切带会随地形下落。进入该区域的敌人攻击-10%，移动力消耗+75%，并且免抗效果失效。持续回合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chuoc-tinh-dung-quan",
+      "nameVi": "Chước Tinh Dung Quan",
+      "nameZh": "灼星熔冠套装",
+      "total": 8,
+      "pieces": [
+        {
+          "id": "chuoc-tinh-dung-quan-mu",
+          "nameVi": "Chước Tinh Dung Quan",
+          "nameZh": "灼星熔冠",
+          "image": "chuoc-tinh-dung-quan-mu.png",
+          "rarityVi": "Truyền thuyết",
+          "rarityZh": "传说",
+          "slotVi": "Mũ",
+          "slotZh": "帽子",
+          "legendVi": "Sinh lực tăng 10% (theo phần trăm)",
+          "legendZh": "生命百分比提高10%"
+        }
+      ],
+      "bonuses": [
+        {
+          "count": 2,
+          "effects": [
+            {
+              "vi": "Kháng nguyên tố +1000.",
+              "zh": "元素抗性+1000。"
+            },
+            {
+              "vi": "Giáp +1000.",
+              "zh": "护甲+1000。"
+            }
+          ]
+        },
+        {
+          "count": 4,
+          "effects": [
+            {
+              "vi": "Sát thương thần thánh +3000.",
+              "zh": "神圣伤害+3000。"
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "effects": [
+            {
+              "vi": "Sát thương +15%, giảm sát thương nhận vào +10%.",
+              "zh": "伤害+15%，减伤+10%。"
+            },
+            {
+              "vi": "Trước khi đòn tấn công trúng đích, gán cho mục tiêu 1 tầng [Chước Ngân]: mục tiêu mất 3% sinh lực hiện tại vào đầu mỗi lượt (tối đa 100.000, không có tác dụng trong PVE) và lượng khiên mới nhận được -10%. Hiệu quả duy trì 4 lượt, tối đa 2 tầng.",
+              "zh": "攻击命中前对目标施加1层【灼痕】：目标每回合开始时失去3%当前生命值（最多100000点，PVE无效），并使其新获得护盾值-10%，效果持续4回合，最多2层。"
+            },
+            {
+              "vi": "Khi tấn công mục tiêu có [Chước Ngân], sát thương lên khiên +50%.",
+              "zh": "攻击【灼痕】目标时，对护盾增伤+50%。"
+            }
+          ]
+        },
+        {
+          "count": 8,
+          "effects": [
+            {
+              "vi": "Sát thương +25%, giảm sát thương nhận vào +20%.",
+              "zh": "伤害+25%，减伤+20%。"
+            },
+            {
+              "vi": "Khi [Chước Ngân] đạt 2 tầng, gán thêm [Chước Thúy]: nhận sát thương +10%, giáp -10%. Hiệu quả duy trì 3 lượt.",
+              "zh": "【灼痕】达到2层时，额外施加【灼脆】：易伤+10%，护甲-10%。效果持续3回合。"
+            },
+            {
+              "vi": "Đòn tấn công đầu tiên lên mục tiêu có [Chước Thúy] gây thêm sát thương thần thánh bằng 20% công kích.",
+              "zh": "对【灼脆】目标的第一次攻击额外附加攻击力20%的神圣伤害。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kinh-loi-co-quat",
+      "nameVi": "Kinh Lôi Cơ Quát",
+      "nameZh": "惊雷机括套装",
+      "total": 8,
+      "pieces": [
+        {
+          "id": "kinh-loi-co-quat-gang",
+          "nameVi": "Kinh Lôi Cơ Quát",
+          "nameZh": "惊雷机括",
+          "image": "kinh-loi-co-quat-gang.png",
+          "rarityVi": "Truyền thuyết",
+          "rarityZh": "传说",
+          "slotVi": "Găng tay",
+          "slotZh": "护手",
+          "legendVi": "Xuyên phá nguyên tố +800",
+          "legendZh": "元素穿透提高800"
+        }
+      ],
+      "bonuses": [
+        {
+          "count": 2,
+          "effects": [
+            {
+              "vi": "Cường độ nguyên tố +15%.",
+              "zh": "元素强度+15%。"
+            },
+            {
+              "vi": "Kháng nguyên tố +1000.",
+              "zh": "元素抗性+1000。"
+            }
+          ]
+        },
+        {
+          "count": 4,
+          "effects": [
+            {
+              "vi": "Công kích nguyên tố +10%.",
+              "zh": "元素攻击+10%。"
+            },
+            {
+              "vi": "Sát thương nguyên tố thêm +3000.",
+              "zh": "元素额外伤害+3000。"
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "effects": [
+            {
+              "vi": "Sát thương +15%, giảm sát thương nhận vào +10%.",
+              "zh": "伤害+15%，减伤+10%。"
+            },
+            {
+              "vi": "Trước khi phát đạn trúng đích, gán 1 tầng trạng thái [Cảm Điện], tối đa 2 tầng, duy trì 2 lượt.",
+              "zh": "炮弹命中前施加1层【感电】状态，最多2层，持续2回合。"
+            },
+            {
+              "vi": "Trạng thái [Cảm Điện] kèm thêm nhận sát thương +20% và giảm 10% tổng lượng giảm sát thương từ thú cưỡi; hiệu quả này không cộng dồn theo số tầng.",
+              "zh": "【感电】状态额外附带易伤+20%，坐骑减伤降低总量的10%，该效果不随层数叠加。"
+            }
+          ]
+        },
+        {
+          "count": 8,
+          "effects": [
+            {
+              "vi": "Sát thương +25%, giảm sát thương nhận vào +20%.",
+              "zh": "伤害+25%，减伤+20%。"
+            },
+            {
+              "vi": "Sau khi đánh trúng mục tiêu có [Cảm Điện], phát đạn sẽ nảy sang một địch khác trong phạm vi 800 pixel, gây 50% sát thương phi đạn pháo (không kèm hiệu quả đạn).",
+              "zh": "命中【感电】目标后，炮弹会弹射向800像素范围内另一名敌人，造成50%非炮弹伤害（不附带炮弹效果）。"
+            },
+            {
+              "vi": "[Cảm Điện] 2 tầng chuyển thành hiệu quả [Điện Tích]: mất 10 nộ khí và 10 thể lực; đồng thời vào đầu lượt của người mang [Điện Tích], người đó cùng các đồng đội trong phạm vi 800 pixel mất sinh lực bằng 3% sinh lực tối đa của chính mình (tối đa 100.000, không có tác dụng trong PVE), duy trì 2 lượt.",
+              "zh": "2层【感电】转化为【电荷】效果：失去10怒气与10体力，并且电荷效果持有人回合开始时，和附近800像素范围内友方目标共同失去自己最大生命值3%的生命（最多100000点，PVE无效），持续2回合。"
+            },
+            {
+              "vi": "Nếu trong phạm vi 800 pixel quanh bản thân còn có địch, sát thương +8%.",
+              "zh": "若自己附近800像素范围内还有敌人，伤害+8%。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "luong-tu-liep-truong",
+      "nameVi": "Lượng Tử Liệp Trường",
+      "nameZh": "量子猎场套装",
+      "total": 8,
+      "pieces": [
+        {
+          "id": "luong-tu-liep-truong-that-lung",
+          "nameVi": "Lượng Tử Liệp Trường",
+          "nameZh": "量子猎场",
+          "image": "luong-tu-liep-truong-that-lung.png",
+          "rarityVi": "Truyền thuyết",
+          "rarityZh": "传说",
+          "slotVi": "Thắt lưng",
+          "slotZh": "腰带",
+          "legendVi": "Xuyên giáp +1000",
+          "legendZh": "护甲穿透提高1000"
+        }
+      ],
+      "bonuses": [
+        {
+          "count": 2,
+          "effects": [
+            {
+              "vi": "Sinh lực +5%.",
+              "zh": "生命值+5%。"
+            },
+            {
+              "vi": "Công kích vật lý +2000.",
+              "zh": "物理攻击+2000。"
+            }
+          ]
+        },
+        {
+          "count": 4,
+          "effects": [
+            {
+              "vi": "Giới hạn thể lực +20.",
+              "zh": "体力上限+20。"
+            },
+            {
+              "vi": "Xuyên phá nguyên tố +1000.",
+              "zh": "元素穿透+1000。"
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "effects": [
+            {
+              "vi": "Sát thương +15%, giảm sát thương nhận vào +10%.",
+              "zh": "伤害+15%，减伤+10%。"
+            },
+            {
+              "vi": "Sau khi phát đạn trúng đích, gán cho mục tiêu hiệu quả [Liệp Trường]; lần tấn công tiếp theo vào mục tiêu có [Liệp Trường] gây thêm sát thương thật bằng 20% công kích của bản thân, sau đó gỡ bỏ [Liệp Trường].",
+              "zh": "炮弹命中后，给目标施加【猎场】效果，再次攻击猎场效果目标时，额外附带自己攻击力20%的真实伤害。之后将猎场效果移除。"
+            },
+            {
+              "vi": "Khi bắn trúng chính xác, hồi 20 điểm thể lực; mỗi lượt của bản thân kích hoạt tối đa 1 lần.",
+              "zh": "精准命中时恢复20点体力；每个自身回合最多触发1次。"
+            }
+          ]
+        },
+        {
+          "count": 8,
+          "effects": [
+            {
+              "vi": "Sát thương +25%, giảm sát thương nhận vào +20%.",
+              "zh": "伤害+25%，减伤+20%。"
+            },
+            {
+              "vi": "Khi đánh trúng mục tiêu có [Liệp Trường], bản thân được bỏ qua 5% giáp của mục tiêu; mỗi lượt của bản thân kích hoạt tối đa 1 lần.",
+              "zh": "攻击命中【猎场】效果目标时，自己获得忽略目标5%护甲的效果，每个自身回合最多触发1次。"
+            },
+            {
+              "vi": "Mỗi 1 điểm nộ khí tràn sẽ chuyển thành +1% sát thương, tối đa 20%, hiệu lực vĩnh viễn.",
+              "zh": "每1点溢出的怒气值将转化为1%伤害提升，最多获得20%，永久生效。"
+            },
+            {
+              "vi": "Khi đòn tấn công này trúng mục tiêu có [Liệp Trường], cướp 1 đạo cụ chiến đấu của đối phương (mỗi lượt chỉ có hiệu lực 1 lần).",
+              "zh": "本次攻击命中【猎场】效果目标时，将偷取对方1个战斗道具（每回合只生效1次）。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
