@@ -31,7 +31,7 @@ const filtered = computed(() => {
 })
 
 // Mỗi hệ một màu viền thẻ, khớp với màu trong hộp thoại chi tiết
-const TYPE_COLORS = { 'trat-tu': '#D9A62B', 'hu-vo': '#8E56C6', 'sieu-nhien': '#2E9BD6' }
+const TYPE_COLORS = { 'trat-tu': '#D9A62B', 'hu-vo': '#8E56C6', 'sieu-nhien': '#2E9BD6', 'hon-don': '#C0392B' }
 const toneOf = (it) => TYPE_COLORS[it.type] || '#C9A96E'
 const typeLabel = (key) => data.types.find((t) => t.key === key) || {}
 </script>

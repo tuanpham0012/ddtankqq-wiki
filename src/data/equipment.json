@@ -410,6 +410,441 @@
           ]
         }
       ]
+    },
+    {
+      "id": "hoang-gia-phao-binh",
+      "nameVi": "Hoàng Gia Pháo Binh",
+      "nameZh": "皇家炮兵套装",
+      "total": 6,
+      "pieces": [
+        {
+          "id": "hoang-gia-phao-binh-gang",
+          "nameVi": "Hoàng Gia Pháo Binh",
+          "nameZh": "皇家炮兵",
+          "image": "hoang-gia-phao-binh-gang.png",
+          "rarityVi": "Truyền thuyết",
+          "rarityZh": "传说",
+          "slotVi": "Găng tay",
+          "slotZh": "护手",
+          "legendVi": "Giáp +1000",
+          "legendZh": "护甲提高1000"
+        }
+      ],
+      "bonuses": [
+        {
+          "count": 2,
+          "effects": [
+            {
+              "vi": "Công kích +15%.",
+              "zh": "攻击+15%。"
+            }
+          ]
+        },
+        {
+          "count": 4,
+          "effects": [
+            {
+              "vi": "Thể lực tiêu hao khi dùng đạo cụ chiến đấu -20%.",
+              "zh": "战斗道具体力消耗-20%。"
+            },
+            {
+              "vi": "Sau khi dùng đạo cụ chiến đấu, phạm vi nổ của đạn trong lượt này +15%.",
+              "zh": "使用战斗道具后，本回合炮弹的爆炸范围+15%。"
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "effects": [
+            {
+              "vi": "Sát thương +25%, giảm sát thương nhận vào +20%.",
+              "zh": "伤害+25%，减伤+20%。"
+            },
+            {
+              "vi": "Mỗi lượt của bản thân, lần đầu dùng đạn gây sát thương lên mục tiêu sẽ nổ thêm một lần tại điểm nổ, gây sát thương không phải đạn bằng 25% công kích lên kẻ địch trong phạm vi; sát thương này không kích hoạt hiệu quả loại tấn công.",
+              "zh": "每个自身回合首次用炮弹对目标造成伤害时，在爆炸点追加一次爆炸，对范围内敌人造成攻击力25%的非炮弹伤害；该伤害不触发攻击型效果。"
+            },
+            {
+              "vi": "Sau khi dùng tích lũy 3 đạo cụ chiến đấu, hồi 30 thể lực và 20 nộ khí rồi xóa bộ đếm; mỗi lượt của bản thân kích hoạt tối đa 1 lần.",
+              "zh": "累计使用3个战斗道具后，恢复30点体力和20点怒气并清除计数；每个自身回合最多触发1次。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tuyet-phong-giac-dau",
+      "nameVi": "Tuyệt Phong Giác Đấu",
+      "nameZh": "绝锋角斗套装",
+      "total": 6,
+      "pieces": [
+        {
+          "id": "tuyet-phong-giac-dau-ao",
+          "nameVi": "Tuyệt Phong Giác Đấu",
+          "nameZh": "绝锋角斗",
+          "image": "tuyet-phong-giac-dau-ao.png",
+          "rarityVi": "Truyền thuyết",
+          "rarityZh": "传说",
+          "slotVi": "Áo",
+          "slotZh": "上衣",
+          "legendVi": "Công kích vật lý +2000",
+          "legendZh": "物理攻击提高2000"
+        }
+      ],
+      "bonuses": [
+        {
+          "count": 2,
+          "effects": [
+            {
+              "vi": "Giáp +1000.",
+              "zh": "护甲+1000。"
+            },
+            {
+              "vi": "Công kích vật lý +1000.",
+              "zh": "物理攻击+1000。"
+            }
+          ]
+        },
+        {
+          "count": 4,
+          "effects": [
+            {
+              "vi": "Kháng nguyên tố +1000.",
+              "zh": "元素抗性+1000。"
+            },
+            {
+              "vi": "Mỗi 10% sinh lực đã mất, công kích +2%, tối đa 20%.",
+              "zh": "每损失10%生命，攻击+2%，最多20%。"
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "effects": [
+            {
+              "vi": "Sát thương +25%, giảm sát thương nhận vào +20%.",
+              "zh": "伤害+25%，减伤+20%。"
+            },
+            {
+              "vi": "Mỗi lần bị đạn tấn công, nhận 1 tầng hiệu quả 【Chiến Táp】: sát thương vật lý +10%, sát thương thần thánh +1000, cộng dồn tối đa 4 tầng, duy trì 3 lượt.",
+              "zh": "每次被炮弹攻击时，获得1层【战飒】效果：物理伤害+10%，神圣伤害+1000，最多叠加4层，持续3回合。"
+            },
+            {
+              "vi": "Đầu lượt nếu thể lực dưới 60, hồi thêm 40 thể lực.",
+              "zh": "回合开始时若体力低于60，额外恢复40体力。"
+            },
+            {
+              "vi": "Hạ gục mục tiêu hồi 50 nộ khí, mỗi lượt tối đa có hiệu lực 1 lần.",
+              "zh": "击败目标后恢复50怒气，每回合最多生效1次。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bao-hoa-oanh-tac",
+      "nameVi": "Bão Hòa Oanh Tạc",
+      "nameZh": "饱和轰炸套装",
+      "total": 6,
+      "pieces": [
+        {
+          "id": "bao-hoa-oanh-tac-gang",
+          "nameVi": "Bão Hòa Oanh Tạc",
+          "nameZh": "饱和轰炸",
+          "image": "bao-hoa-oanh-tac-gang.png",
+          "rarityVi": "Truyền thuyết",
+          "rarityZh": "传说",
+          "slotVi": "Găng tay",
+          "slotZh": "护手",
+          "legendVi": "Kháng toàn nguyên tố +800",
+          "legendZh": "全元素抗性提高800"
+        }
+      ],
+      "bonuses": [
+        {
+          "count": 2,
+          "effects": [
+            {
+              "vi": "Kiên cường nguyên tố +15%.",
+              "zh": "元素韧性+15%。"
+            }
+          ]
+        },
+        {
+          "count": 4,
+          "effects": [
+            {
+              "vi": "Xuyên phá nguyên tố +1000.",
+              "zh": "元素穿透+1000。"
+            },
+            {
+              "vi": "Công kích +10%.",
+              "zh": "攻击+10%。"
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "effects": [
+            {
+              "vi": "Sát thương +25%, giảm sát thương nhận vào +20%.",
+              "zh": "伤害+25%，减伤+20%。"
+            },
+            {
+              "vi": "Mỗi khi dùng 1 kỹ năng hoặc đạo cụ chiến đấu, tự nạp 1 【Đạn Tích Năng】, lưu tối đa 5 viên. Khi dùng tuyệt chiêu, tiêu hao toàn bộ 【Đạn Tích Năng】 đang lưu; sau khi phát tuyệt chiêu cuối cùng nổ, Đạn Tích Năng bay về kẻ địch gần bản thân nhất và nổ thêm, mỗi viên là một phát đạn gây 15% sát thương. Đạn Tích Năng không kích hoạt hiệu quả BUFF.",
+              "zh": "每使用1个技能或战斗道具，自动装填1枚【蓄能弹】效果，蓄能弹最多存储5枚。使用必杀技时，消耗自己存储所有【蓄能弹】，蓄能弹在最后一发必杀炮弹爆炸后飞向自己最近的敌方目标并追加爆炸，每枚造成15%伤害的炮弹。蓄能弹不触发BUFF效果。"
+            },
+            {
+              "vi": "Khi cùng một mục tiêu trúng từ 3 Đạn Tích Năng trở lên trong một lần oanh tạc, mốc chờ của mục tiêu +200.",
+              "zh": "同一目标在一次轰炸中承受3枚或以上蓄能弹时，等待值+200。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "suong-lang-thiet-ky",
+      "nameVi": "Sương Lang Thiết Kỵ",
+      "nameZh": "霜狼铁骑套装",
+      "total": 6,
+      "pieces": [
+        {
+          "id": "suong-lang-thiet-ky-giay",
+          "nameVi": "Sương Lang Thiết Kỵ",
+          "nameZh": "霜狼铁骑",
+          "image": "suong-lang-thiet-ky-giay.png",
+          "rarityVi": "Truyền thuyết",
+          "rarityZh": "传说",
+          "slotVi": "Giày",
+          "slotZh": "鞋子",
+          "legendVi": "Sinh lực thú cưỡi +15000",
+          "legendZh": "坐骑生命提高15000"
+        }
+      ],
+      "bonuses": [
+        {
+          "count": 2,
+          "effects": [
+            {
+              "vi": "Công kích vật lý +1000.",
+              "zh": "物理攻击+1000。"
+            }
+          ]
+        },
+        {
+          "count": 4,
+          "effects": [
+            {
+              "vi": "Kháng hiệu quả +40%.",
+              "zh": "效果抵抗+40%。"
+            },
+            {
+              "vi": "Dùng đạo cụ chiến đấu được thêm 5 nộ khí, mỗi lượt tối đa có hiệu lực 2 lần.",
+              "zh": "使用战斗道具额外+5怒气，每回合最多生效2次。"
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "effects": [
+            {
+              "vi": "Sát thương +25%, giảm sát thương nhận vào +20%.",
+              "zh": "伤害+25%，减伤+20%。"
+            },
+            {
+              "vi": "Trước khi bản thân bắn, mọi kẻ địch trong phạm vi 1000 bị gắn 1 tầng 【Kết Sương】 (mỗi lượt chỉ có hiệu lực 1 lần, duy trì 2 lượt). Đầu lượt, nếu 【Kết Sương】 đạt 4 tầng thì tiêu hao toàn bộ tầng, chuyển thành 【Băng Thương】: không thể hành động trong lượt này.",
+              "zh": "自己开炮前1000范围内所有敌方附带1层【结霜】效果（每回合只生效1次，持续2回合），回合开始时，【结霜】效果达到4层，则消耗所有层数转化为【冻伤】效果：本回合无法行动。"
+            },
+            {
+              "vi": "【Kết Sương】 kèm theo: sát thương -20%, nhận thêm sát thương +20%; mốc chờ gây ra +5%, duy trì 2 lượt, hiệu quả này không cộng dồn theo tầng.",
+              "zh": "【结霜】效果附带伤害-20%，易伤+20%。造成等待值+5%，持续2回合，该效果不随层数叠加。"
+            },
+            {
+              "vi": "Lần đầu thú cưỡi chết, công kích / giáp / kháng nguyên tố +30%, hồi thể lực +20, duy trì 3 lượt.",
+              "zh": "首次坐骑死亡时，攻击/护甲/元素抗性+30%，体力恢复+20，持续3回合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hoang-nguyen-cu-tuong",
+      "nameVi": "Hoang Nguyên Cự Tượng",
+      "nameZh": "荒原巨像套装",
+      "total": 6,
+      "pieces": [
+        {
+          "id": "hoang-nguyen-cu-tuong-ao",
+          "nameVi": "Hoang Nguyên Cự Tượng",
+          "nameZh": "荒原巨像",
+          "image": "hoang-nguyen-cu-tuong-ao.png",
+          "rarityVi": "Truyền thuyết",
+          "rarityZh": "传说",
+          "slotVi": "Áo",
+          "slotZh": "上衣",
+          "legendVi": "Xuyên giáp +1000",
+          "legendZh": "护甲穿透提高1000"
+        }
+      ],
+      "bonuses": [
+        {
+          "count": 2,
+          "effects": [
+            {
+              "vi": "Công kích vật lý +3000.",
+              "zh": "物理攻击+3000。"
+            }
+          ]
+        },
+        {
+          "count": 4,
+          "effects": [
+            {
+              "vi": "Mỗi lần bị hiệu quả khống chế, nhận khiên bằng 15% sinh lực tối đa, duy trì 2 lượt; hiệu quả này kích hoạt tối đa 1 lần mỗi 2 lượt.",
+              "zh": "每次受到控制效果后，获得最大生命值15%的护盾，持续2回合；该效果2回合最多触发1次。"
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "effects": [
+            {
+              "vi": "Sát thương +25%, giảm sát thương nhận vào +20%.",
+              "zh": "伤害+25%，减伤+20%。"
+            },
+            {
+              "vi": "Trong lượt này, mỗi lần nhận sát thương từ đạn, nhận 1 tầng 【Hoang Giáp】, mỗi tầng giảm sát thương nhận vào +5%, tối đa 4 tầng.",
+              "zh": "本回合每次受到炮弹伤害时，获得1层【荒甲】，每层减伤+5%，最多4层。"
+            },
+            {
+              "vi": "Đầu lượt của bản thân, tiêu hao toàn bộ 【Hoang Giáp】, mỗi tầng giúp sát thương lượt này +5%, duy trì 3 lượt.",
+              "zh": "自己回合开始时消耗全部【荒甲】，每层使本回合伤害+5%，持续3回合。"
+            },
+            {
+              "vi": "Khi bắn, nhận tăng sát thương bằng tỉ lệ điểm hành động còn lại × 25%.",
+              "zh": "开炮时，获得剩余行动值比例*25%的伤害增幅。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phu-dieu-cuu-tieu",
+      "nameVi": "Phù Diêu Cửu Tiêu",
+      "nameZh": "扶摇九霄套装",
+      "total": 6,
+      "pieces": [
+        {
+          "id": "phu-dieu-cuu-tieu-mu",
+          "nameVi": "Phù Diêu Cửu Tiêu",
+          "nameZh": "扶摇九霄",
+          "image": "phu-dieu-cuu-tieu-mu.png",
+          "rarityVi": "Truyền thuyết",
+          "rarityZh": "传说",
+          "slotVi": "Mũ",
+          "slotZh": "帽子",
+          "legendVi": "Công kích nguyên tố +1500",
+          "legendZh": "元素攻击提高1500"
+        }
+      ],
+      "bonuses": [
+        {
+          "count": 2,
+          "effects": [
+            {
+              "vi": "Sinh lực tối đa +10%.",
+              "zh": "最大生命值+10%。"
+            }
+          ]
+        },
+        {
+          "count": 4,
+          "effects": [
+            {
+              "vi": "Sát thương từ đạn bay ngược gió tới bản thân -35%.",
+              "zh": "逆风飞行过来的炮弹对自己的伤害-35%。"
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "effects": [
+            {
+              "vi": "Sát thương +25%, giảm sát thương nhận vào +20%.",
+              "zh": "伤害+25%，减伤+20%。"
+            },
+            {
+              "vi": "Khi tấn công xuôi gió, nhận 1 tầng hiệu quả 【Phong Ngữ】: sát thương +25%, bỏ qua 50% giảm sát thương thú cưỡi của địch. Duy trì 2 lượt.",
+              "zh": "顺风攻击时，获得1层【风语】效果：伤害+25%，无视敌方50%坐骑减伤。持续2回合。"
+            },
+            {
+              "vi": "Khi tấn công ngược gió, đạn của bản thân cứ bay mỗi 0.5 giây thì sát thương +5%, tối đa +40%.",
+              "zh": "逆风攻击时，自己的炮弹每飞行0.5秒，伤害+5%，伤害最多提升40%。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dieu-thu-hi-phap",
+      "nameVi": "Diệu Thủ Hí Pháp",
+      "nameZh": "妙手戏法套装",
+      "total": 6,
+      "pieces": [
+        {
+          "id": "dieu-thu-hi-phap-that-lung",
+          "nameVi": "Diệu Thủ Hí Pháp",
+          "nameZh": "妙手戏法",
+          "image": "dieu-thu-hi-phap-that-lung.png",
+          "rarityVi": "Truyền thuyết",
+          "rarityZh": "传说",
+          "slotVi": "Thắt lưng",
+          "slotZh": "腰带",
+          "legendVi": "Giáp +1000",
+          "legendZh": "护甲提高1000"
+        }
+      ],
+      "bonuses": [
+        {
+          "count": 2,
+          "effects": [
+            {
+              "vi": "Sinh lực +10%.",
+              "zh": "生命+10%。"
+            }
+          ]
+        },
+        {
+          "count": 4,
+          "effects": [
+            {
+              "vi": "Chính xác hiệu quả +100%.",
+              "zh": "效果命中+100%。"
+            }
+          ]
+        },
+        {
+          "count": 6,
+          "effects": [
+            {
+              "vi": "Sát thương +25%, giảm sát thương nhận vào +20%.",
+              "zh": "伤害+25%，减伤+20%。"
+            },
+            {
+              "vi": "Mỗi lần dùng đạo cụ chiến đấu, nhận hiệu quả \"Hí Pháp\": khi tấn công mục tiêu có xác suất khiến đối phương bị Mù, góc bắn -20°, lực di chuyển -80%, duy trì 2 lượt; hiệu quả chịu ảnh hưởng của chính xác hiệu quả và kháng hiệu quả.",
+              "zh": "每次使用战斗道具后，获得\"戏法\"效果，攻击目标时概率使对方目盲、开炮角度-20°、行动力-80%，持续2回合，该效果受效果命中和效果抵抗影响。"
+            },
+            {
+              "vi": "Mỗi lần dùng đạn loại sát thương bắn trúng mục tiêu: địch -2% công kích, -2% công kích nguyên tố; bản thân +2% công kích, +2% công kích nguyên tố. Hiệu quả của cả hai bên cộng dồn tối đa 5 tầng, duy trì 5 lượt.",
+              "zh": "每次使用伤害类炮弹命中目标时，敌方-2%攻击、-2%元素攻击；自己+2%攻击、+2%元素攻击。双方的效果最多叠加5层，持续5回合。"
+            },
+            {
+              "vi": "Khi bị đạn tuyệt chiêu bắn trúng, nhận hiệu quả bị hất văng nhẹ.",
+              "zh": "被必杀炮弹命中时，获得轻微击飞效果。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

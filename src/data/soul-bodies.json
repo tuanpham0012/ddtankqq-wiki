@@ -3,7 +3,8 @@
   "types": [
     { "key": "trat-tu", "labelVi": "Trật tự", "labelZh": "秩序" },
     { "key": "hu-vo", "labelVi": "Hư Vô", "labelZh": "虚无" },
-    { "key": "sieu-nhien", "labelVi": "Siêu Nhiên", "labelZh": "超然" }
+    { "key": "sieu-nhien", "labelVi": "Siêu Nhiên", "labelZh": "超然" },
+    { "key": "hon-don", "labelVi": "Hỗn Độn", "labelZh": "混沌" }
   ],
   "items": [
     {
@@ -337,6 +338,68 @@
           "自身生命上限提升60%，随后4回合开始时下降15%。",
           "每次攻击时，附加自身当前最大生命值2%的真实伤害。（1回合1次）",
           "所有友方治疗效果+10%，所有敌方护甲-5%。"
+        ]
+      }
+    },
+    {
+      "id": "minh-gioi-chi-chu",
+      "nameVi": "Minh Giới Chi Chủ",
+      "nameZh": "冥界之主",
+      "image": "minh-gioi-chi-chu.png",
+      "type": "hon-don",
+      "tradable": true,
+      "stats": [
+        { "labelVi": "Công kích", "labelZh": "攻击", "value": "860" },
+        { "labelVi": "Sinh lực", "labelZh": "生命", "value": "13800" },
+        { "labelVi": "Xuyên giáp", "labelZh": "护甲穿透", "value": "420" }
+      ],
+      "affixes": [
+        {
+          "nameVi": "Kích phá",
+          "nameZh": "击穿",
+          "descVi": "Khi vào trận nhận thêm 50% thuộc tính 【Kích phá】.",
+          "descZh": "开战时获得50%【击穿】属性加成"
+        },
+        {
+          "nameVi": "Xuyên phá nguyên tố",
+          "nameZh": "元素穿透",
+          "descVi": "Khi vào trận nhận thêm 93 điểm thuộc tính 【Xuyên phá nguyên tố】.",
+          "descZh": "开战时获得93点【元素穿透】属性加成"
+        },
+        {
+          "nameVi": "Kháng nguyên tố",
+          "nameZh": "元素抗性",
+          "descVi": "Khi vào trận nhận thêm 93 điểm thuộc tính 【Kháng nguyên tố】.",
+          "descZh": "开战时获得93点【元素抗性】属性加成"
+        },
+        {
+          "nameVi": "Kiên cường nguyên tố",
+          "nameZh": "元素韧性",
+          "descVi": "Khi vào trận nhận thêm 93 điểm thuộc tính 【Kiên cường nguyên tố】.",
+          "descZh": "开战时获得93点【元素韧性】属性加成"
+        }
+      ],
+      "skill": {
+        "nameVi": "Hoán Hồn Thức Tỉnh",
+        "nameZh": "唤魂觉醒",
+        "meta": [
+          { "labelVi": "Mốc chờ", "labelZh": "等待值", "value": "500" },
+          { "labelVi": "Loại kỹ năng", "labelZh": "技能类型", "value": "Chủ động", "valueZh": "主动" },
+          { "labelVi": "Tiêu hao thể lực", "labelZh": "消耗体力", "value": "30" },
+          { "labelVi": "Hồi chiêu", "labelZh": "技能冷却", "value": "999" },
+          { "labelVi": "Tiêu hao nộ khí", "labelZh": "消耗怒气", "value": "0" }
+        ],
+        "leadVi": "Triệu hồi Minh Giới Chi Chủ, trong 4 lượt nhận các hiệu quả sau:",
+        "leadZh": "召唤出冥界之主，且4回合内获得以下效果：",
+        "effectsVi": [
+          "Ngay lượt đầu tiên, xóa ngẫu nhiên 1 đạo cụ chiến đấu của toàn bộ địch; trạng thái bất lợi loại gây sát thương giảm 50%.",
+          "Mỗi khi kẻ địch bất kỳ dùng quá 60 thể lực, 1 đồng minh ngẫu nhiên hồi 5% sinh lực, bỏ qua Cấm hồi máu / Giảm hồi máu. Khi kẻ địch bất kỳ dùng tuyệt chiêu, đầu lượt kế tiếp, kẻ địch trong phạm vi 1500 quanh bản thân bị giảm 50% khiên hiện có. Khi Minh Giới Chi Chủ biến mất, gây hiệu quả \"Mù\" lên 1 kẻ địch ngẫu nhiên trong 2 lượt.",
+          "Toàn bộ đồng minh: giảm sát thương rơi +10%, giáp +10%. Toàn bộ đối phương: công kích -10%. Khi kết thúc lượt của bản thân, có 30% xác suất quay về vị trí lúc đầu lượt."
+        ],
+        "effectsZh": [
+          "首回合立即移除所有敌人的随机1个战斗道具；伤害型负面状态降低50%。",
+          "任意敌人使用体力每超过60时，随机1名友方单位生命值+5%，无视禁疗降疗；任意敌人使用必杀技时，下个任意回合开始时，自身附近1500范围内的敌人当前护盾值-50%；冥界之主消失时赋予随机1个敌方\"目盲\"效果，2回合。",
+          "所有友方摔伤减免+10%，护甲+10%，所有敌方攻击-10%。自回合结束时有30%概率回到回合开始时的位置。"
         ]
       }
     }
